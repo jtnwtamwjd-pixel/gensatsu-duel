@@ -290,6 +290,23 @@ h1,h2,h3{font-family:var(--display);font-weight:400;margin:0}
 .bansec h4{margin:12px 0 6px;font-size:14px}.bansec .bgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(64px,1fr));gap:6px}
 .bansec .bgrid .card{--cw:64px}
 .bansec .per{font-size:13px;color:var(--muted);line-height:1.6;margin:0 0 4px}
+.bonbox{width:min(330px,90vw);background:rgba(255,255,255,.06);border:1px solid rgba(245,197,66,.4);border-radius:12px;padding:6px 10px}
+.bonl{display:flex;justify-content:space-between;gap:8px;font-size:13px;padding:3px 0;animation:fadein .4s both}
+.bonl b{color:var(--gold);white-space:nowrap}
+.lgrid{display:grid;grid-template-columns:repeat(7,1fr);gap:4px;margin:6px 0 4px}
+.lgrid div{border-radius:8px;background:#22283f;text-align:center;padding:6px 0;font-size:11px;line-height:1.3;color:var(--muted)}
+.lgrid div b{display:block;font-size:12px;color:#fff}
+.lgrid div.got{background:linear-gradient(180deg,#f5c542,#c98a10);color:#1a1205}.lgrid div.got b{color:#1a1205}
+.lgrid div.now{outline:2px solid #fff;animation:pulse .7s infinite alternate}
+.lgrid div.big{grid-column:auto}
+.bsec{margin:10px 0}.bsec h4{margin:0 0 6px;font-size:14px}
+.mis{display:flex;align-items:center;gap:8px;background:#1b2034;border-radius:10px;padding:8px 10px;margin:4px 0;font-size:13px}
+.mis .t{flex:1}.mis .t small{display:block;color:var(--muted)}
+.mis .bar{height:5px;background:#333a55;border-radius:3px;margin-top:4px;overflow:hidden}.mis .bar i{display:block;height:100%;background:var(--gold)}
+.mis b{color:var(--gold);white-space:nowrap}.mis.ok{opacity:.6}.mis.ok b{color:#6fe39a}
+.bounty{display:flex;align-items:center;gap:10px;background:linear-gradient(135deg,#5a1a10,#2a1030);border:1px solid #f5c542;border-radius:12px;padding:10px;margin-top:4px}
+.bounty .ic{font-size:34px}.bounty .t{flex:1;font-size:13px}.bounty .t small{display:block;color:#e9d9b0}
+#bBonus{position:relative}#bBonus .dot{position:absolute;top:6px;right:10px;width:10px;height:10px;border-radius:50%;background:#ff4a5e;box-shadow:0 0 6px #ff4a5e}
 </style></head><body>
 <div id="app">
   <section id="title" class="screen">
@@ -299,6 +316,7 @@ h1,h2,h3{font-family:var(--display);font-weight:400;margin:0}
     <div class="menu">
       <button class="pri" id="bStory">ストーリー</button>
       <button class="blue" id="bPack">パック開封</button>
+      <button class="pri" id="bBonus">🎁 ボーナス・賞金首</button>
       <button id="bFree">フリーデュエル</button>
       <button id="bEdit">デッキ編集</button>
       <button id="bDeck">デッキを見る</button>
@@ -691,7 +709,7 @@ async function animLP(p,from,to){
   G.lpShown[p.idx]=to;render();
 }
 async function damage(p,n){
-  if(n<=0||G.over)return;const from=p.lp;p.lp=Math.max(0,p.lp-n);
+  if(n<=0||G.over)return;const from=p.lp;p.lp=Math.max(0,p.lp-n);p.lowLp=Math.min(p.lowLp??from,p.lp);
   log(`${p.name}に${n}ダメージ`,p.idx);sfx('dmg');floatTxt(p,'-'+n);shake();
   await animLP(p,from,p.lp);
   if(p.lp<=0)await finish(opp(p),'LPが0になった');
@@ -1065,18 +1083,30 @@ async function finish(winner,why){
   const win=winner.idx===0;
   bgmStop();sfx(win?'win':'lose');
   const o=G.opts,story=o.story!=null?OPPS[o.story]:null,prevCl=SV.cleared;
-  let pts=0;
+  let pts=0;const bon=[];
   if(!o.auto){
     if(win)SV.win++;else SV.lose++;if(story&&win&&SV.cleared<=o.story)SV.cleared=o.story+1;
-    if(win){if(story){pts=SV.storyWon[o.story]?(o.story===STORY_LAST?150:60+8*o.story):(o.story===STORY_LAST?500:150+20*o.story);SV.storyWon[o.story]=1}else pts=[40,70,100][o.cpuLv]??70;if(o.lp>=8000)pts=Math.round(pts*1.2)}
-    else pts=10;
+    if(win){if(story){pts=SV.storyWon[o.story]?(o.story===STORY_LAST?150:60+8*o.story):(o.story===STORY_LAST?500:150+20*o.story);SV.storyWon[o.story]=1}else pts=[40,70,100][o.cpuLv]??70;if(o.lp>=8000)pts=Math.round(pts*1.2);
+      SV.winStreak=(SV.winStreak||0)+1;
+      if(o.bounty&&SV.bountyWon!==todayStr()){SV.bountyWon=todayStr();bon.push(['💰 賞金首を撃破',BOUNTY_PTS])}
+      const me=G.p[0];
+      if((me.lowLp??me.maxLp)>=me.maxLp)bon.push(['✨ ノーダメージ勝利',100]);
+      if(G.turn<=6)bon.push(['⚡ 速攻勝利（6ターン以内）',80]);
+      if((me.lowLp??me.maxLp)<=1000)bon.push(['🔥 大逆転勝利（LP1000以下から）',120]);
+      const mul=Math.min(2,1+.2*(SV.winStreak-1));if(mul>1)bon.push([`🏅 ${SV.winStreak}連勝ボーナス（×${mul.toFixed(1)}）`,Math.round(pts*(mul-1))]);
+    }else{pts=10;SV.winStreak=0}
+    const D=dailyState();D.played++;if(win){D.won++;if(story||o.cpuLv>=2)D.hard++}
+    for(const m of MISSIONS)if(!D.done[m.id]&&m.ok(D)){D.done[m.id]=1;bon.push([`🎯 ミッション「${m.name}」達成`,m.pts])}
+    if(MISSIONS.every(m=>D.done[m.id])&&!D.done.all){D.done.all=1;bon.push(['🎉 デイリーミッション全達成',MISSION_ALL])}
+    pts+=bon.reduce((a,b)=>a+b[1],0);
     SV.points+=pts;save();
   }
   if(G.opts.auto)return;
   const el=document.createElement('div');el.className='result';
   el.innerHTML=`<h1 class="${win?'win':'lose'}">${win?'WIN!':'LOSE…'}</h1><div class="muted" style="color:var(--muted)">${why}（${G.turn}ターン）</div>
    ${story?`<div class="talk" style="max-width:340px;text-align:left"><div class="ic">${story.av}</div><p><b>${story.name}</b>${win?story.win:story.lose}</p></div>`:''}
-   <div style="font-weight:800;color:var(--gold)">🪙 +${pts}P（所持 ${SV.points}P）</div>
+   ${bon.length?`<div class="bonbox">${bon.map(b=>`<div class="bonl"><span>${b[0]}</span><b>+${b[1]}P</b></div>`).join('')}</div>`:''}
+   <div style="font-weight:800;color:var(--gold);font-size:18px">🪙 +${pts}P（所持 ${SV.points}P）</div>
    ${story&&win&&o.story===STORY_LAST?'<div style="color:var(--gold);font-weight:800">🏆 ストーリー制覇！おめでとう！</div>':''}
    ${PACKS.filter(p=>p.unlock&&prevCl<p.unlock&&SV.cleared>=p.unlock).map(p=>`<div class="unlockb">🎁 新パック「${p.icon}${p.name}」が解放された！</div>`).join('')}
    <div class="btns">${story&&win&&o.story<STORY_LAST?'<button class="pri" data-r="next">次の相手へ</button>':''}<button class="${win?'':'pri'}" data-r="again">もう一度</button>${SV.points>=PACK_COST?'<button class="blue" data-r="pack">パックを開ける</button>':''}<button class="ghost" data-r="title">タイトルへ</button></div>`;
@@ -1459,6 +1489,7 @@ function renderTitle(){
   const d=getDeck(SV.deck);
   $('#mydeck').innerHTML=`<span class="ic">${d.icon}</span><div class="t"><small>使用デッキ（タップで変更）</small><b>${d.name}</b><small>${d.desc}</small></div><span>▸</span>`;
   $('#bSfx').textContent=`効果音 ${SV.sfx?'ON':'OFF'}`;$('#bBgm').textContent=`BGM ${SV.bgm?'ON':'OFF'}`;$('#bSpd').textContent=`演出 ${SV.speed<1?'はやい':'ふつう'}`;
+  $('#bBonus').innerHTML='🎁 ボーナス・賞金首'+(bonusPending()?'<span class="dot"></span>':'');
   $('#ptsbar').innerHTML=`<span>🪙 ポイント</span><b>${SV.points}</b>P`;
   $('#rec').textContent=`図鑑 ${ownedKinds()}/${PACK_TOTAL}種 ／ 戦績 ${SV.win}勝 ${SV.lose}敗 ／ ストーリー ${Math.min(SV.cleared,OPPS.length)}/${OPPS.length}`;
 }
@@ -1673,6 +1704,37 @@ function showBan(isNew){
   return pr;
 }
 $('#bBan').onclick=()=>{initAudio();sfx('tap');showBan(false)};
+/* ===== ボーナス ===== */
+const todayStr=(off=0)=>new Date(Date.now()+9*36e5+off*864e5).toISOString().slice(0,10);
+const LOGIN=[100,100,150,150,200,200,500],BOUNTY_PTS=500,MISSION_ALL=200;
+const MISSIONS=[
+  {id:'p3',name:'デュエルを3回プレイ',pts:100,ok:D=>D.played>=3,pr:D=>[D.played,3]},
+  {id:'w2',name:'デュエルに2回勝利',pts:150,ok:D=>D.won>=2,pr:D=>[D.won,2]},
+  {id:'h1',name:'強敵に1勝（つよいCPU・ストーリー・賞金首）',pts:200,ok:D=>D.hard>=1,pr:D=>[D.hard,1]}];
+function dailyState(){if(!SV.daily||SV.daily.date!==todayStr())SV.daily={date:todayStr(),played:0,won:0,hard:0,done:{}};return SV.daily}
+function bountyToday(){const ks=[...THEMES.map(t=>'t_'+t.code),'boss'];let h=0;for(const ch of todayStr())h=(h*33+ch.charCodeAt(0))|0;const k=ks[Math.abs(h)%ks.length];
+  const T=THEMES.find(t=>'t_'+t.code===k);return{deck:k,name:T?`賞金首 ${T.theme}の${['暴れ者','荒くれ','亡霊','覇者','狂戦士'][Math.abs(h>>3)%5]}`:'賞金首 混沌の化身',av:T?T.icon:'👑'}}
+function bonusPending(){const D=dailyState();return SV.bountyWon!==todayStr()||MISSIONS.some(m=>!D.done[m.id])}
+function loginHTML(){const st=SV.loginStreak||0,cur=((st-1)%7+7)%7;return`<div class="lgrid">${LOGIN.map((p,i)=>`<div class="${i<=cur&&st>0?'got':''} ${i===cur&&SV.lastLogin===todayStr()?'now':''}">${i+1}日目<b>${p}P</b></div>`).join('')}</div>`}
+async function loginBonus(){
+  const t=todayStr();if(SV.lastLogin===t)return;
+  SV.loginStreak=SV.lastLogin===todayStr(-1)?(SV.loginStreak||0)+1:1;SV.lastLogin=t;
+  const p=LOGIN[(SV.loginStreak-1)%7];SV.points+=p;save();renderTitle();
+  await modal({title:'🎁 ログインボーナス',html:`<p class="desc" style="text-align:center">連続ログイン <b>${SV.loginStreak}</b>日目！ <b style="color:var(--gold)">+${p}P</b></p>${loginHTML()}<p class="desc" style="text-align:center;font-size:12px;color:var(--muted)">毎日ログインで7日目は500P！（途切れると1日目に戻ります）</p>`,buttons:[{label:'受け取る',value:null,cls:'pri'}]});
+  sfx('win');
+}
+async function showBonus(){
+  const D=dailyState(),b=bountyToday(),won=SV.bountyWon===todayStr(),ws=SV.winStreak||0,mul=Math.min(2,1+.2*Math.max(0,ws));
+  const html=`<div class="bsec"><h4>💰 本日の賞金首（LP8000・CPUつよい）</h4><div class="bounty"><span class="ic">${b.av}</span><div class="t"><b>${b.name}</b><small>${DECKS[b.deck].icon} ${DECKS[b.deck].name}</small><small>${won?'✅ 本日は撃破済み（明日また現れる）':`撃破で <b style="color:var(--gold)">${BOUNTY_PTS}P</b>（1日1回）`}</small></div></div></div>
+  <div class="bsec"><h4>🎯 デイリーミッション（毎日0時リセット）</h4>${MISSIONS.map(m=>{const[a,n]=m.pr(D),ok=D.done[m.id];return`<div class="mis ${ok?'ok':''}"><div class="t">${m.name}<small>${Math.min(a,n)}/${n}</small><div class="bar"><i style="width:${Math.min(1,a/n)*100}%"></i></div></div><b>${ok?'✓ 達成':`+${m.pts}P`}</b></div>`}).join('')}<div class="mis ${D.done.all?'ok':''}"><div class="t">すべてのミッションを達成</div><b>${D.done.all?'✓ 達成':`+${MISSION_ALL}P`}</b></div></div>
+  <div class="bsec"><h4>🏅 連勝ボーナス</h4><p class="desc" style="font-size:13px">いま <b>${ws}</b>連勝中。次の勝利は獲得ポイント <b style="color:var(--gold)">×${mul.toFixed(1)}</b>（最大×2.0、負けるとリセット）。<br>ほかにも ノーダメージ勝利+100P／6ターン以内の速攻勝利+80P／LP1000以下からの大逆転+120P</p></div>
+  <div class="bsec"><h4>📅 ログインボーナス（連続${SV.loginStreak||0}日）</h4>${loginHTML()}</div>`;
+  const v=await modal({title:'ボーナス',html,buttons:[...(won?[]:[{label:'💰 賞金首に挑戦する',value:'go',cls:'pri'}]),{label:'閉じる',value:null,cls:'ghost'}]});
+  renderTitle();
+  if(v==='go'){const go=await modal({html:`<div class="talk"><div class="ic">${b.av}</div><p><b>${b.name}</b>ククク…オレの首には${BOUNTY_PTS}ポイントの賞金がかかってるんだぜ。獲れるもんなら獲ってみな！</p></div>`,buttons:[{label:'デュエル！',value:true,cls:'pri'},{label:'やめる',value:false,cls:'ghost'}]});
+    if(go)startDuel({myDeck:SV.deck,oppDeck:b.deck,oppName:b.name,oppAv:b.av,lp:8000,cpuLv:2,story:null,bounty:true});}
+}
+$('#bBonus').onclick=()=>{initAudio();sfx('tap');showBonus()};
 $('#bRule').onclick=()=>{initAudio();sfx('tap');showRules()};
 function showRules(){
   modal({title:'ルール説明',html:`<div class="rules">
@@ -1682,14 +1744,14 @@ function showRules(){
   <h4>EXデッキからの召喚</h4><ul><li>自分のメインフェイズに、EXデッキ（「EX」をタップ）から何度でも特殊召喚できる。召喚できる時は「EX」が光る</li><li><b>シンクロ</b>：チューナー1体＋チューナー以外の表側モンスターで、レベルの合計がちょうど一致すれば召喚。素材は墓地へ</li><li><b>エクシーズ</b>：同じレベルの表側モンスター2体を重ねて召喚。素材はX素材としてカードの下に残り（◉の数）、効果の発動に使う</li><li><b>リンク</b>：LINKの数と同じ数の表側モンスターを墓地へ送って召喚。守備力がなく、常に攻撃表示</li><li>融合・シンクロ・エクシーズ・リンクモンスターは召喚したターンから攻撃できる</li></ul>
   <h4>戦闘</h4><ul><li>攻撃表示同士：攻撃力が低い方が破壊され、差分がダメージ</li><li>守備表示への攻撃：攻撃力＞守備力なら破壊（ダメージなし）、攻撃力＜守備力なら攻撃側に差分ダメージ</li><li>相手フィールドにモンスターがいなければ直接攻撃</li><li>召喚したターンは表示形式を変更できない</li></ul>
   <h4>魔法・罠</h4><ul><li>魔法カードは自分のメインフェイズに発動</li><li>罠カードはセットし、<b>次の相手ターン以降</b>に条件（攻撃宣言・召喚）を満たすと発動を確認されます</li></ul>
-  <h4>操作</h4><ul><li>カードをタップ → 詳細と行動を選択</li><li>光っている手札は今使えるカード</li><li>赤く光るモンスターは攻撃可能</li><li>「墓」「EX」をタップで中身を確認、ログ行をタップで履歴</li><li>タイトルの「デッキ編集」で自分だけのデッキを3つまで作れる（メイン20〜40枚、EX10枚まで、同名カード3枚まで）</li><li>デュエルに勝つとポイントがもらえ、「パック開封」で新しいカード（全${PACK_TOTAL}種）を手に入れられる。パックのカードは持っている枚数までデッキに入れられる</li><li>毎週月曜に「禁止・制限リスト」が更新される。マイデッキは禁止カードを入れられず、制限は1枚・準制限は2枚まで</li><li>ストーリー第3戦・第6戦・第9戦に勝つと、新種族（天使族・恐竜族・昆虫族）のパックが解放される</li><li>進行は自動でセーブされる。「セーブデータ」からセーブコードを書き出せば、別の端末でも続きから遊べる</li></ul></div>`,buttons:[{label:'閉じる',value:null,cls:'ghost'}]});
+  <h4>操作</h4><ul><li>カードをタップ → 詳細と行動を選択</li><li>光っている手札は今使えるカード</li><li>赤く光るモンスターは攻撃可能</li><li>「墓」「EX」をタップで中身を確認、ログ行をタップで履歴</li><li>タイトルの「デッキ編集」で自分だけのデッキを3つまで作れる（メイン20〜40枚、EX10枚まで、同名カード3枚まで）</li><li>デュエルに勝つとポイントがもらえ、「パック開封」で新しいカード（全${PACK_TOTAL}種）を手に入れられる。パックのカードは持っている枚数までデッキに入れられる</li><li>ポイントは「🎁ボーナス」でも稼げる：ログインボーナス（7日目500P）、デイリーミッション（全達成で計650P）、毎日現れる賞金首（撃破500P）、連勝ボーナス（最大×2）、ノーダメージ・速攻・大逆転勝利ボーナス</li><li>毎週月曜に「禁止・制限リスト」が更新される。マイデッキは禁止カードを入れられず、制限は1枚・準制限は2枚まで</li><li>ストーリー第3戦・第6戦・第9戦に勝つと、新種族（天使族・恐竜族・昆虫族）のパックが解放される</li><li>進行は自動でセーブされる。「セーブデータ」からセーブコードを書き出せば、別の端末でも続きから遊べる</li></ul></div>`,buttons:[{label:'閉じる',value:null,cls:'ghost'}]});
 }
 $('#bSfx').onclick=()=>{initAudio();SV.sfx=!SV.sfx;save();renderTitle();sfx('tap')};
 $('#bBgm').onclick=()=>{initAudio();SV.bgm=!SV.bgm;save();renderTitle()};
 $('#bSpd').onclick=()=>{SV.speed=SV.speed<1?1:.55;save();renderTitle()};
 const hs=document.createElement('style');hs.textContent='.hiddenbtn{display:none}';document.head.appendChild(hs);
 renderTitle();fit();
-if(SV.banSeen!==BAN_PERIOD){const first=SV.banSeen==null;SV.banSeen=BAN_PERIOD;save();if(!first)setTimeout(()=>showBan(true),600)}
+(async()=>{await new Promise(r=>setTimeout(r,500));await loginBonus();if(SV.banSeen!==BAN_PERIOD){const first=SV.banSeen==null;SV.banSeen=BAN_PERIOD;save();if(!first)await showBan(true)}})();
 window.__dbg={startDuel,DB,DECKS,G:()=>G,ui,render,BAN,buildBan,cardPower};
 </script>
 </body></html>
