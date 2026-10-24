@@ -264,6 +264,32 @@ h1,h2,h3{font-family:var(--display);font-weight:400;margin:0}
 .savebox textarea{width:100%;height:110px;border-radius:10px;border:1px solid #3a4060;background:#0e1120;color:#e8ecff;font:12px/1.4 monospace;padding:8px;resize:none;word-break:break-all}
 .savebox p{font-size:13px;color:var(--muted);margin:6px 0 10px;line-height:1.6}
 .toast{position:fixed;left:50%;bottom:90px;transform:translateX(-50%);background:#22283f;color:#fff;padding:10px 18px;border-radius:20px;z-index:99;font-weight:700;box-shadow:0 6px 20px #0008;animation:fadein .3s}
+.ill{position:relative;overflow:hidden;isolation:isolate}
+.ill::before{content:'';position:absolute;inset:0;z-index:-1;background:var(--scene);filter:hue-rotate(calc(var(--hv)*1deg))}
+.ill::after{content:'';position:absolute;inset:0;z-index:2;pointer-events:none;background:radial-gradient(ellipse 75% 70% at 50% 45%,transparent 50%,rgba(0,0,0,.6) 100%),linear-gradient(165deg,rgba(255,255,255,.22),transparent 28%);box-shadow:inset 0 0 0 1px rgba(255,255,255,.18)}
+.ill .sj{position:relative;z-index:1;display:block;transform:translateY(-3%) scale(var(--sz,1));filter:drop-shadow(0 0 .07em var(--gl)) drop-shadow(0 0 .2em var(--gl)) drop-shadow(0 .05em .02em rgba(0,0,0,.75));line-height:1}
+.ill .gnd{position:absolute;left:15%;right:15%;bottom:6%;height:16%;border-radius:50%;background:radial-gradient(closest-side,rgba(0,0,0,.55),transparent);z-index:0}
+.ill .au{position:absolute;inset:0;margin:auto;width:92%;aspect-ratio:1;border-radius:50%;z-index:0;background:repeating-conic-gradient(from calc(var(--ang)*1deg),var(--gl) 0 3deg,transparent 3deg 14deg);-webkit-mask:radial-gradient(closest-side,transparent 42%,#000 46%,#000 60%,transparent 72%);mask:radial-gradient(closest-side,transparent 42%,#000 46%,#000 60%,transparent 72%);opacity:.55}
+.ill .fl{position:absolute;inset:0;z-index:2;pointer-events:none;background:linear-gradient(115deg,transparent 25%,rgba(255,60,200,.35) 38%,rgba(60,255,255,.35) 50%,rgba(255,255,90,.35) 62%,transparent 75%);background-size:300% 300%;background-position:calc(var(--ang)/3.6*1%) 50%;mix-blend-mode:color-dodge;opacity:.55}
+.ill .fl.ur{opacity:.85}
+.big .ill .fl,.opening .ill .fl{animation:foil 3.2s linear infinite}
+@keyframes foil{from{background-position:0% 50%}to{background-position:300% 50%}}
+.ill>span:not(.sj){z-index:3}
+.sc-fire{--gl:#ffb347;--scene:radial-gradient(circle at 20% 30%,rgba(255,225,150,.95) 0 1px,transparent 1.6px) 0 0/23% 27%,radial-gradient(circle at 70% 60%,rgba(255,170,70,.9) 0 1px,transparent 1.6px) 0 0/31% 21%,radial-gradient(ellipse 85% 55% at 50% 108%,#ffe27a 0,#ff7a1a 30%,rgba(200,40,0,.6) 55%,transparent 72%),repeating-linear-gradient(98deg,transparent 0 8%,rgba(255,110,30,.16) 9% 11%),linear-gradient(180deg,#160201,#4e0a03 50%,#9a2606)}
+.sc-water{--gl:#86e6ff;--scene:radial-gradient(ellipse 130% 38% at 70% 118%,#041a45 45%,transparent 46%),radial-gradient(ellipse 140% 42% at 25% 112%,#0d3f80 45%,transparent 46%),repeating-radial-gradient(ellipse at 35% -10%,rgba(170,235,255,.16) 0 3%,transparent 3.5% 7%),radial-gradient(circle at 80% 25%,rgba(255,255,255,.7) 0 1px,transparent 2px) 0 0/17% 29%,linear-gradient(165deg,rgba(220,250,255,.35),transparent 40%),linear-gradient(180deg,#0f6db8,#06285a 65%,#020b20)}
+.sc-wind{--gl:#b6ffe0;--scene:repeating-conic-gradient(from calc(var(--ang)*1deg) at 50% 55%,transparent 0 5deg,rgba(210,255,235,.2) 7deg 10deg,transparent 12deg 28deg),radial-gradient(ellipse 60% 25% at 30% 80%,rgba(255,255,255,.18),transparent 70%),radial-gradient(circle at 50% 55%,#d4fff0 0,#3bc08f 28%,#0d5440 62%,#022218)}
+.sc-earth{--gl:#ffd27a;--scene:linear-gradient(140deg,transparent 64%,#2e1b09 64.5%),linear-gradient(220deg,transparent 70%,#3d250e 70.5%),linear-gradient(170deg,transparent 78%,#241405 78.5%),radial-gradient(circle at 40% 85%,rgba(255,220,160,.5) 0 1px,transparent 1.6px) 0 0/13% 17%,radial-gradient(ellipse 90% 35% at 50% 68%,#ffd98a,rgba(230,140,50,.5) 40%,transparent 70%),linear-gradient(180deg,#3b2510,#a8702e 55%,#4a2c10)}
+.sc-light{--gl:#fff3b0;--scene:radial-gradient(circle at 50% 45%,#fff 0,#fff7cf 10%,rgba(255,240,180,.4) 25%,transparent 48%),repeating-conic-gradient(from calc(var(--ang)*1deg) at 50% 45%,rgba(255,255,225,.42) 0 3deg,transparent 3deg 13deg),linear-gradient(180deg,#f8dc78,#c08a14 65%,#5e3d06)}
+.sc-dark{--gl:#cf9dff;--scene:radial-gradient(circle at 15% 20%,#fff 0 1px,transparent 1.5px) 0 0/19% 23%,radial-gradient(circle at 60% 70%,#ead8ff 0 1px,transparent 1.5px) 0 0/27% 31%,radial-gradient(circle at 50% 50%,rgba(230,170,255,.55) 0,transparent 22%,rgba(6,0,18,.82) 72%),conic-gradient(from calc(var(--ang)*1deg) at 50% 50%,#2a0f55,#7a30c8,#16052f,#9a46d8,#3a0d4a,#2a0f55)}
+.sc-spell{--gl:#93ffdc;--scene:radial-gradient(circle at 50% 50%,transparent 0 27%,rgba(180,255,230,.7) 27.5% 28.6%,transparent 29% 37%,rgba(180,255,230,.5) 37.5% 38.6%,transparent 39%),repeating-conic-gradient(from calc(var(--ang)*1deg) at 50% 50%,rgba(180,255,230,.28) 0 1.5deg,transparent 1.5deg 30deg),radial-gradient(circle at 50% 50%,#55e8b8,#0c6048 50%,#021f17)}
+.sc-trap{--gl:#ff9ccf;--scene:linear-gradient(118deg,transparent 47%,rgba(255,210,235,.55) 48% 49%,transparent 50%),linear-gradient(32deg,transparent 60%,rgba(255,210,235,.4) 60.5% 61.3%,transparent 62%),linear-gradient(160deg,transparent 30%,rgba(255,210,235,.35) 30.5% 31.2%,transparent 32%),radial-gradient(circle at 50% 50%,#ff74b0,#8c1652 52%,#25031a)}
+.card .art.ill{background:#111;border:1px solid rgba(0,0,0,.65)}
+.big .bart.ill{background:#111;border:2px solid rgba(0,0,0,.6)}
+.limb{position:absolute;left:2px;top:calc(var(--cw)*.2);z-index:4;font-size:calc(var(--cw)*.13);font-weight:900;line-height:1;padding:2px 3px;border-radius:3px;color:#fff;box-shadow:0 1px 2px #000}
+.limb.l0{background:#d0213b}.limb.l1{background:#e07a12}.limb.l2{background:#c9a400}
+.bansec h4{margin:12px 0 6px;font-size:14px}.bansec .bgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(64px,1fr));gap:6px}
+.bansec .bgrid .card{--cw:64px}
+.bansec .per{font-size:13px;color:var(--muted);line-height:1.6;margin:0 0 4px}
 </style></head><body>
 <div id="app">
   <section id="title" class="screen">
@@ -276,6 +302,7 @@ h1,h2,h3{font-family:var(--display);font-weight:400;margin:0}
       <button id="bFree">フリーデュエル</button>
       <button id="bEdit">デッキ編集</button>
       <button id="bDeck">デッキを見る</button>
+      <button id="bBan">禁止・制限</button>
       <button id="bRule">ルール説明</button>
       <button id="bSave">セーブデータ</button>
     </div>
@@ -506,7 +533,31 @@ for(const T of THEMES){
   ids.filter(id=>DB[id].type!=='monster').forEach(id=>main[id]=DB[id].eff.startsWith('searchT')?2:1);
   DECKS['t_'+T.code]={name:`${T.theme}デッキ`,icon:T.icon,desc:`「${T.theme}」テーマ`,main,extra:[...ids.filter(id=>isExtraD(DB[id])),'l2','fd'],cpuOnly:true};
 }
-function validDeck(k){const d=getDeck(k);if(!d)return false;const n=expand(d.main).length;return n>=20&&n<=40&&d.extra.length<=10}
+/* ===== 禁止・制限（毎週月曜0時に更新） ===== */
+const BAN_EPOCH=Date.UTC(2026,0,4,15),WEEK=7*864e5;
+const BAN_PERIOD=Math.floor((Date.now()-BAN_EPOCH)/WEEK);
+function cardPower(d){
+  let p=0;const kv=f=>splitKV(f);
+  if(d.type==='monster'){p+=(d.atk||0)/1000;
+    for(const f of d.fx||[]){const[k,v0]=kv(f),v=+v0||0;
+      p+=({kill:2*(v||1),dbl:1.5,pierce:.5,direct:.8,freezeAll:1.6,freeze1:.6,breakST:.9,noBattleDeath:.6,reviveLow:1.1,searchT:1.1,search:1.1,searchSpell:1,specialHand:.8,drawSum:v||1,drawDestroyed:.6,detachKill:1.6,detachBreak:1.1,detachDraw:1+v*.3,detachDouble:1,weaken:v/450,auraT:v/500,auraAll:v/400,auraRace:v/500,burnKill:v/900,burnSum:v/900,turnBurn:v/300,turnHeal:v/1000,growKill:v/450,recoverSpell:1.1,flipKill:1,killSet:.8,spellPower:v/80,taunt:.3,igBurn:v/600,igPump:.6,igHeal:.4,sd:.6,healKill:.3,healSum:v/1500})[k]??.3}
+    if(isExtraD(d))p-=.6;}
+  else{const[k,v0]=kv(d.eff||''),v=+v0||0;
+    p+=({darkhole:5,destroy1:3.6,destroyAllST:2.4,destroyST:1.5,draw:(v||1)*1.45,killWeakSp:3,revive:2.6,reviveT:2,searchT:1.9,searchR:1.9,fusion:1.4,spear:2.6,mirror:3.2,pit:2.3,shield:1.6,freezeAtk:1.2,counterBurn:v/800,healGuard:.8,summonBurn:.8,buffTurn:v/600,equip:v/800,burn:v/650,heal:v/2200})[k]??.5}
+  if(d.rar==='UR')p+=1.2;else if(d.rar==='SR')p+=.4;
+  return p;
+}
+function rng32(a){return()=>{a|=0;a=a+0x6D2B79F5|0;let t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296}}
+const BAN={};
+function buildBan(per){
+  const pool=Object.values(DB).filter(d=>d.name&&d.type&&!d.cpuOnly).map(d=>[d.id,cardPower(d)]).sort((a,b)=>b[1]-a[1]).slice(0,44).map(x=>x[0]);
+  const r=rng32(per*7919+13);for(let i=pool.length-1;i>0;i--){const j=Math.floor(r()*(i+1));[pool[i],pool[j]]=[pool[j],pool[i]]}
+  const out={};pool.slice(0,2).forEach(id=>out[id]=0);pool.slice(2,6).forEach(id=>out[id]=1);pool.slice(6,10).forEach(id=>out[id]=2);return out;
+}
+Object.assign(BAN,buildBan(BAN_PERIOD));
+const limitOf=id=>BAN[id]??3;
+function deckViolations(k){if(!k||k[0]!=='c')return[];const d=getDeck(k);if(!d)return[];const cnt={};[...expand(d.main),...d.extra].forEach(id=>cnt[id]=(cnt[id]||0)+1);return Object.keys(cnt).filter(id=>cnt[id]>limitOf(id))}
+function validDeck(k){const d=getDeck(k);if(!d)return false;const n=expand(d.main).length;return n>=20&&n<=40&&d.extra.length<=10&&!deckViolations(k).length}
 const OPPS=[
   {name:'見習いデュエリスト ケン',av:'🧢',deck:'machine',lv:0,lp:4000,intro:'へへっ、オレの機甲軍団は無敵だぜ！さっそく勝負だ！',win:'くっそー！次は負けないからな！',lose:'どうだ！機械の力を思い知ったか！'},
   {name:'魔導少女 ミラ',av:'🧙‍♀️',deck:'magic',lv:1,lp:4000,intro:'星があなたの敗北を告げているわ。…でも、占いが外れることもあるのかしら？',win:'ふふ、星の導きも完璧じゃないのね。楽しかったわ。',lose:'ほらね、星の言った通り。'},
@@ -1279,6 +1330,15 @@ async function viewPile(p,z){
 }
 
 /* ================= RENDER ================= */
+const SCN={炎:'fire',水:'water',風:'wind',地:'earth',光:'light',闇:'dark'};
+function artH(id){let h=0;for(const ch of String(id))h=(h*31+ch.charCodeAt(0))|0;return Math.abs(h)}
+function artInner(d){
+  const h=artH(d.id),sc=d.type==='monster'?SCN[d.attr]||'dark':d.type;
+  const lv=d.lv||d.rank||(d.link?d.link*2+2:0),big=d.type==='monster'&&(lv>=7||isExtraD(d));
+  const sz=d.type!=='monster'?1:lv<=2?.82:lv<=4?.95:lv<=6?1.05:1.15;
+  return{cls:`ill sc-${sc}`,sty:`--hv:${(h%13)-6};--ang:${h%360};--sz:${sz}`,
+    html:`<i class="gnd"></i>${big?'<i class="au"></i>':''}<span class="sj">${d.art}</span>${d.rar==='SR'||d.rar==='UR'?`<i class="fl ${d.rar==='UR'?'ur':''}"></i>`:''}`};
+}
 function cardHTML(c,o={}){
   const d=c.d;
   const cls=['card'];
@@ -1294,14 +1354,14 @@ function cardHTML(c,o={}){
   let st;
   if(d.type==='monster'){const a=G&&!o.plain?atkOf(c):d.atk;st=`<div class="st"><span class="${c.pos==='atk'||o.plain?'on':''} ${a>d.atk?'up':a<d.atk?'dn':''}">${a}</span><span class="${c.pos==='def'||o.plain?'on':''}">${d.kind==='link'?'L'+d.link:d.def}</span></div>`}
   else st=`<div class="st sp">${d.type==='spell'?'魔法':'罠'}</div>`;
-  return`<div class="${cls.join(' ')}" data-uid="${c.uid}"><div class="nm">${d.name}</div><div class="art" style="--a1:${a1};--a2:${a2}">${d.art}${d.kind==='xyz'?`<span class="lv rk">☆${d.rank}</span>`:d.kind==='link'?`<span class="lv lk">L${d.link}</span>`:d.lv?`<span class="lv">★${d.lv}</span>`:''}${c.boost?'<span class="eq">🗡️</span>':''}${d.tuner?'<span class="tn">T</span>':''}${c.mats&&c.mats.length?`<span class="ov">◉${c.mats.length}</span>`:''}</div>${st}</div>`;
+  return`<div class="${cls.join(' ')}" data-uid="${c.uid}"><div class="nm">${d.name}</div>${(A=>`<div class="art ${A.cls}" style="${A.sty}">${A.html}`)(artInner(d))}${o.plain&&BAN[d.id]!=null?`<span class="limb l${BAN[d.id]}">${['禁','制','準'][BAN[d.id]]}</span>`:''}${d.kind==='xyz'?`<span class="lv rk">☆${d.rank}</span>`:d.kind==='link'?`<span class="lv lk">L${d.link}</span>`:d.lv?`<span class="lv">★${d.lv}</span>`:''}${c.boost?'<span class="eq">🗡️</span>':''}${d.tuner?'<span class="tn">T</span>':''}${c.mats&&c.mats.length?`<span class="ov">◉${c.mats.length}</span>`:''}</div>${st}</div>`;
 }
 function bigCardHTML(c){
   const d=c.d;const [a1,a2]=d.type==='monster'?ATTR[d.attr]:d.type==='spell'?['#b8ffe6','#0e5a42']:['#ffc8e4','#6a1645'];
   const icon=d.type==='monster'?d.attr:d.type==='spell'?'魔':'罠';
   const type=d.type==='monster'?`【${d.race}族／${{fusion:'融合',synchro:'シンクロ',xyz:'エクシーズ',link:'リンク',effect:'効果',normal:'通常'}[d.kind]}${d.tuner?'／チューナー':''}${d.kind==='xyz'||d.kind==='link'?(d.eff?'／効果':''):''}】`:d.type==='spell'?'【魔法カード】':'【罠カード】';
   const a=G&&where(c)&&where(c).z==='mz'?atkOf(c):d.atk;
-  return`<div class="big ${d.type} ${d.kind||''}"><div class="bn"><span>${d.name}</span><i>${icon}</i></div><div class="stars">${d.kind==='xyz'?'☆'.repeat(d.rank)+' ランク'+d.rank:d.kind==='link'?'LINK-'+d.link:d.lv?'★'.repeat(d.lv):''}</div><div class="bart" style="--a1:${a1};--a2:${a2}">${d.art}</div><div class="btx"><b>${d.rar?`<span class="rar ${d.rar}">${d.rar}</span>`:''}${type}${d.theme?` 「${d.theme}」`:''}</b>${d.text.replace(/\n/g,'<br>')}</div>${c.mats&&c.mats.length?`<div class="btx" style="min-height:0"><b>X素材 ${c.mats.length}つ</b>${c.mats.map(m=>m.d.name).join('、')}</div>`:''}${d.type==='monster'?`<div class="bst"><span>ATK/${a}</span><span>${d.kind==='link'?'LINK-'+d.link:'DEF/'+d.def}</span></div>`:''}</div>`;
+  return`<div class="big ${d.type} ${d.kind||''}"><div class="bn"><span>${d.name}</span><i>${icon}</i></div><div class="stars">${d.kind==='xyz'?'☆'.repeat(d.rank)+' ランク'+d.rank:d.kind==='link'?'LINK-'+d.link:d.lv?'★'.repeat(d.lv):''}</div>${(A=>`<div class="bart ${A.cls}" style="${A.sty}">${A.html}</div>`)(artInner(d))}<div class="btx"><b>${d.rar?`<span class="rar ${d.rar}">${d.rar}</span>`:''}${type}${d.theme?` 「${d.theme}」`:''}</b>${d.text.replace(/\n/g,'<br>')}</div>${c.mats&&c.mats.length?`<div class="btx" style="min-height:0"><b>X素材 ${c.mats.length}つ</b>${c.mats.map(m=>m.d.name).join('、')}</div>`:''}${d.type==='monster'?`<div class="bst"><span>ATK/${a}</span><span>${d.kind==='link'?'LINK-'+d.link:'DEF/'+d.def}</span></div>`:''}</div>`;
 }
 function barHTML(p){
   const lp=G.lpShown[p.idx];
@@ -1395,7 +1455,7 @@ async function showMenu(){
 
 /* ================= TITLE / MENUS ================= */
 function renderTitle(){
-  if(!validDeck(SV.deck))SV.deck='dragon';
+  if(!validDeck(SV.deck)){if(deckViolations(SV.deck).length)setTimeout(()=>toast('マイデッキが今週の禁止・制限に違反しているため、使用デッキを変更しました'),300);SV.deck='dragon'}
   const d=getDeck(SV.deck);
   $('#mydeck').innerHTML=`<span class="ic">${d.icon}</span><div class="t"><small>使用デッキ（タップで変更）</small><b>${d.name}</b><small>${d.desc}</small></div><span>▸</span>`;
   $('#bSfx').textContent=`効果音 ${SV.sfx?'ON':'OFF'}`;$('#bBgm').textContent=`BGM ${SV.bgm?'ON':'OFF'}`;$('#bSpd').textContent=`演出 ${SV.speed<1?'はやい':'ふつう'}`;
@@ -1520,7 +1580,7 @@ const ED={slot:0,name:'',main:{},extra:{},tab:'all',dirty:false};
 const ED_TABS=[['all','すべて'],['new','パック'],['mon','モンスター'],['spell','魔法'],['trap','罠'],['ex','EX'],['in','デッキ内']];
 const edMainN=()=>sum(Object.values(ED.main)),edExN=()=>sum(Object.values(ED.extra));
 const edCount=id=>(isExtraD(DB[id])?ED.extra:ED.main)[id]||0;
-const edMax=id=>DB[id].pack?Math.min(3,SV.owned[id]||0):3;
+const edMax=id=>Math.min(limitOf(id),DB[id].pack?SV.owned[id]||0:3);
 const edAvail=id=>!DB[id].pack||(SV.owned[id]||0)>0;
 function renderEditor(){
   const mn=edMainN(),en=edExN();
@@ -1529,7 +1589,7 @@ function renderEditor(){
   const ids=Object.keys(DB).filter(id=>{const d=DB[id],t=ED.tab;
     if(!edAvail(id))return false;if(t==='new')return !!d.pack;
     if(t==='mon')return d.type==='monster'&&!isExtraD(d);if(t==='spell')return d.type==='spell';if(t==='trap')return d.type==='trap';if(t==='ex')return isExtraD(d);if(t==='in')return edCount(id)>0;return true});
-  $('#edGrid').innerHTML=ids.length?ids.map(id=>{const n=edCount(id);return`<div class="eitem ${n?'':'zero'}" data-ed="${id}">${cardHTML(fakeCard(id),{plain:true})}${n?`<span class="cnt">${n}</span>`:''}</div>`}).join(''):`<p class="desc" style="grid-column:1/-1;text-align:center;color:var(--muted)">${ED.tab==='new'?'パックのカードはまだ持っていません。バトルで勝ってポイントを集め、パックを開けましょう。':'まだカードが入っていません。「すべて」からカードを選んで追加してください。'}</p>`;
+  $('#edGrid').innerHTML=ids.length?ids.map(id=>{const n=edCount(id);return`<div class="eitem ${n?'':'zero'}" data-ed="${id}">${cardHTML(fakeCard(id),{plain:true})}${n?`<span class="cnt" ${n>limitOf(id)?'style="background:#d0213b"':''}>${n}</span>`:''}</div>`}).join(''):`<p class="desc" style="grid-column:1/-1;text-align:center;color:var(--muted)">${ED.tab==='new'?'パックのカードはまだ持っていません。バトルで勝ってポイントを集め、パックを開けましょう。':'まだカードが入っていません。「すべて」からカードを選んで追加してください。'}</p>`;
 }
 function edLoad(slot){
   const c=SV.custom[slot];ED.slot=slot;ED.dirty=false;ED.tab=c?'in':'all';
@@ -1557,7 +1617,7 @@ $('#edGrid').onclick=async e=>{
   for(;;){
     const n=edCount(id),full=ex?edExN()>=10:edMainN()>=40;
     const mx=edMax(id);
-    const v=await modal({html:bigCardHTML(fakeCard(id))+`<p class="desc" style="text-align:center;margin-top:8px">デッキに <b>${n}</b> 枚（${DB[id].pack?`所持${SV.owned[id]}枚・`:''}同じカードは3枚まで）${ex?'／EXデッキ':''}</p>`,
+    const v=await modal({html:bigCardHTML(fakeCard(id))+`<p class="desc" style="text-align:center;margin-top:8px">デッキに <b>${n}</b> 枚（${DB[id].pack?`所持${SV.owned[id]}枚・`:''}${BAN[id]===0?'<b style="color:#ff5a6e">禁止カード</b>':BAN[id]===1?'<b style="color:#ffa040">制限カード：1枚まで</b>':BAN[id]===2?'<b style="color:#ffd84a">準制限：2枚まで</b>':'同じカードは3枚まで'}）${ex?'／EXデッキ':''}</p>`,
       buttons:[{label:'＋1枚入れる',value:1,cls:'pri',disabled:n>=mx||full},{label:'−1枚抜く',value:-1,disabled:n<=0},{label:'閉じる',value:null,cls:'ghost'}]});
     if(!v)break;
     const box=ex?ED.extra:ED.main;box[id]=n+v;if(!box[id])delete box[id];ED.dirty=true;renderEditor();
@@ -1575,7 +1635,7 @@ $('#edSave').onclick=async()=>{
   sfx('tap');
   SV.custom[ED.slot]={name:ED.name,main:{...ED.main},extra:{...ED.extra}};ED.dirty=false;
   const ok=validDeck('c'+ED.slot);if(ok)SV.deck='c'+ED.slot;save();renderEditor();
-  await modal({title:ok?'保存しました':'保存しました（まだ使えません）',html:`<p class="desc" style="text-align:center">${ok?`「${ED.name}」を使用デッキに設定しました。`:'メインデッキは20〜40枚、EXデッキは10枚までにすると使えるようになります。'}</p>`,buttons:[{label:'OK',value:null,cls:'pri'}]});
+  await modal({title:ok?'保存しました':'保存しました（まだ使えません）',html:`<p class="desc" style="text-align:center">${ok?`「${ED.name}」を使用デッキに設定しました。`:(deckViolations('c'+ED.slot).length?'禁止・制限カードの枚数オーバーがあります（赤いバッジのカード）。':'メインデッキは20〜40枚、EXデッキは10枚までにすると使えるようになります。')}</p>`,buttons:[{label:'OK',value:null,cls:'pri'}]});
 };
 $('#edBack').onclick=async()=>{
   sfx('tap');
@@ -1602,6 +1662,17 @@ $('#bSave').onclick=async()=>{
     if(await p){const o=readCode(txt);if(!o){toast('セーブコードが正しくありません');return}
       Object.assign(SV,o);save();renderTitle();toast('セーブデータを読み込みました');sfx('win')}}
 };
+const fmtD=t=>{const d=new Date(t+9*36e5);return`${d.getUTCFullYear()}/${d.getUTCMonth()+1}/${d.getUTCDate()}`};
+function showBan(isNew){
+  const st=BAN_EPOCH+BAN_PERIOD*WEEK,nx=st+WEEK;
+  const sec=(lv,t)=>{const ids=Object.keys(BAN).filter(id=>BAN[id]===lv);return`<h4>${t}（${ids.length}種）</h4><div class="bgrid">${ids.map(id=>`<div class="dk" data-card="${id}">${cardHTML(fakeCard(id),{plain:true})}</div>`).join('')}</div>`};
+  const html=`<div class="bansec"><p class="per">${isNew?'<b style="color:var(--gold)">📢 新しいリストが発表されました！</b><br>':''}第${BAN_PERIOD+1}期：${fmtD(st)}〜${fmtD(nx-1)}<br>次回更新：${fmtD(nx)}（毎週月曜0時）<br>強すぎるカードから毎週選ばれます。自分で組んだデッキ（マイデッキ）に適用されます。</p>${sec(0,'🚫 禁止（デッキに入れられない）')}${sec(1,'① 制限（1枚まで）')}${sec(2,'② 準制限（2枚まで）')}</div>`;
+  const pr=modal({title:'禁止・制限リスト',html,buttons:[{label:'閉じる',value:null,cls:'ghost'}]});
+  const m=$('#modal'),prev=m.onclick;
+  m.onclick=async e=>{const c=e.target.closest('[data-card]');if(c){const v=bigCardHTML(fakeCard(c.dataset.card));m.onclick=null;m.hidden=true;ui.modal=false;await modal({html:v,buttons:[{label:'戻る',value:null,cls:'ghost'}]});showBan(false);return}prev(e)};
+  return pr;
+}
+$('#bBan').onclick=()=>{initAudio();sfx('tap');showBan(false)};
 $('#bRule').onclick=()=>{initAudio();sfx('tap');showRules()};
 function showRules(){
   modal({title:'ルール説明',html:`<div class="rules">
@@ -1611,13 +1682,14 @@ function showRules(){
   <h4>EXデッキからの召喚</h4><ul><li>自分のメインフェイズに、EXデッキ（「EX」をタップ）から何度でも特殊召喚できる。召喚できる時は「EX」が光る</li><li><b>シンクロ</b>：チューナー1体＋チューナー以外の表側モンスターで、レベルの合計がちょうど一致すれば召喚。素材は墓地へ</li><li><b>エクシーズ</b>：同じレベルの表側モンスター2体を重ねて召喚。素材はX素材としてカードの下に残り（◉の数）、効果の発動に使う</li><li><b>リンク</b>：LINKの数と同じ数の表側モンスターを墓地へ送って召喚。守備力がなく、常に攻撃表示</li><li>融合・シンクロ・エクシーズ・リンクモンスターは召喚したターンから攻撃できる</li></ul>
   <h4>戦闘</h4><ul><li>攻撃表示同士：攻撃力が低い方が破壊され、差分がダメージ</li><li>守備表示への攻撃：攻撃力＞守備力なら破壊（ダメージなし）、攻撃力＜守備力なら攻撃側に差分ダメージ</li><li>相手フィールドにモンスターがいなければ直接攻撃</li><li>召喚したターンは表示形式を変更できない</li></ul>
   <h4>魔法・罠</h4><ul><li>魔法カードは自分のメインフェイズに発動</li><li>罠カードはセットし、<b>次の相手ターン以降</b>に条件（攻撃宣言・召喚）を満たすと発動を確認されます</li></ul>
-  <h4>操作</h4><ul><li>カードをタップ → 詳細と行動を選択</li><li>光っている手札は今使えるカード</li><li>赤く光るモンスターは攻撃可能</li><li>「墓」「EX」をタップで中身を確認、ログ行をタップで履歴</li><li>タイトルの「デッキ編集」で自分だけのデッキを3つまで作れる（メイン20〜40枚、EX10枚まで、同名カード3枚まで）</li><li>デュエルに勝つとポイントがもらえ、「パック開封」で新しいカード（全${PACK_TOTAL}種）を手に入れられる。パックのカードは持っている枚数までデッキに入れられる</li><li>ストーリー第3戦・第6戦・第9戦に勝つと、新種族（天使族・恐竜族・昆虫族）のパックが解放される</li><li>進行は自動でセーブされる。「セーブデータ」からセーブコードを書き出せば、別の端末でも続きから遊べる</li></ul></div>`,buttons:[{label:'閉じる',value:null,cls:'ghost'}]});
+  <h4>操作</h4><ul><li>カードをタップ → 詳細と行動を選択</li><li>光っている手札は今使えるカード</li><li>赤く光るモンスターは攻撃可能</li><li>「墓」「EX」をタップで中身を確認、ログ行をタップで履歴</li><li>タイトルの「デッキ編集」で自分だけのデッキを3つまで作れる（メイン20〜40枚、EX10枚まで、同名カード3枚まで）</li><li>デュエルに勝つとポイントがもらえ、「パック開封」で新しいカード（全${PACK_TOTAL}種）を手に入れられる。パックのカードは持っている枚数までデッキに入れられる</li><li>毎週月曜に「禁止・制限リスト」が更新される。マイデッキは禁止カードを入れられず、制限は1枚・準制限は2枚まで</li><li>ストーリー第3戦・第6戦・第9戦に勝つと、新種族（天使族・恐竜族・昆虫族）のパックが解放される</li><li>進行は自動でセーブされる。「セーブデータ」からセーブコードを書き出せば、別の端末でも続きから遊べる</li></ul></div>`,buttons:[{label:'閉じる',value:null,cls:'ghost'}]});
 }
 $('#bSfx').onclick=()=>{initAudio();SV.sfx=!SV.sfx;save();renderTitle();sfx('tap')};
 $('#bBgm').onclick=()=>{initAudio();SV.bgm=!SV.bgm;save();renderTitle()};
 $('#bSpd').onclick=()=>{SV.speed=SV.speed<1?1:.55;save();renderTitle()};
 const hs=document.createElement('style');hs.textContent='.hiddenbtn{display:none}';document.head.appendChild(hs);
 renderTitle();fit();
-window.__dbg={startDuel,DB,DECKS,G:()=>G,ui,render};
+if(SV.banSeen!==BAN_PERIOD){const first=SV.banSeen==null;SV.banSeen=BAN_PERIOD;save();if(!first)setTimeout(()=>showBan(true),600)}
+window.__dbg={startDuel,DB,DECKS,G:()=>G,ui,render,BAN,buildBan,cardPower};
 </script>
 </body></html>
