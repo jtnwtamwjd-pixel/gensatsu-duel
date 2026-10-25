@@ -1937,10 +1937,18 @@ function edLoad(slot){
   const c=SV.custom[slot];ED.slot=slot;ED.dirty=false;ED.tab=c?'in':'all';
   ED.name=c?c.name:`マイデッキ${slot+1}`;ED.main=c?{...c.main}:{};ED.extra=c?{...c.extra}:{};
 }
-function edFromTemplate(k){const d=DECKS[k];ED.main={...d.main};ED.extra={};d.extra.forEach(id=>ED.extra[id]=(ED.extra[id]||0)+1);ED.dirty=true}
+function edFromTemplate(k){
+  const d=DECKS[k];let miss=0;ED.main={};ED.extra={};
+  for(const id in d.main){const n=Math.min(d.main[id],edMax(id));miss+=d.main[id]-n;if(n>0)ED.main[id]=n}
+  for(const id of d.extra){if((ED.extra[id]||0)<edMax(id)&&edExN()<10)ED.extra[id]=(ED.extra[id]||0)+1;else miss++}
+  while(edMainN()>40){const id=Object.keys(ED.main).reduce((b,x)=>ED.main[x]>ED.main[b]||(ED.main[x]===ED.main[b]&&DB[x].type!=='monster')?x:b);if(--ED.main[id]<=0)delete ED.main[id]}
+  ED.dirty=true;
+  if(miss)setTimeout(()=>toast(`持っていない・制限中のカード${miss}枚を除いて読み込みました`),200);
+}
+const tplOwn=k=>{const d=DECKS[k],ids=[...new Set([...Object.keys(d.main),...d.extra])].filter(id=>DB[id].pack);return ids.length?`（所持 ${ids.filter(id=>(SV.owned[id]||0)>0).length}/${ids.length}種）`:''};
 async function edTemplatePick(){
-  const keys=['dragon','machine','magic','boss'];
-  const v=await modal({title:'テンプレートを読み込む',html:`<p class="desc">今のデッキ内容を、選んだデッキの中身で置き換えます。</p>${keys.map((k,i)=>`<div class="opp" data-b="${i}"><span class="ic">${DECKS[k].icon}</span><div class="t"><b>${DECKS[k].name}</b><small>${DECKS[k].desc}</small></div></div>`).join('')}`,buttons:[...keys.map(k=>({label:'',value:k,cls:'hiddenbtn'})),{label:'やめる',value:null,cls:'ghost'}]});
+  const keys=['dragon','machine','magic','boss',...THEMES.filter(t=>t.code!=='mo').map(t=>'t_'+t.code)];
+  const v=await modal({title:'テンプレートを読み込む',html:`<p class="desc">今のデッキ内容を、選んだデッキの中身で置き換えます。持っていないパックのカードは除いて読み込みます。</p>${keys.map((k,i)=>`<div class="opp" data-b="${i}"><span class="ic">${DECKS[k].icon}</span><div class="t"><b>${DECKS[k].name}</b><small>${DECKS[k].desc}${tplOwn(k)}</small></div></div>`).join('')}`,buttons:[...keys.map(k=>({label:'',value:k,cls:'hiddenbtn'})),{label:'やめる',value:null,cls:'ghost'}]});
   if(v){edFromTemplate(v);ED.tab='in';renderEditor()}
 }
 $('#bEdit').onclick=async()=>{
