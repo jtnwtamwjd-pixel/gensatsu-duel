@@ -521,9 +521,32 @@ const FXT={
   detachDouble:()=>'1ターンに1度、X素材を1つ取り除いて発動できる。このターン、このカードは2回攻撃できる（2回目はモンスターへの攻撃に限る）。',
   detachKill:()=>'1ターンに1度、X素材を1つ取り除いて発動できる。相手フィールドのモンスター1体を破壊する。',
 };
+const FUSB={星騎士:['atk',600],深海:['freeze'],忍:['search'],雷神:['burn',800],獣王:['dbl'],死霊:['draw',1],花妖精:['heal',1500],天使:['raise',4],恐竜:['killWeak',1500],昆虫:['callD',2],冥王:['payKill'],侍:['pierce'],海賊:['draw',2],妖怪:['raid'],精霊:['prism',300],時計仕掛け:['searchSpT'],魔導:['draw',1]};
+function FUSBT(T){const[k,v]=FUSB[T]||[];return({atk:`そのモンスターの攻撃力は${v}アップする。`,freeze:'相手フィールドの攻撃表示モンスターを全て守備表示にする。',search:`デッキからレベル4以下の「${T}」モンスター1体を手札に加える。`,burn:`相手に${v}ダメージを与える。`,dbl:'そのモンスターはこのターン2回攻撃できる（2回目はモンスターへの攻撃に限る）。',draw:`カードを${v}枚ドローする。`,heal:`自分のLPを${v}回復する。`,raise:`自分の墓地からレベル${v}以下の「${T}」モンスター1体を特殊召喚できる。`,killWeak:`相手フィールドの攻撃力${v}以下の表側モンスターを全て破壊する。`,callD:`デッキからレベル${v}以下の「${T}」モンスター1体を特殊召喚する。`,payKill:'1000LPを払って、相手フィールドのモンスター1体を破壊できる（LPが1000より多い場合）。',pierce:'そのモンスターはこのターン、守備表示モンスターを攻撃した時に貫通ダメージを与える。',raid:'相手の手札をランダムに1枚選んで墓地へ送る。',prism:`そのモンスターの攻撃力は、自分フィールドの表側モンスターの属性の種類×${v}アップする。`,searchSpT:`デッキから「${T}」魔法・罠カード1枚を手札に加える。`})[k]||''}
+async function fusionBonus(p,sp,f){
+  const T=sp.d.theme,[k,v]=FUSB[T]||[],o=opp(p);if(!k||G.over)return;
+  log(`${Q(sp)}の追加効果！`,p.idx);
+  if(k==='atk'&&onField(f)){f.boost+=v;log(`${Q(f)}の攻撃力が${v}アップ`,p.idx);sfx('heal')}
+  else if(k==='prism'&&onField(f)){const n=new Set(monsters(p).filter(m=>m.faceUp).map(m=>m.d.attr)).size;f.boost+=v*n;log(`${Q(f)}の攻撃力が${v*n}アップ`,p.idx);sfx('heal')}
+  else if(k==='freeze'){monsters(o).filter(m=>m.faceUp&&m.pos==='atk'&&m.d.kind!=='link').forEach(m=>m.pos='def');log('相手モンスターが全て守備表示になった',p.idx);sfx('set')}
+  else if(k==='search')await searchDeck(p,sp,x=>x.d.type==='monster'&&!isExtra(x)&&x.d.theme===T&&x.d.lv<=4,true);
+  else if(k==='searchSpT')await searchDeck(p,sp,x=>x.d.type!=='monster'&&x.d.theme===T,true);
+  else if(k==='burn')await damage(o,v);
+  else if(k==='dbl'&&onField(f)){f.dblTurn=G.turn;log(`${Q(f)}はこのターン2回攻撃できる`,p.idx)}
+  else if(k==='pierce'&&onField(f)){f.pierceTurn=G.turn;log(`${Q(f)}はこのターン貫通ダメージを与える`,p.idx)}
+  else if(k==='draw')await draw(p,v);
+  else if(k==='heal')await heal(p,v);
+  else if(k==='raise'){const t=await pickSS(p,sp,p.grave.filter(x=>x.d.type==='monster'&&!isExtra(x)&&x.d.theme===T&&x.d.lv<=v),`${sp.d.name}の効果：墓地から特殊召喚する「${T}」を選択`,true);if(t)await putSS(p,t,`${Q(sp)}の効果で墓地から`)}
+  else if(k==='callD'){const t=await pickSS(p,sp,p.deck.filter(x=>x.d.type==='monster'&&!isExtra(x)&&x.d.theme===T&&x.d.lv<=v),`${sp.d.name}の効果：デッキから特殊召喚する「${T}」を選択`,false);if(t){await putSS(p,t,`${Q(sp)}の効果で`);shuffle(p.deck)}}
+  else if(k==='killWeak'){const cs=monsters(o).filter(m=>m.faceUp&&atkOf(m)<=v);if(cs.length)await destroyMany(cs)}
+  else if(k==='raid'){if(o.hand.length){const t=o.hand[rnd(o.hand.length)];toGrave(t);log(`${o.name}の手札の${Q(t)}が墓地へ送られた`,p.idx);sfx('destroy')}}
+  else if(k==='payKill'){const cs=monsters(o);if(cs.length&&p.lp>1000){const ok=p.cpu?true:await ask(p,()=>modal({title:`${sp.d.name}の追加効果`,html:'<p class="desc">1000LPを払って相手モンスター1体を破壊しますか？</p>',buttons:[{label:'払って破壊する',value:true,cls:'red'},{label:'しない',value:false,cls:'ghost'}],closable:false}));
+    if(ok){const from=p.lp;p.lp-=1000;log(`${p.name}は1000LPを払った`,p.idx);await animLP(p,from,p.lp);const t=await chooseTarget(p,monsters(o),`${sp.d.name}の効果：破壊するモンスターを選択`,'kill');if(t)await destroyMany([t])}}}
+  render();await sleep(300);
+}
 const SPT={
   raid:()=>'相手の手札をランダムに1枚選んで墓地へ送る。',
-  fusionT:(v,d)=>`自分の手札・フィールドから決められた融合素材を墓地へ送り、「${d.theme}」融合モンスター1体をEXデッキから融合召喚する。`,
+  fusionT:(v,d)=>`自分の手札・フィールド${d.theme==='死霊'?'・墓地':''}から決められた融合素材を墓地へ送り、「${d.theme}」融合モンスター1体をEXデッキから融合召喚する。${d.theme==='死霊'?'墓地のモンスターは何体でも素材にできる。':`デッキの「${d.theme}」モンスター1体も素材にできる。`}\n融合召喚に成功した時、${FUSBT(d.theme)}`,
   ssDeck:(v,d)=>`デッキからレベル${v}以下の「${d.theme}」モンスター1体を特殊召喚する。`,ssHand:(v,d)=>`手札からレベル${v}以下の「${d.theme}」モンスター1体を特殊召喚する。`,
   equipT:(v,d)=>`自分フィールドの「${d.theme}」モンスター1体の攻撃力を${v}アップする。`,tdbl:(v,d)=>`自分フィールドの「${d.theme}」モンスター1体は、このターン2回攻撃できる（2回目はモンスターへの攻撃に限る）。`,
   buffT:(v,d)=>`自分フィールドの「${d.theme}」モンスター全ての攻撃力を、ターン終了時まで${v}アップする。`,drawT:(v,d)=>`自分フィールドの「${d.theme}」モンスターの数だけ（最大${v}枚）カードをドローする。`,
@@ -607,7 +630,7 @@ function cardPower(d){
       p+=({chant:v/250,solo:v/600,soloDraw:.8,loot:.9,flipCall:1.1,prism:v/180,turnGrow:v/250,ss:1.2,easy:1,dblTribT:.5,callH:1.2,callD:1.4,raise:1.2,mill:.3,hatch:1.3,igCall:1.2,bond:v/250,guardT:1,searchSpT:1,kill:2*(v||1),dbl:1.5,pierce:.5,direct:.8,freezeAll:1.6,freeze1:.6,breakST:.9,noBattleDeath:.6,reviveLow:1.1,searchT:1.1,search:1.1,searchSpell:1,specialHand:.8,drawSum:v||1,drawDestroyed:.6,detachKill:1.6,detachBreak:1.1,detachDraw:1+v*.3,detachDouble:1,weaken:v/450,auraT:v/500,auraAll:v/400,auraRace:v/500,burnKill:v/900,burnSum:v/900,turnBurn:v/300,turnHeal:v/1000,growKill:v/450,recoverSpell:1.1,flipKill:1,killSet:.8,spellPower:v/80,taunt:.3,igBurn:v/600,igPump:.6,igHeal:.4,sd:.6,healKill:.3,healSum:v/1500})[k]??.3}
     if(isExtraD(d))p-=.6;}
   else{const[k,v0]=kv(d.eff||''),v=+v0||0;
-    p+=({raid:1.6,fusionT:1.4,ssDeck:2,ssHand:1.8,equipT:v/900,tdbl:1.2,buffT:v/700,drawT:v*1.1,burnT:v/250,healT:v/800,killT:3.2,destroySTT:2,freezeT:1.5,millDraw:1.2,sacDraw:1.6,swarm:2.2,darkhole:5,destroy1:3.6,destroyAllST:2.4,destroyST:1.5,draw:(v||1)*1.45,killWeakSp:3,revive:2.6,reviveT:2,searchT:1.9,searchR:1.9,fusion:1.4,spear:2.6,mirror:3.2,pit:2.3,shield:1.6,freezeAtk:1.2,counterBurn:v/800,healGuard:.8,summonBurn:.8,buffTurn:v/600,equip:v/800,burn:v/650,heal:v/2200})[k]??.5}
+    p+=({raid:1.6,fusionT:2.4,ssDeck:2,ssHand:1.8,equipT:v/900,tdbl:1.2,buffT:v/700,drawT:v*1.1,burnT:v/250,healT:v/800,killT:3.2,destroySTT:2,freezeT:1.5,millDraw:1.2,sacDraw:1.6,swarm:2.2,darkhole:5,destroy1:3.6,destroyAllST:2.4,destroyST:1.5,draw:(v||1)*1.45,killWeakSp:3,revive:2.6,reviveT:2,searchT:1.9,searchR:1.9,fusion:1.4,spear:2.6,mirror:3.2,pit:2.3,shield:1.6,freezeAtk:1.2,counterBurn:v/800,healGuard:.8,summonBurn:.8,buffTurn:v/600,equip:v/800,burn:v/650,heal:v/2200})[k]??.5}
   if(d.rar==='UR')p+=1.2;else if(d.rar==='SR')p+=.4;
   return p;
 }
@@ -987,10 +1010,11 @@ async function detach(p,c,t){
 /* ---------- spells ---------- */
 function fmatOk(cond,x){if(x.d.type!=='monster')return false;if(typeof cond==='string')return x.id===cond;if(cond.theme)return x.d.theme===cond.theme;if(cond.race)return x.d.race===cond.race;if(cond.attr)return x.d.attr===cond.attr;return true}
 function fusionAssignments(p,f,exclude){
-  const pool=[...monsters(p),...p.hand.filter(x=>x.d.type==='monster')].filter(x=>x!==exclude),conds=f.d.fmat,out=[];
+  const th=exclude&&exclude.d&&exclude.d.eff==='fusionT'?exclude.d.theme:null,ext=th==='死霊'?p.grave:th?p.deck:[];
+  const pool=[...monsters(p),...p.hand.filter(x=>x.d.type==='monster'),...ext.filter(x=>x.d.type==='monster'&&!isExtra(x)&&x.d.theme===th)].filter(x=>x!==exclude),conds=f.d.fmat,out=[];
   const rec=(i,used)=>{if(out.length>200)return;if(i===conds.length){out.push(used.slice());return}for(const x of pool)if(!used.includes(x)&&fmatOk(conds[i],x)){used.push(x);rec(i+1,used);used.pop()}};
   rec(0,[]);
-  return out.filter(ms=>monsters(p).length-ms.filter(x=>p.mz.includes(x)).length<5);
+  return out.filter(ms=>monsters(p).length-ms.filter(x=>p.mz.includes(x)).length<5&&ms.filter(x=>p.deck.includes(x)).length<=1);
 }
 function fusionOptions(p,exclude){
   const res=[];
@@ -998,7 +1022,7 @@ function fusionOptions(p,exclude){
     if(f.d.kind!=='fusion'||res.find(r=>r.fusion.id===f.id))continue;
     const as=fusionAssignments(p,f,exclude);if(!as.length)continue;
     // 素材は「価値が低い」組み合わせを自動で選ぶ（場の弱いモンスター・手札の不要なカードを優先）
-    const val=x=>(p.mz.includes(x)?atkOf(x):x.d.atk*.8+300)+(isExtra(x)?1500:0)+(x.d.eff?200:0);
+    const val=x=>(p.deck.includes(x)?x.d.atk*.2:p.grave.includes(x)?0:p.mz.includes(x)?atkOf(x):x.d.atk*.8+300)+(isExtra(x)?1500:0)+(x.d.eff?200:0);
     res.push({fusion:f,mats:minBy(as,ms=>sum(ms.map(val)))});
   }
   if(exclude&&exclude.d&&exclude.d.eff==='fusionT')return res.filter(r=>r.fusion.d.theme===exclude.d.theme);
@@ -1047,7 +1071,7 @@ async function planSpellHuman(p,c){
     case 'revive':{const cs=[...p.grave,...o.grave].filter(x=>x.d.type==='monster');const t=await modal({title:'特殊召喚するモンスターを選択',cards:cs,cardLabel:x=>`${x.owner===0?'自分':'相手'}の墓地 / ATK ${x.d.atk} DEF ${x.d.def}`,buttons:[{label:'やめる',value:null,cls:'ghost'}]});return t?{target:t}:null}
     case 'reviveT':{const t=await modal({title:'特殊召喚するモンスターを選択',cards:reviveTCands(p,c),buttons:[{label:'やめる',value:null,cls:'ghost'}]});return t?{target:t}:null}
     case 'fusion':case 'fusionT':{const os=fusionOptions(p,c);let pick=os[0];if(os.length>1){const f=await modal({title:'融合召喚するモンスターを選択',cards:os.map(x=>x.fusion),buttons:[{label:'やめる',value:null,cls:'ghost'}]});if(!f)return null;pick=os.find(x=>x.fusion===f)}
-      const ok=await modal({title:'融合召喚',html:`<p class="desc">${pick.mats.map(m=>Q(m)+(G.p[0].mz.includes(m)?'（場）':'（手札）')).join('と')}を素材に、${Q(pick.fusion)}を融合召喚します。</p>`,buttons:[{label:'融合召喚する',value:true,cls:'pri'},{label:'やめる',value:false,cls:'ghost'}]});return ok?pick:null}
+      const ok=await modal({title:'融合召喚',html:`<p class="desc">${pick.mats.map(m=>Q(m)+(p.mz.includes(m)?'（場）':p.deck.includes(m)?'（デッキ）':p.grave.includes(m)?'（墓地）':'（手札）')).join('と')}を素材に、${Q(pick.fusion)}を融合召喚します。</p>`,buttons:[{label:'融合召喚する',value:true,cls:'pri'},{label:'やめる',value:false,cls:'ghost'}]});return ok?pick:null}
   }
   return {};
 }
@@ -1085,7 +1109,7 @@ async function activateSpell(p,c,plan){
     case 'millDraw':{const n=Math.min(v,Math.max(0,p.deck.length-1));for(let i=0;i<n;i++){const x=p.deck.pop();x.faceUp=true;p.grave.push(x)}log(`デッキの上から${n}枚を墓地へ送った`,p.idx);render();await sleep(300);await draw(p,1);break}
     case 'sacDraw':if(onField(plan.target)){const t=plan.target;toGrave(t);log(`${Q(t)}を墓地へ送った`,p.idx);render();await sleep(300);await hatchCheck(t);await draw(p,v)}break;
     case 'fusion':case 'fusionT':{const {fusion:f,mats}=plan;for(const m of mats){const e=elOf(m);if(e)e.classList.add('boom')}await sleep(300);mats.forEach(toGrave);
-      removeCard(f);f.faceUp=true;f.pos='atk';f.sumTurn=G.turn;f.posTurn=G.turn;f.attacks=0;f.grow=0;p.mz[freeMz(p)]=f;sfx('summon');log(`${Q(f)}を融合召喚！`,p.idx);render();await showActivate(f,'融合召喚！','#b48cff');await summonEffect(p,f);break}
+      removeCard(f);f.faceUp=true;f.pos='atk';f.sumTurn=G.turn;f.posTurn=G.turn;f.attacks=0;f.grow=0;p.mz[freeMz(p)]=f;sfx('summon');log(`${Q(f)}を融合召喚！`,p.idx);render();await showActivate(f,'融合召喚！','#b48cff');await summonEffect(p,f);if(spK(c)==='fusionT')await fusionBonus(p,c,f);break}
   }
   if(!G.over)await doRider(p,c);
   if(!where(c))p.grave.push(c);
@@ -1166,7 +1190,7 @@ async function attack(a,t){
     else if(A>0){log('相打ち！');await battleDestroy([a,t])}
   }else{
     const D=t.d.def,tb=t.d.atk;
-    if(A>D){await battleDestroy([t]);if(!G.over&&has(a,'pierce')){log(`${Q(a)}の貫通ダメージ！`,p.idx);await damage(o,A-D,1);await lootChk(a);}if(!onField(t))await onKill(a,t,tb)}
+    if(A>D){await battleDestroy([t]);if(!G.over&&(has(a,'pierce')||a.pierceTurn===G.turn)){log(`${Q(a)}の貫通ダメージ！`,p.idx);await damage(o,A-D,1);await lootChk(a);}if(!onField(t))await onKill(a,t,tb)}
     else if(A<D){log(`${Q(t)}の守備力に跳ね返された！`);await damage(p,D-A,1)}
     else log('攻撃は防がれた');
   }
