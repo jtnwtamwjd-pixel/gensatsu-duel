@@ -373,7 +373,7 @@ function shuffle(a){for(let i=a.length-1;i>0;i--){const j=rnd(i+1);[a[i],a[j]]=[
 
 /* ================= SAVE ================= */
 const SKEY='gensatsu_duel_v1';
-let SV={deck:'dragon',cleared:0,win:0,lose:0,sfx:true,bgm:true,speed:1,custom:[null,null,null],points:300,owned:{},storyWon:[],packsOpened:0};
+let SV={deck:'dragon',cleared:0,win:0,lose:0,sfx:true,bgm:true,speed:1,custom:Array(15).fill(null),points:300,owned:{},storyWon:[],packsOpened:0};
 try{Object.assign(SV,JSON.parse(localStorage.getItem(SKEY)||'{}'))}catch(e){}
 function save(){try{localStorage.setItem(SKEY,JSON.stringify(SV))}catch(e){}}
 const sleep=ms=>{const g=G;return new Promise(r=>setTimeout(()=>{if(G===g)r()},ms*(window.__FAST?0.02:SV.speed)))};
@@ -1875,7 +1875,7 @@ function renderTitle(){
 }
 $('#mydeck').onclick=async()=>{
   initAudio();sfx('tap');
-  const keys=['dragon','machine','magic',...[0,1,2].map(i=>'c'+i).filter(validDeck)];
+  const keys=['dragon','machine','magic',...Array.from({length:15},(_,i)=>'c'+i).filter(validDeck)];
   const v=await modal({title:'デッキを選択',html:`<div>${keys.map((k,i)=>{const d=getDeck(k);return`<div class="opp" data-b="${i}"><span class="ic">${d.icon}</span><div class="t"><b>${d.name}</b><small>${d.desc}</small></div>${SV.deck===k?'<span class="badge">使用中</span>':''}</div>`}).join('')}</div><p class="desc" style="text-align:center;margin-top:8px">自分で組んだデッキは「デッキ編集」で作れます</p>`,buttons:[...keys.map(k=>({label:'',value:k,cls:'hiddenbtn'})),{label:'閉じる',value:null,cls:'ghost'}]});
   if(v){SV.deck=v;save();renderTitle()}
 };
@@ -2165,8 +2165,8 @@ async function edTemplatePick(){
 }
 $('#bEdit').onclick=async()=>{
   initAudio();sfx('tap');
-  const html=[0,1,2].map(i=>{const c=SV.custom[i];const n=c?expand(c.main).length:0;return`<div class="opp" data-b="${i}"><span class="ic">📝</span><div class="t"><b>${c?c.name:`マイデッキ${i+1}`}</b><small>${c?`メイン${n}枚＋EX ${expand(c.extra).length}枚${validDeck('c'+i)?'':'（枚数不足で使用不可）'}`:'空きスロット'}</small></div>${SV.deck==='c'+i?'<span class="badge">使用中</span>':''}</div>`}).join('');
-  const v=await modal({title:'デッキ編集',html:html+'<p class="desc" style="text-align:center;margin-top:8px">編集するデッキを選んでください</p>',buttons:[0,1,2].map(i=>({label:'',value:String(i),cls:'hiddenbtn'})).concat([{label:'戻る',value:null,cls:'ghost'}])});
+  const html=Array.from({length:15},(_,i)=>i).map(i=>{const c=SV.custom[i];const n=c?expand(c.main).length:0;return`<div class="opp" data-b="${i}"><span class="ic">📝</span><div class="t"><b>${c?c.name:`マイデッキ${i+1}`}</b><small>${c?`メイン${n}枚＋EX ${expand(c.extra).length}枚${validDeck('c'+i)?'':'（枚数不足で使用不可）'}`:'空きスロット'}</small></div>${SV.deck==='c'+i?'<span class="badge">使用中</span>':''}</div>`}).join('');
+  const v=await modal({title:'デッキ編集',html:html+'<p class="desc" style="text-align:center;margin-top:8px">編集するデッキを選んでください</p>',buttons:Array.from({length:15},(_,i)=>({label:'',value:String(i),cls:'hiddenbtn'})).concat([{label:'戻る',value:null,cls:'ghost'}])});
   if(v==null)return;
   edLoad(+v);
   $('#title').hidden=true;$('#editor').hidden=false;renderEditor();
@@ -2275,7 +2275,7 @@ function showRules(){
   <h4>EXデッキからの召喚</h4><ul><li>自分のメインフェイズに、EXデッキ（「EX」をタップ）から何度でも特殊召喚できる。召喚できる時は「EX」が光る</li><li><b>シンクロ</b>：チューナー1体＋チューナー以外の表側モンスターで、レベルの合計がちょうど一致すれば召喚。素材は墓地へ</li><li><b>エクシーズ</b>：同じレベルの表側モンスター2体を重ねて召喚。素材はX素材としてカードの下に残り（◉の数）、効果の発動に使う</li><li><b>リンク</b>：LINKの数と同じ数の表側モンスターを墓地へ送って召喚。守備力がなく、常に攻撃表示</li><li>融合・シンクロ・エクシーズ・リンクモンスターは召喚したターンから攻撃できる</li></ul>
   <h4>戦闘</h4><ul><li>攻撃表示同士：攻撃力が低い方が破壊され、差分がダメージ</li><li>守備表示への攻撃：攻撃力＞守備力なら破壊（ダメージなし）、攻撃力＜守備力なら攻撃側に差分ダメージ</li><li>相手フィールドにモンスターがいなければ直接攻撃</li><li>召喚したターンは表示形式を変更できない</li></ul>
   <h4>魔法・罠</h4><ul><li>魔法カードは自分のメインフェイズに発動</li><li>罠カードはセットし、<b>次の相手ターン以降</b>に条件（攻撃宣言・召喚）を満たすと発動を確認されます</li></ul>
-  <h4>操作</h4><ul><li>カードをタップ → 詳細と行動を選択</li><li>光っている手札は今使えるカード</li><li>赤く光るモンスターは攻撃可能</li><li>「墓」「EX」をタップで中身を確認、ログ行をタップで履歴</li><li>タイトルの「デッキ編集」で自分だけのデッキを3つまで作れる（メイン20〜40枚、EX10枚まで、同名カード3枚まで）</li><li>デュエルに勝つとポイントがもらえ、「パック開封」で新しいカード（全${PACK_TOTAL}種）を手に入れられる。パックのカードは持っている枚数までデッキに入れられる</li><li>ポイントは「🎁ボーナス」でも稼げる：ログインボーナス（7日目500P）、デイリーミッション（全達成で計650P）、毎日現れる賞金首（撃破500P）、連勝ボーナス（最大×2）、ノーダメージ・速攻・大逆転勝利ボーナス</li><li><b>テーマの結束</b>：同じテーマのモンスターが自分フィールドに表側で2体いると、それらの攻撃力が300アップ（3体以上なら500アップ）</li><li><b>テーマの連携</b>：テーマカードの【連携】効果は、自分フィールドに他の同じテーマのモンスターがいる時だけ有効。テーマごとに生贄なしで上級モンスターを出す仕組みがある（手札から特殊召喚・生贄の軽減・仲間を呼ぶ効果・孵化など）。効果で呼び出されたモンスターの召喚時効果は発動しない</li><li>毎週月曜に「禁止・制限リスト」が更新される。マイデッキは禁止カードを入れられず、制限は1枚・準制限は2枚まで（毎週 禁止5枚・制限10枚・準制限10枚）</li><li><b>除外</b>：除外されたカードは墓地とは別の「除」に置かれ、通常は戻ってこない。「次元」テーマは除外されたカードを力に変え、除外から仲間を呼び戻す。「異次元の支配者」パックに収録</li><li><b>妨害モンスター</b>：【妨害】を持つモンスターは場に表側でいる間、相手の魔法発動・特殊召喚・攻撃を1ターンに1度止められる。手札誘発には召喚・攻撃・特殊召喚に反応するものもある</li><li>ストーリー第3戦・第6戦・第9戦に勝つと、新種族（天使族・恐竜族・昆虫族）のパックが解放される</li><li>ストーリー第1章（全13戦）をクリアすると「冥王の降臨」パックが解放され、第2章「混沌の覇王」（全10戦）が始まる。第2章では複数のテーマを混ぜた混合デッキの相手も登場する。第2章の第4戦まで勝つと「氷河と賢者の石」パックが解放される</li><li><b>永続魔法・永続罠・フィールド魔法</b>：発動後もフィールドに残り効果を発揮し続ける。永続罠はセットした次のターン以降、自分のメインフェイズか相手の攻撃宣言時に発動できる。フィールド魔法は各プレイヤー1枚までで、自分の情報欄の「場」チップで確認できる。「王国の礎」パックに収録</li><li><b>妨害</b>：罠カードには相手の魔法発動・特殊召喚に反応するものがある。手札誘発モンスター（護符の巫女など）は相手の行動に合わせて手札から捨てて発動できる（1ターンに1度）。「封印の結界」パックに収録</li><li><b>🗼 勝ち抜きタワー</b>：CPUと連続で戦い、何階まで勝ち抜けるかに挑戦。負けたら終了。上の階ほど相手が強くなり、報酬は階数×30P（5階ごとに+200P）</li><li><b>🤝 対人戦ルーム</b>：「ルームを作る」で表示される6桁のコードを相手に伝え、相手は「コードで参加」に入力すると、おたがいの使用デッキで対戦できる（LP8000・勝利60P）。インターネット接続が必要</li><li>進行は自動でセーブされる。「セーブデータ」からセーブコードを書き出せば、別の端末でも続きから遊べる</li></ul></div>`,buttons:[{label:'閉じる',value:null,cls:'ghost'}]});
+  <h4>操作</h4><ul><li>カードをタップ → 詳細と行動を選択</li><li>光っている手札は今使えるカード</li><li>赤く光るモンスターは攻撃可能</li><li>「墓」「EX」をタップで中身を確認、ログ行をタップで履歴</li><li>タイトルの「デッキ編集」で自分だけのデッキを15個まで作れる（メイン20〜40枚、EX10枚まで、同名カード3枚まで）</li><li>デュエルに勝つとポイントがもらえ、「パック開封」で新しいカード（全${PACK_TOTAL}種）を手に入れられる。パックのカードは持っている枚数までデッキに入れられる</li><li>ポイントは「🎁ボーナス」でも稼げる：ログインボーナス（7日目500P）、デイリーミッション（全達成で計650P）、毎日現れる賞金首（撃破500P）、連勝ボーナス（最大×2）、ノーダメージ・速攻・大逆転勝利ボーナス</li><li><b>テーマの結束</b>：同じテーマのモンスターが自分フィールドに表側で2体いると、それらの攻撃力が300アップ（3体以上なら500アップ）</li><li><b>テーマの連携</b>：テーマカードの【連携】効果は、自分フィールドに他の同じテーマのモンスターがいる時だけ有効。テーマごとに生贄なしで上級モンスターを出す仕組みがある（手札から特殊召喚・生贄の軽減・仲間を呼ぶ効果・孵化など）。効果で呼び出されたモンスターの召喚時効果は発動しない</li><li>毎週月曜に「禁止・制限リスト」が更新される。マイデッキは禁止カードを入れられず、制限は1枚・準制限は2枚まで（毎週 禁止5枚・制限10枚・準制限10枚）</li><li><b>除外</b>：除外されたカードは墓地とは別の「除」に置かれ、通常は戻ってこない。「次元」テーマは除外されたカードを力に変え、除外から仲間を呼び戻す。「異次元の支配者」パックに収録</li><li><b>妨害モンスター</b>：【妨害】を持つモンスターは場に表側でいる間、相手の魔法発動・特殊召喚・攻撃を1ターンに1度止められる。手札誘発には召喚・攻撃・特殊召喚に反応するものもある</li><li>ストーリー第3戦・第6戦・第9戦に勝つと、新種族（天使族・恐竜族・昆虫族）のパックが解放される</li><li>ストーリー第1章（全13戦）をクリアすると「冥王の降臨」パックが解放され、第2章「混沌の覇王」（全10戦）が始まる。第2章では複数のテーマを混ぜた混合デッキの相手も登場する。第2章の第4戦まで勝つと「氷河と賢者の石」パックが解放される</li><li><b>永続魔法・永続罠・フィールド魔法</b>：発動後もフィールドに残り効果を発揮し続ける。永続罠はセットした次のターン以降、自分のメインフェイズか相手の攻撃宣言時に発動できる。フィールド魔法は各プレイヤー1枚までで、自分の情報欄の「場」チップで確認できる。「王国の礎」パックに収録</li><li><b>妨害</b>：罠カードには相手の魔法発動・特殊召喚に反応するものがある。手札誘発モンスター（護符の巫女など）は相手の行動に合わせて手札から捨てて発動できる（1ターンに1度）。「封印の結界」パックに収録</li><li><b>🗼 勝ち抜きタワー</b>：CPUと連続で戦い、何階まで勝ち抜けるかに挑戦。負けたら終了。上の階ほど相手が強くなり、報酬は階数×30P（5階ごとに+200P）</li><li><b>🤝 対人戦ルーム</b>：「ルームを作る」で表示される6桁のコードを相手に伝え、相手は「コードで参加」に入力すると、おたがいの使用デッキで対戦できる（LP8000・勝利60P）。インターネット接続が必要</li><li>進行は自動でセーブされる。「セーブデータ」からセーブコードを書き出せば、別の端末でも続きから遊べる</li></ul></div>`,buttons:[{label:'閉じる',value:null,cls:'ghost'}]});
 }
 $('#bSfx').onclick=()=>{initAudio();SV.sfx=!SV.sfx;save();renderTitle();sfx('tap')};
 $('#bBgm').onclick=()=>{initAudio();SV.bgm=!SV.bgm;save();renderTitle()};
