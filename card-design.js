@@ -1,6 +1,9 @@
 /* Presentation only: never writes to card definitions, saves, or duel state. */
 (() => {
   'use strict';
+  // Dedicated illustrations take precedence over shared theme sheets.
+  // Add an ID here only after its image has been generated and checked.
+  const individual = new Set(['d1', 'd2', 'd5', 'd6']);
   const themes = {
     '星騎士': ['monsters',4], '深海':['monsters',11], '忍':['themes',8],
     '雷神':['themes',9], '獣王':['monsters',8], '魔導':['monsters',5],
@@ -68,6 +71,9 @@
     return ['monsters',5];
   }
   window.phantomCardArt = function(d) {
+    if (individual.has(d.id)) {
+      return {cls:'ill painted',sty:'',html:`<img class="individual-card-art" src="assets/cards/individual/${d.id}.png" alt="" decoding="async" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;pointer-events:none">`};
+    }
     const [sheet,tile]=pick(d);
     return {cls:'ill painted',sty:'',html:`<i class="paint sheet-${sheet} tile-${tile}" aria-hidden="true"></i>`};
   };

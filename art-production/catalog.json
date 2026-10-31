@@ -1,0 +1,9177 @@
+[
+  {
+    "id": "d1",
+    "name": "紅蓮の幼竜",
+    "theme": "基本カード"
+  },
+  {
+    "id": "d2",
+    "name": "焔翼のワイバーン",
+    "theme": "基本カード"
+  },
+  {
+    "id": "d3",
+    "name": "竜騎士ガレス",
+    "theme": "基本カード"
+  },
+  {
+    "id": "d4",
+    "name": "灼熱のサラマンダー",
+    "theme": "基本カード"
+  },
+  {
+    "id": "d5",
+    "name": "卵竜エッグル",
+    "theme": "基本カード"
+  },
+  {
+    "id": "d6",
+    "name": "竜の巫女",
+    "theme": "基本カード"
+  },
+  {
+    "id": "d7",
+    "name": "火山竜ヴォルカノス",
+    "theme": "基本カード"
+  },
+  {
+    "id": "d8",
+    "name": "天焔竜アグニール",
+    "theme": "基本カード"
+  },
+  {
+    "id": "d9",
+    "name": "嵐竜テンペスタ",
+    "theme": "基本カード"
+  },
+  {
+    "id": "da",
+    "name": "竜鱗の番兵",
+    "theme": "基本カード"
+  },
+  {
+    "id": "db",
+    "name": "炎竜の伝令",
+    "theme": "基本カード"
+  },
+  {
+    "id": "dc",
+    "name": "紅玉竜ルビーナ",
+    "theme": "基本カード"
+  },
+  {
+    "id": "m1",
+    "name": "鉄兵ボルト",
+    "theme": "基本カード"
+  },
+  {
+    "id": "m2",
+    "name": "ギア・ソルジャー",
+    "theme": "基本カード"
+  },
+  {
+    "id": "m3",
+    "name": "装甲戦車ガルム",
+    "theme": "基本カード"
+  },
+  {
+    "id": "m4",
+    "name": "自爆ドローン",
+    "theme": "基本カード"
+  },
+  {
+    "id": "m5",
+    "name": "修理ロボ リペアン",
+    "theme": "基本カード"
+  },
+  {
+    "id": "m6",
+    "name": "雷撃機兵ボルテクス",
+    "theme": "基本カード"
+  },
+  {
+    "id": "m7",
+    "name": "超重機神オメガ",
+    "theme": "基本カード"
+  },
+  {
+    "id": "m8",
+    "name": "量産型ガードロボ",
+    "theme": "基本カード"
+  },
+  {
+    "id": "md",
+    "name": "増援ロボ コール",
+    "theme": "基本カード"
+  },
+  {
+    "id": "me",
+    "name": "ミサイル砲台",
+    "theme": "基本カード"
+  },
+  {
+    "id": "mg",
+    "name": "工場長ファクトリア",
+    "theme": "基本カード"
+  },
+  {
+    "id": "w1",
+    "name": "見習い魔導士",
+    "theme": "基本カード"
+  },
+  {
+    "id": "w2",
+    "name": "星詠みの魔女",
+    "theme": "基本カード"
+  },
+  {
+    "id": "w3",
+    "name": "幻影騎士",
+    "theme": "基本カード"
+  },
+  {
+    "id": "w4",
+    "name": "呪詛の人形",
+    "theme": "基本カード"
+  },
+  {
+    "id": "w5",
+    "name": "氷結の精霊",
+    "theme": "基本カード"
+  },
+  {
+    "id": "w6",
+    "name": "星界の賢者",
+    "theme": "基本カード"
+  },
+  {
+    "id": "w7",
+    "name": "大魔導師ゼフィール",
+    "theme": "基本カード"
+  },
+  {
+    "id": "w8",
+    "name": "泉の妖精",
+    "theme": "基本カード"
+  },
+  {
+    "id": "wa",
+    "name": "影渡りの暗殺者",
+    "theme": "基本カード"
+  },
+  {
+    "id": "wb",
+    "name": "魔導書の司書",
+    "theme": "基本カード"
+  },
+  {
+    "id": "wc",
+    "name": "吸魂の魔女",
+    "theme": "基本カード"
+  },
+  {
+    "id": "d0",
+    "name": "火の粉の竜子",
+    "theme": "基本カード"
+  },
+  {
+    "id": "m0",
+    "name": "調律ドローン",
+    "theme": "基本カード"
+  },
+  {
+    "id": "w0",
+    "name": "星屑の精",
+    "theme": "基本カード"
+  },
+  {
+    "id": "n0",
+    "name": "調律の小鬼",
+    "theme": "基本カード"
+  },
+  {
+    "id": "df",
+    "name": "双頭の焔竜ツインブレイズ",
+    "theme": "基本カード"
+  },
+  {
+    "id": "mf",
+    "name": "機甲合神デュアルギア",
+    "theme": "基本カード"
+  },
+  {
+    "id": "wf",
+    "name": "魔導騎士ルミナス",
+    "theme": "基本カード"
+  },
+  {
+    "id": "fa",
+    "name": "炎獄のキメラ",
+    "theme": "基本カード"
+  },
+  {
+    "id": "fb",
+    "name": "鋼鉄融合巨兵ギガント",
+    "theme": "基本カード"
+  },
+  {
+    "id": "fc",
+    "name": "魔導合体ミスティカ",
+    "theme": "基本カード"
+  },
+  {
+    "id": "fd",
+    "name": "合成獣キメラビースト",
+    "theme": "基本カード"
+  },
+  {
+    "id": "fe",
+    "name": "光闇の融合神カオスゲート",
+    "theme": "基本カード"
+  },
+  {
+    "id": "ff",
+    "name": "竜皇バハムート",
+    "theme": "基本カード"
+  },
+  {
+    "id": "fg",
+    "name": "三体合神トリニティ",
+    "theme": "基本カード"
+  },
+  {
+    "id": "sd",
+    "name": "閃光竜スターブレイズ",
+    "theme": "基本カード"
+  },
+  {
+    "id": "sc",
+    "name": "天穹竜セレスティア",
+    "theme": "基本カード"
+  },
+  {
+    "id": "sm",
+    "name": "機甲獣ガトリングレオ",
+    "theme": "基本カード"
+  },
+  {
+    "id": "sw",
+    "name": "氷晶の魔導姫",
+    "theme": "基本カード"
+  },
+  {
+    "id": "xd",
+    "name": "双牙竜ツインファング",
+    "theme": "基本カード"
+  },
+  {
+    "id": "xm",
+    "name": "鋼鉄将軍ヘルツ",
+    "theme": "基本カード"
+  },
+  {
+    "id": "xw",
+    "name": "幻灯の魔術師ランタナ",
+    "theme": "基本カード"
+  },
+  {
+    "id": "l2",
+    "name": "回路の守護者リンクガード",
+    "theme": "基本カード"
+  },
+  {
+    "id": "lw",
+    "name": "電脳竜コードウィング",
+    "theme": "基本カード"
+  },
+  {
+    "id": "l3",
+    "name": "終焉の電脳神アーク",
+    "theme": "基本カード"
+  },
+  {
+    "id": "s_bolt",
+    "name": "雷撃の裁き",
+    "theme": "基本カード"
+  },
+  {
+    "id": "s_hole",
+    "name": "終末の業火",
+    "theme": "基本カード"
+  },
+  {
+    "id": "s_wind",
+    "name": "旋風の大渦",
+    "theme": "基本カード"
+  },
+  {
+    "id": "s_draw",
+    "name": "叡智の泉",
+    "theme": "基本カード"
+  },
+  {
+    "id": "s_heal",
+    "name": "癒しの雫",
+    "theme": "基本カード"
+  },
+  {
+    "id": "s_burn",
+    "name": "火炎弾",
+    "theme": "基本カード"
+  },
+  {
+    "id": "s_rev",
+    "name": "魂の帰還",
+    "theme": "基本カード"
+  },
+  {
+    "id": "s_eq",
+    "name": "勇気の剣",
+    "theme": "基本カード"
+  },
+  {
+    "id": "s_fus",
+    "name": "融合の儀",
+    "theme": "基本カード"
+  },
+  {
+    "id": "t_mir",
+    "name": "反射の鏡壁",
+    "theme": "基本カード"
+  },
+  {
+    "id": "t_shd",
+    "name": "次元の盾",
+    "theme": "基本カード"
+  },
+  {
+    "id": "t_spr",
+    "name": "迎撃の槍",
+    "theme": "基本カード"
+  },
+  {
+    "id": "t_pit",
+    "name": "奈落の陥穽",
+    "theme": "基本カード"
+  },
+  {
+    "id": "sk01",
+    "name": "星騎士アルタイル",
+    "theme": "星騎士",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "sk02",
+    "name": "星騎士ベガ",
+    "theme": "星騎士",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "sk03",
+    "name": "星騎士デネブ",
+    "theme": "星騎士",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "sk04",
+    "name": "星騎士リゲル",
+    "theme": "星騎士",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "sk05",
+    "name": "星騎士見習いルクス",
+    "theme": "星騎士",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "sk06",
+    "name": "星屑の盾兵",
+    "theme": "星騎士",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "sk07",
+    "name": "流星の伝令",
+    "theme": "星騎士",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "sk08",
+    "name": "星見の従者",
+    "theme": "星騎士",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "sk09",
+    "name": "星の巫女アステル",
+    "theme": "星騎士",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "sk10",
+    "name": "星騎士シリウス",
+    "theme": "星騎士",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "sk11",
+    "name": "星騎士アンタレス",
+    "theme": "星騎士",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "sk12",
+    "name": "星騎士団長ポラリス",
+    "theme": "星騎士",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "sk13",
+    "name": "星天王オリオン",
+    "theme": "星騎士",
+    "type": "M",
+    "rarity": "UR"
+  },
+  {
+    "id": "sk14",
+    "name": "星騎士スピカ",
+    "theme": "星騎士",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "sk15",
+    "name": "銀河の斥候",
+    "theme": "星騎士",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "sk16",
+    "name": "星図の賢者",
+    "theme": "星騎士",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "sk17",
+    "name": "星砂の守護像",
+    "theme": "星騎士",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "sk18",
+    "name": "星騎士カペラ",
+    "theme": "星騎士",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "sk19",
+    "name": "星騎士王ソル・オリオン",
+    "theme": "星騎士",
+    "type": "F",
+    "rarity": "SR"
+  },
+  {
+    "id": "sk20",
+    "name": "星護竜ガラクシア",
+    "theme": "星騎士",
+    "type": "S",
+    "rarity": "SR"
+  },
+  {
+    "id": "sk21",
+    "name": "星騎士団旗艦アストラ",
+    "theme": "星騎士",
+    "type": "X",
+    "rarity": "SR"
+  },
+  {
+    "id": "sk22",
+    "name": "星辰の導き手ゾディアック",
+    "theme": "星騎士",
+    "type": "L",
+    "rarity": "R"
+  },
+  {
+    "id": "sk23",
+    "name": "超新星騎士ノヴァ",
+    "theme": "星騎士",
+    "type": "X",
+    "rarity": "UR"
+  },
+  {
+    "id": "sk24",
+    "name": "星騎士の招集",
+    "theme": "星騎士",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "sk25",
+    "name": "星の祝福",
+    "theme": "星騎士",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "sk26",
+    "name": "流星群",
+    "theme": "星騎士",
+    "type": "SP",
+    "rarity": "SR"
+  },
+  {
+    "id": "sk27",
+    "name": "星辰の剣",
+    "theme": "星騎士",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "sk28",
+    "name": "銀河の扉",
+    "theme": "星騎士",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "sk29",
+    "name": "天の川の恵み",
+    "theme": "星騎士",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "sk30",
+    "name": "星座融合",
+    "theme": "星騎士",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "sk31",
+    "name": "星光の障壁",
+    "theme": "星騎士",
+    "type": "TR",
+    "rarity": "N"
+  },
+  {
+    "id": "sk32",
+    "name": "天罰の流星",
+    "theme": "星騎士",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "sk33",
+    "name": "星騎士の反撃",
+    "theme": "星騎士",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "sk34",
+    "name": "星座の守り",
+    "theme": "星騎士",
+    "type": "TR",
+    "rarity": "N"
+  },
+  {
+    "id": "ab01",
+    "name": "深海の鮫アビス・シャーク",
+    "theme": "深海",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "ab02",
+    "name": "深海の灯りアングラー",
+    "theme": "深海",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "ab03",
+    "name": "深海の歌姫セイレーン",
+    "theme": "深海",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "ab04",
+    "name": "深海の王子トリトン",
+    "theme": "深海",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "ab05",
+    "name": "深海の甲羅タートル",
+    "theme": "深海",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "ab06",
+    "name": "深海の毒クラゲ",
+    "theme": "深海",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "ab07",
+    "name": "深海の蛇ナーガ",
+    "theme": "深海",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "ab08",
+    "name": "潮騒の調律師",
+    "theme": "深海",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "ab09",
+    "name": "泡沫の稚魚",
+    "theme": "深海",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "ab10",
+    "name": "渦潮のレヴィア",
+    "theme": "深海",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "ab11",
+    "name": "深海竜オケアノス",
+    "theme": "深海",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "ab12",
+    "name": "深海帝リヴァイアサン",
+    "theme": "深海",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "ab13",
+    "name": "海神ポセイドラ",
+    "theme": "深海",
+    "type": "M",
+    "rarity": "UR"
+  },
+  {
+    "id": "ab14",
+    "name": "深海の牙バラクーダ",
+    "theme": "深海",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "ab15",
+    "name": "深海の案内人",
+    "theme": "深海",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "ab16",
+    "name": "深海の真珠貝",
+    "theme": "深海",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "ab17",
+    "name": "深海の珊瑚礁",
+    "theme": "深海",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "ab18",
+    "name": "深海の狩人",
+    "theme": "深海",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "ab19",
+    "name": "深淵の巨影レヴィアタン",
+    "theme": "深海",
+    "type": "F",
+    "rarity": "SR"
+  },
+  {
+    "id": "ab20",
+    "name": "渦潮の守護者",
+    "theme": "深海",
+    "type": "S",
+    "rarity": "SR"
+  },
+  {
+    "id": "ab21",
+    "name": "深海の覇王アビス・キング",
+    "theme": "深海",
+    "type": "X",
+    "rarity": "SR"
+  },
+  {
+    "id": "ab22",
+    "name": "珊瑚の回廊",
+    "theme": "深海",
+    "type": "L",
+    "rarity": "R"
+  },
+  {
+    "id": "ab23",
+    "name": "深海竜皇メイルシュトロム",
+    "theme": "深海",
+    "type": "S",
+    "rarity": "UR"
+  },
+  {
+    "id": "ab24",
+    "name": "深海への誘い",
+    "theme": "深海",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "ab25",
+    "name": "潮の満ち引き",
+    "theme": "深海",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "ab26",
+    "name": "大渦の呑み込み",
+    "theme": "深海",
+    "type": "SP",
+    "rarity": "SR"
+  },
+  {
+    "id": "ab27",
+    "name": "海神の三叉槍",
+    "theme": "深海",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "ab28",
+    "name": "沈没船の宝",
+    "theme": "深海",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "ab29",
+    "name": "深海からの浮上",
+    "theme": "深海",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "ab30",
+    "name": "深海融合",
+    "theme": "深海",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "ab31",
+    "name": "水圧の檻",
+    "theme": "深海",
+    "type": "TR",
+    "rarity": "N"
+  },
+  {
+    "id": "ab32",
+    "name": "渦潮の罠",
+    "theme": "深海",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "ab33",
+    "name": "深海の逆襲",
+    "theme": "深海",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "ab34",
+    "name": "海の恵みの盾",
+    "theme": "深海",
+    "type": "TR",
+    "rarity": "N"
+  },
+  {
+    "id": "nj01",
+    "name": "影忍カゲロウ",
+    "theme": "忍",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "nj02",
+    "name": "伝令忍スズメ",
+    "theme": "忍",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "nj03",
+    "name": "くノ一アヤメ",
+    "theme": "忍",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "nj04",
+    "name": "忍頭ハンゾウ",
+    "theme": "忍",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "nj05",
+    "name": "忍犬ハヤテ",
+    "theme": "忍",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "nj06",
+    "name": "隠れ蓑のコノハ",
+    "theme": "忍",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "nj07",
+    "name": "疾風忍ツバメ",
+    "theme": "忍",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "nj08",
+    "name": "忍術師の弟子",
+    "theme": "忍",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "nj09",
+    "name": "手裏剣使いトビ",
+    "theme": "忍",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "nj10",
+    "name": "毒霧のムラサメ",
+    "theme": "忍",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "nj11",
+    "name": "影縫いのオボロ",
+    "theme": "忍",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "nj12",
+    "name": "闇忍軍師ゲッコウ",
+    "theme": "忍",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "nj13",
+    "name": "忍王ヤミノカミ",
+    "theme": "忍",
+    "type": "M",
+    "rarity": "UR"
+  },
+  {
+    "id": "nj14",
+    "name": "鎖鎌のガンテツ",
+    "theme": "忍",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "nj15",
+    "name": "煙玉のゲンナイ",
+    "theme": "忍",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "nj16",
+    "name": "変化忍ミズチ",
+    "theme": "忍",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "nj17",
+    "name": "隠密の案山子",
+    "theme": "忍",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "nj18",
+    "name": "雷遁のイカズチ",
+    "theme": "忍",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "nj19",
+    "name": "忍法合体ヤマタノ",
+    "theme": "忍",
+    "type": "F",
+    "rarity": "SR"
+  },
+  {
+    "id": "nj20",
+    "name": "疾風迅雷のシデン",
+    "theme": "忍",
+    "type": "S",
+    "rarity": "SR"
+  },
+  {
+    "id": "nj21",
+    "name": "忍軍の頭目ハットリ",
+    "theme": "忍",
+    "type": "X",
+    "rarity": "SR"
+  },
+  {
+    "id": "nj22",
+    "name": "影分身の術者",
+    "theme": "忍",
+    "type": "L",
+    "rarity": "R"
+  },
+  {
+    "id": "nj23",
+    "name": "忍界の覇者クロガネ",
+    "theme": "忍",
+    "type": "L",
+    "rarity": "UR"
+  },
+  {
+    "id": "nj24",
+    "name": "忍びの里",
+    "theme": "忍",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "nj25",
+    "name": "分身の術",
+    "theme": "忍",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "nj26",
+    "name": "暗殺の夜",
+    "theme": "忍",
+    "type": "SP",
+    "rarity": "SR"
+  },
+  {
+    "id": "nj27",
+    "name": "忍刀",
+    "theme": "忍",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "nj28",
+    "name": "口寄せの術",
+    "theme": "忍",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "nj29",
+    "name": "火遁の術",
+    "theme": "忍",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "nj30",
+    "name": "忍法融合",
+    "theme": "忍",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "nj31",
+    "name": "変わり身の術",
+    "theme": "忍",
+    "type": "TR",
+    "rarity": "N"
+  },
+  {
+    "id": "nj32",
+    "name": "まきびしの罠",
+    "theme": "忍",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "nj33",
+    "name": "影討ち",
+    "theme": "忍",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "nj34",
+    "name": "落とし穴の術",
+    "theme": "忍",
+    "type": "TR",
+    "rarity": "N"
+  },
+  {
+    "id": "th01",
+    "name": "雷獣ライジュウ",
+    "theme": "雷神",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "th02",
+    "name": "稲妻の精スパーク",
+    "theme": "雷神",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "th03",
+    "name": "雷雲のニンバス",
+    "theme": "雷神",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "th04",
+    "name": "雷鳴の鼓手",
+    "theme": "雷神",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "th05",
+    "name": "雷の伝書鳩",
+    "theme": "雷神",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "th06",
+    "name": "避雷の巨人",
+    "theme": "雷神",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "th07",
+    "name": "放電鬼エレキ",
+    "theme": "雷神",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "th08",
+    "name": "帯電の小鬼",
+    "theme": "雷神",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "th09",
+    "name": "静電気のピリカ",
+    "theme": "雷神",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "th10",
+    "name": "雷撃獣ボルトホーン",
+    "theme": "雷神",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "th11",
+    "name": "雷雲竜ストームコア",
+    "theme": "雷神",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "th12",
+    "name": "雷帝ヴォルティクス",
+    "theme": "雷神",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "th13",
+    "name": "天雷神ライデン",
+    "theme": "雷神",
+    "type": "M",
+    "rarity": "UR"
+  },
+  {
+    "id": "th14",
+    "name": "雷槍兵",
+    "theme": "雷神",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "th15",
+    "name": "雷玉のコロ",
+    "theme": "雷神",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "th16",
+    "name": "雷の罠師",
+    "theme": "雷神",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "th17",
+    "name": "磁力の盾兵",
+    "theme": "雷神",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "th18",
+    "name": "高圧放電砲",
+    "theme": "雷神",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "th19",
+    "name": "雷神合体ケラウノス",
+    "theme": "雷神",
+    "type": "F",
+    "rarity": "SR"
+  },
+  {
+    "id": "th20",
+    "name": "天雷竜ブロンテス",
+    "theme": "雷神",
+    "type": "S",
+    "rarity": "SR"
+  },
+  {
+    "id": "th21",
+    "name": "雷鳴王ヴァジュラ",
+    "theme": "雷神",
+    "type": "X",
+    "rarity": "SR"
+  },
+  {
+    "id": "th22",
+    "name": "電流回路サーキット",
+    "theme": "雷神",
+    "type": "L",
+    "rarity": "R"
+  },
+  {
+    "id": "th23",
+    "name": "雷霆の神鳥サンダーバード",
+    "theme": "雷神",
+    "type": "S",
+    "rarity": "UR"
+  },
+  {
+    "id": "th24",
+    "name": "雷雲の呼び声",
+    "theme": "雷神",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "th25",
+    "name": "帯電フィールド",
+    "theme": "雷神",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "th26",
+    "name": "天の裁き",
+    "theme": "雷神",
+    "type": "SP",
+    "rarity": "SR"
+  },
+  {
+    "id": "th27",
+    "name": "雷神の槌",
+    "theme": "雷神",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "th28",
+    "name": "落雷",
+    "theme": "雷神",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "th29",
+    "name": "充電",
+    "theme": "雷神",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "th30",
+    "name": "雷神融合",
+    "theme": "雷神",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "th31",
+    "name": "雷撃返し",
+    "theme": "雷神",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "th32",
+    "name": "避雷針",
+    "theme": "雷神",
+    "type": "TR",
+    "rarity": "N"
+  },
+  {
+    "id": "th33",
+    "name": "雷鳴の罠",
+    "theme": "雷神",
+    "type": "TR",
+    "rarity": "N"
+  },
+  {
+    "id": "th34",
+    "name": "放電の網",
+    "theme": "雷神",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "bs01",
+    "name": "牙獣ウルフガング",
+    "theme": "獣王",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "bs02",
+    "name": "獣王の斥候リンクス",
+    "theme": "獣王",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "bs03",
+    "name": "森の熊ベアード",
+    "theme": "獣王",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "bs04",
+    "name": "獣王の旗手",
+    "theme": "獣王",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "bs05",
+    "name": "子獅子のレオ",
+    "theme": "獣王",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "bs06",
+    "name": "山嵐ポーキュ",
+    "theme": "獣王",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "bs07",
+    "name": "雪豹シュネー",
+    "theme": "獣王",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "bs08",
+    "name": "獣笛の少年",
+    "theme": "獣王",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "bs09",
+    "name": "子狐コン",
+    "theme": "獣王",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "bs10",
+    "name": "牙獣サーベル",
+    "theme": "獣王",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "bs11",
+    "name": "百獣の将レオニダス",
+    "theme": "獣王",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "bs12",
+    "name": "獣王ガオウ",
+    "theme": "獣王",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "bs13",
+    "name": "獣神キングベヒモス",
+    "theme": "獣王",
+    "type": "M",
+    "rarity": "UR"
+  },
+  {
+    "id": "bs14",
+    "name": "猛牛バイソン",
+    "theme": "獣王",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "bs15",
+    "name": "群れ長のハイエナ",
+    "theme": "獣王",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "bs16",
+    "name": "擬態のカメレオ",
+    "theme": "獣王",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "bs17",
+    "name": "岩亀のガンロック",
+    "theme": "獣王",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "bs18",
+    "name": "角獣ライノス",
+    "theme": "獣王",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "bs19",
+    "name": "獣王合神キマイラ・ロード",
+    "theme": "獣王",
+    "type": "F",
+    "rarity": "SR"
+  },
+  {
+    "id": "bs20",
+    "name": "獣神融合ベヒモス・レックス",
+    "theme": "獣王",
+    "type": "F",
+    "rarity": "UR"
+  },
+  {
+    "id": "bs21",
+    "name": "疾風の神獣フェンリル",
+    "theme": "獣王",
+    "type": "S",
+    "rarity": "SR"
+  },
+  {
+    "id": "bs22",
+    "name": "獣王軍団長",
+    "theme": "獣王",
+    "type": "X",
+    "rarity": "SR"
+  },
+  {
+    "id": "bs23",
+    "name": "群れの絆",
+    "theme": "獣王",
+    "type": "L",
+    "rarity": "R"
+  },
+  {
+    "id": "bs24",
+    "name": "獣王の雄叫び",
+    "theme": "獣王",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "bs25",
+    "name": "野生の本能",
+    "theme": "獣王",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "bs26",
+    "name": "百獣の行進",
+    "theme": "獣王",
+    "type": "SP",
+    "rarity": "SR"
+  },
+  {
+    "id": "bs27",
+    "name": "獣王の爪",
+    "theme": "獣王",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "bs28",
+    "name": "群れの再集結",
+    "theme": "獣王",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "bs29",
+    "name": "狩りの獲物",
+    "theme": "獣王",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "bs30",
+    "name": "獣王融合",
+    "theme": "獣王",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "bs31",
+    "name": "威嚇の咆哮",
+    "theme": "獣王",
+    "type": "TR",
+    "rarity": "N"
+  },
+  {
+    "id": "bs32",
+    "name": "獣の逆襲",
+    "theme": "獣王",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "bs33",
+    "name": "狩人の罠",
+    "theme": "獣王",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "bs34",
+    "name": "縄張りの守り",
+    "theme": "獣王",
+    "type": "TR",
+    "rarity": "N"
+  },
+  {
+    "id": "ud01",
+    "name": "骸骨兵スカル",
+    "theme": "死霊",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "ud02",
+    "name": "墓守の老人",
+    "theme": "死霊",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "ud03",
+    "name": "彷徨う魂",
+    "theme": "死霊",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "ud04",
+    "name": "死霊の旗手",
+    "theme": "死霊",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "ud05",
+    "name": "屍竜の卵",
+    "theme": "死霊",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "ud06",
+    "name": "棺桶のミミック",
+    "theme": "死霊",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "ud07",
+    "name": "死霊の呼び声",
+    "theme": "死霊",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "ud08",
+    "name": "鬼火",
+    "theme": "死霊",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "ud09",
+    "name": "墓場の鴉",
+    "theme": "死霊",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "ud10",
+    "name": "死霊術師ネクロ",
+    "theme": "死霊",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "ud11",
+    "name": "首なし騎士デュラハン",
+    "theme": "死霊",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "ud12",
+    "name": "屍竜ボーンドラゴ",
+    "theme": "死霊",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "ud13",
+    "name": "冥府王ネクロディア",
+    "theme": "死霊",
+    "type": "M",
+    "rarity": "UR"
+  },
+  {
+    "id": "ud14",
+    "name": "骸骨弓兵",
+    "theme": "死霊",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "ud15",
+    "name": "墓荒らし",
+    "theme": "死霊",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "ud16",
+    "name": "呪われた人形",
+    "theme": "死霊",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "ud17",
+    "name": "地縛霊",
+    "theme": "死霊",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "ud18",
+    "name": "死神の鎌使い",
+    "theme": "死霊",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "ud19",
+    "name": "屍竜帝ネクロドラゴン",
+    "theme": "死霊",
+    "type": "F",
+    "rarity": "SR"
+  },
+  {
+    "id": "ud20",
+    "name": "冥界の門番ケルベロス",
+    "theme": "死霊",
+    "type": "S",
+    "rarity": "SR"
+  },
+  {
+    "id": "ud21",
+    "name": "死霊の大司祭",
+    "theme": "死霊",
+    "type": "X",
+    "rarity": "SR"
+  },
+  {
+    "id": "ud22",
+    "name": "輪廻の祭壇",
+    "theme": "死霊",
+    "type": "L",
+    "rarity": "R"
+  },
+  {
+    "id": "ud23",
+    "name": "不死王アンデッドロード",
+    "theme": "死霊",
+    "type": "L",
+    "rarity": "UR"
+  },
+  {
+    "id": "ud24",
+    "name": "死者の行進",
+    "theme": "死霊",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "ud25",
+    "name": "呪いの力",
+    "theme": "死霊",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "ud26",
+    "name": "死の宣告",
+    "theme": "死霊",
+    "type": "SP",
+    "rarity": "SR"
+  },
+  {
+    "id": "ud27",
+    "name": "呪いの剣",
+    "theme": "死霊",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "ud28",
+    "name": "死者蘇生の儀",
+    "theme": "死霊",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "ud29",
+    "name": "魂の収穫",
+    "theme": "死霊",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "ud30",
+    "name": "死霊融合",
+    "theme": "死霊",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "ud31",
+    "name": "亡者の手",
+    "theme": "死霊",
+    "type": "TR",
+    "rarity": "N"
+  },
+  {
+    "id": "ud32",
+    "name": "呪縛の鎖",
+    "theme": "死霊",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "ud33",
+    "name": "冥界の口",
+    "theme": "死霊",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "ud34",
+    "name": "魂の壁",
+    "theme": "死霊",
+    "type": "TR",
+    "rarity": "N"
+  },
+  {
+    "id": "fl01",
+    "name": "花妖精ローザ",
+    "theme": "花妖精",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "fl02",
+    "name": "花妖精リリィ",
+    "theme": "花妖精",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "fl03",
+    "name": "花妖精サクラ",
+    "theme": "花妖精",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "fl04",
+    "name": "花妖精ヒマワリ",
+    "theme": "花妖精",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "fl05",
+    "name": "種子のタネポ",
+    "theme": "花妖精",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "fl06",
+    "name": "茨の番人",
+    "theme": "花妖精",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "fl07",
+    "name": "花妖精スミレ",
+    "theme": "花妖精",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "fl08",
+    "name": "蕾の精",
+    "theme": "花妖精",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "fl09",
+    "name": "綿毛のフワリ",
+    "theme": "花妖精",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "fl10",
+    "name": "大樹の守り人",
+    "theme": "花妖精",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "fl11",
+    "name": "薔薇の女王",
+    "theme": "花妖精",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "fl12",
+    "name": "花園の女神フローラ",
+    "theme": "花妖精",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "fl13",
+    "name": "世界樹ユグドラ",
+    "theme": "花妖精",
+    "type": "M",
+    "rarity": "UR"
+  },
+  {
+    "id": "fl14",
+    "name": "毒花のアザミ",
+    "theme": "花妖精",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "fl15",
+    "name": "蜜蜂の兵士",
+    "theme": "花妖精",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "fl16",
+    "name": "蔦のアイビー",
+    "theme": "花妖精",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "fl17",
+    "name": "苔むす石像",
+    "theme": "花妖精",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "fl18",
+    "name": "胡蝶の舞姫",
+    "theme": "花妖精",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "fl19",
+    "name": "花冠の女王",
+    "theme": "花妖精",
+    "type": "F",
+    "rarity": "SR"
+  },
+  {
+    "id": "fl20",
+    "name": "世界樹の守護竜",
+    "theme": "花妖精",
+    "type": "S",
+    "rarity": "SR"
+  },
+  {
+    "id": "fl21",
+    "name": "花園の守り手",
+    "theme": "花妖精",
+    "type": "X",
+    "rarity": "SR"
+  },
+  {
+    "id": "fl22",
+    "name": "花の輪",
+    "theme": "花妖精",
+    "type": "L",
+    "rarity": "R"
+  },
+  {
+    "id": "fl23",
+    "name": "花神の化身ガイアフローラ",
+    "theme": "花妖精",
+    "type": "S",
+    "rarity": "UR"
+  },
+  {
+    "id": "fl24",
+    "name": "花の招待状",
+    "theme": "花妖精",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "fl25",
+    "name": "開花",
+    "theme": "花妖精",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "fl26",
+    "name": "花吹雪",
+    "theme": "花妖精",
+    "type": "SP",
+    "rarity": "SR"
+  },
+  {
+    "id": "fl27",
+    "name": "薔薇の鞭",
+    "theme": "花妖精",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "fl28",
+    "name": "再びの芽吹き",
+    "theme": "花妖精",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "fl29",
+    "name": "癒しの花園",
+    "theme": "花妖精",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "fl30",
+    "name": "花妖精融合",
+    "theme": "花妖精",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "fl31",
+    "name": "花の結界",
+    "theme": "花妖精",
+    "type": "TR",
+    "rarity": "N"
+  },
+  {
+    "id": "fl32",
+    "name": "茨の罠",
+    "theme": "花妖精",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "fl33",
+    "name": "食虫花の罠",
+    "theme": "花妖精",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "fl34",
+    "name": "眠りの花粉",
+    "theme": "花妖精",
+    "type": "TR",
+    "rarity": "N"
+  },
+  {
+    "id": "an01",
+    "name": "天使の剣士ミカエラ",
+    "theme": "天使",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "an02",
+    "name": "伝令天使エンジェ",
+    "theme": "天使",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "an03",
+    "name": "癒しの天使ラファ",
+    "theme": "天使",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "an04",
+    "name": "天使長ガブリエ",
+    "theme": "天使",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "an05",
+    "name": "見習い天使ピコ",
+    "theme": "天使",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "an06",
+    "name": "聖盾の天使",
+    "theme": "天使",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "an07",
+    "name": "光輪の天使",
+    "theme": "天使",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "an08",
+    "name": "祈りの修道女",
+    "theme": "天使",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "an09",
+    "name": "羽根のキュピ",
+    "theme": "天使",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "an10",
+    "name": "裁きの天使",
+    "theme": "天使",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "an11",
+    "name": "熾天使セラフィナ",
+    "theme": "天使",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "an12",
+    "name": "大天使ウリエル",
+    "theme": "天使",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "an13",
+    "name": "天界王エリュシオン",
+    "theme": "天使",
+    "type": "M",
+    "rarity": "UR"
+  },
+  {
+    "id": "an14",
+    "name": "天使の槍兵",
+    "theme": "天使",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "an15",
+    "name": "天の梯子",
+    "theme": "天使",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "an16",
+    "name": "聖杯の守り手",
+    "theme": "天使",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "an17",
+    "name": "聖堂の石像",
+    "theme": "天使",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "an18",
+    "name": "天使の竪琴弾き",
+    "theme": "天使",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "an19",
+    "name": "天界合神アークエンジェル",
+    "theme": "天使",
+    "type": "F",
+    "rarity": "SR"
+  },
+  {
+    "id": "an20",
+    "name": "光翼の守護神",
+    "theme": "天使",
+    "type": "S",
+    "rarity": "SR"
+  },
+  {
+    "id": "an21",
+    "name": "天使軍の司令官",
+    "theme": "天使",
+    "type": "X",
+    "rarity": "SR"
+  },
+  {
+    "id": "an22",
+    "name": "天上の聖歌隊",
+    "theme": "天使",
+    "type": "L",
+    "rarity": "R"
+  },
+  {
+    "id": "an23",
+    "name": "創世の熾天使ジェネシス",
+    "theme": "天使",
+    "type": "S",
+    "rarity": "UR"
+  },
+  {
+    "id": "an24",
+    "name": "天使の招来",
+    "theme": "天使",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "an25",
+    "name": "聖なる光",
+    "theme": "天使",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "an26",
+    "name": "最後の審判",
+    "theme": "天使",
+    "type": "SP",
+    "rarity": "SR"
+  },
+  {
+    "id": "an27",
+    "name": "聖剣",
+    "theme": "天使",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "an28",
+    "name": "復活の祈り",
+    "theme": "天使",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "an29",
+    "name": "天の恵み",
+    "theme": "天使",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "an30",
+    "name": "天使融合",
+    "theme": "天使",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "an31",
+    "name": "聖なる結界",
+    "theme": "天使",
+    "type": "TR",
+    "rarity": "N"
+  },
+  {
+    "id": "an32",
+    "name": "天罰",
+    "theme": "天使",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "an33",
+    "name": "光の盾",
+    "theme": "天使",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "an34",
+    "name": "天使の慈悲",
+    "theme": "天使",
+    "type": "TR",
+    "rarity": "N"
+  },
+  {
+    "id": "dn01",
+    "name": "暴君竜ティラノ",
+    "theme": "恐竜",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "dn02",
+    "name": "探索竜ラプトル",
+    "theme": "恐竜",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "dn03",
+    "name": "角竜トリケラ",
+    "theme": "恐竜",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "dn04",
+    "name": "群れ長ヴェロキ",
+    "theme": "恐竜",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "dn05",
+    "name": "恐竜の卵",
+    "theme": "恐竜",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "dn06",
+    "name": "鎧竜アンキロ",
+    "theme": "恐竜",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "dn07",
+    "name": "突進竜パキケファロ",
+    "theme": "恐竜",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "dn08",
+    "name": "化石の調律者",
+    "theme": "恐竜",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "dn09",
+    "name": "小型竜コンピー",
+    "theme": "恐竜",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "dn10",
+    "name": "剣竜ステゴ",
+    "theme": "恐竜",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "dn11",
+    "name": "翼竜プテラ",
+    "theme": "恐竜",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "dn12",
+    "name": "巨竜ブラキオ",
+    "theme": "恐竜",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "dn13",
+    "name": "原始王ギガノト",
+    "theme": "恐竜",
+    "type": "M",
+    "rarity": "UR"
+  },
+  {
+    "id": "dn14",
+    "name": "牙竜アロサウ",
+    "theme": "恐竜",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "dn15",
+    "name": "琥珀の守り",
+    "theme": "恐竜",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "dn16",
+    "name": "沼地のスピノ",
+    "theme": "恐竜",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "dn17",
+    "name": "化石の壁",
+    "theme": "恐竜",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "dn18",
+    "name": "火山竜ボルケノ",
+    "theme": "恐竜",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "dn19",
+    "name": "超古代竜メガロドン",
+    "theme": "恐竜",
+    "type": "F",
+    "rarity": "SR"
+  },
+  {
+    "id": "dn20",
+    "name": "雷竜サンダーホーン",
+    "theme": "恐竜",
+    "type": "S",
+    "rarity": "SR"
+  },
+  {
+    "id": "dn21",
+    "name": "恐竜王国の覇者",
+    "theme": "恐竜",
+    "type": "X",
+    "rarity": "SR"
+  },
+  {
+    "id": "dn22",
+    "name": "進化の螺旋",
+    "theme": "恐竜",
+    "type": "L",
+    "rarity": "R"
+  },
+  {
+    "id": "dn23",
+    "name": "絶滅竜カタストロフ",
+    "theme": "恐竜",
+    "type": "F",
+    "rarity": "UR"
+  },
+  {
+    "id": "dn24",
+    "name": "化石発掘",
+    "theme": "恐竜",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "dn25",
+    "name": "太古の雄叫び",
+    "theme": "恐竜",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "dn26",
+    "name": "隕石落下",
+    "theme": "恐竜",
+    "type": "SP",
+    "rarity": "SR"
+  },
+  {
+    "id": "dn27",
+    "name": "恐竜の牙",
+    "theme": "恐竜",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "dn28",
+    "name": "化石の復元",
+    "theme": "恐竜",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "dn29",
+    "name": "ジュラの森",
+    "theme": "恐竜",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "dn30",
+    "name": "恐竜融合",
+    "theme": "恐竜",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "dn31",
+    "name": "大地の怒り",
+    "theme": "恐竜",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "dn32",
+    "name": "タールの沼",
+    "theme": "恐竜",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "dn33",
+    "name": "尻尾の一撃",
+    "theme": "恐竜",
+    "type": "TR",
+    "rarity": "N"
+  },
+  {
+    "id": "dn34",
+    "name": "恐竜の威嚇",
+    "theme": "恐竜",
+    "type": "TR",
+    "rarity": "N"
+  },
+  {
+    "id": "in01",
+    "name": "甲虫戦士カブト",
+    "theme": "昆虫",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "in02",
+    "name": "偵察蜂ビーン",
+    "theme": "昆虫",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "in03",
+    "name": "毒蜘蛛アラクネ",
+    "theme": "昆虫",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "in04",
+    "name": "女王蟻の近衛",
+    "theme": "昆虫",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "in05",
+    "name": "芋虫のモコ",
+    "theme": "昆虫",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "in06",
+    "name": "硬殻のダンゴ",
+    "theme": "昆虫",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "in07",
+    "name": "鎌切りマンティス",
+    "theme": "昆虫",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "in08",
+    "name": "蛍の灯り",
+    "theme": "昆虫",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "in09",
+    "name": "羽音のブーン",
+    "theme": "昆虫",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "in10",
+    "name": "毒針スコルピ",
+    "theme": "昆虫",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "in11",
+    "name": "大顎のクワガタ",
+    "theme": "昆虫",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "in12",
+    "name": "蟲軍師ヘラクレス",
+    "theme": "昆虫",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "in13",
+    "name": "蟲皇帝インセクタ",
+    "theme": "昆虫",
+    "type": "M",
+    "rarity": "UR"
+  },
+  {
+    "id": "in14",
+    "name": "飛蝗の群れ",
+    "theme": "昆虫",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "in15",
+    "name": "蛹のサナギ",
+    "theme": "昆虫",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "in16",
+    "name": "擬態のナナフシ",
+    "theme": "昆虫",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "in17",
+    "name": "蟻塚の砦",
+    "theme": "昆虫",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "in18",
+    "name": "毒蛾モスラ",
+    "theme": "昆虫",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "in19",
+    "name": "蟲合体キメラビートル",
+    "theme": "昆虫",
+    "type": "F",
+    "rarity": "SR"
+  },
+  {
+    "id": "in20",
+    "name": "雷光の蜻蛉",
+    "theme": "昆虫",
+    "type": "S",
+    "rarity": "SR"
+  },
+  {
+    "id": "in21",
+    "name": "女王蜂クイーンビー",
+    "theme": "昆虫",
+    "type": "X",
+    "rarity": "SR"
+  },
+  {
+    "id": "in22",
+    "name": "群体意識ハイブ",
+    "theme": "昆虫",
+    "type": "L",
+    "rarity": "R"
+  },
+  {
+    "id": "in23",
+    "name": "蟲の神ベルゼ",
+    "theme": "昆虫",
+    "type": "L",
+    "rarity": "UR"
+  },
+  {
+    "id": "in24",
+    "name": "蟲の呼び声",
+    "theme": "昆虫",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "in25",
+    "name": "脱皮",
+    "theme": "昆虫",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "in26",
+    "name": "蝗害",
+    "theme": "昆虫",
+    "type": "SP",
+    "rarity": "SR"
+  },
+  {
+    "id": "in27",
+    "name": "毒針",
+    "theme": "昆虫",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "in28",
+    "name": "羽化",
+    "theme": "昆虫",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "in29",
+    "name": "甘い蜜",
+    "theme": "昆虫",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "in30",
+    "name": "昆虫融合",
+    "theme": "昆虫",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "in31",
+    "name": "蜘蛛の巣",
+    "theme": "昆虫",
+    "type": "TR",
+    "rarity": "N"
+  },
+  {
+    "id": "in32",
+    "name": "蟻地獄",
+    "theme": "昆虫",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "in33",
+    "name": "毒の霧",
+    "theme": "昆虫",
+    "type": "TR",
+    "rarity": "N"
+  },
+  {
+    "id": "in34",
+    "name": "殻の守り",
+    "theme": "昆虫",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "mo01",
+    "name": "冥府の尖兵",
+    "theme": "冥王",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "mo02",
+    "name": "冥王の使い魔",
+    "theme": "冥王",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "mo03",
+    "name": "契約の悪魔",
+    "theme": "冥王",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "mo04",
+    "name": "冥府の軍旗手",
+    "theme": "冥王",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "mo05",
+    "name": "魂喰らいの小鬼",
+    "theme": "冥王",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "mo06",
+    "name": "冥界の番犬",
+    "theme": "冥王",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "mo07",
+    "name": "闇の司祭",
+    "theme": "冥王",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "mo08",
+    "name": "冥府の調律者",
+    "theme": "冥王",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "mo09",
+    "name": "混沌の種火",
+    "theme": "冥王",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "mo10",
+    "name": "冥府の処刑人",
+    "theme": "冥王",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "mo11",
+    "name": "深淵の大公",
+    "theme": "冥王",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "mo12",
+    "name": "冥府の将軍ベリアル",
+    "theme": "冥王",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "mo13",
+    "name": "冥王ゼノス",
+    "theme": "冥王",
+    "type": "M",
+    "rarity": "UR"
+  },
+  {
+    "id": "mo14",
+    "name": "堕ちた騎士",
+    "theme": "冥王",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "mo15",
+    "name": "冥府の門番",
+    "theme": "冥王",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "mo16",
+    "name": "呪縛の亡霊",
+    "theme": "冥王",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "mo17",
+    "name": "冥府の盾",
+    "theme": "冥王",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "mo18",
+    "name": "魂の収集者",
+    "theme": "冥王",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "mo19",
+    "name": "冥王合神カオス・ゼノス",
+    "theme": "冥王",
+    "type": "F",
+    "rarity": "SR"
+  },
+  {
+    "id": "mo20",
+    "name": "冥府竜ネクロス",
+    "theme": "冥王",
+    "type": "S",
+    "rarity": "SR"
+  },
+  {
+    "id": "mo21",
+    "name": "冥府の大将軍",
+    "theme": "冥王",
+    "type": "X",
+    "rarity": "SR"
+  },
+  {
+    "id": "mo22",
+    "name": "冥界回廊",
+    "theme": "冥王",
+    "type": "L",
+    "rarity": "R"
+  },
+  {
+    "id": "mo23",
+    "name": "混沌の化身アビス",
+    "theme": "冥王",
+    "type": "L",
+    "rarity": "UR"
+  },
+  {
+    "id": "mo24",
+    "name": "冥王の招集",
+    "theme": "冥王",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "mo25",
+    "name": "闇の契約",
+    "theme": "冥王",
+    "type": "SP",
+    "rarity": "SR"
+  },
+  {
+    "id": "mo26",
+    "name": "冥府の業火",
+    "theme": "冥王",
+    "type": "SP",
+    "rarity": "SR"
+  },
+  {
+    "id": "mo27",
+    "name": "魔剣ダーインスレイヴ",
+    "theme": "冥王",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "mo28",
+    "name": "冥界の門",
+    "theme": "冥王",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "mo29",
+    "name": "生贄の儀式",
+    "theme": "冥王",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "mo30",
+    "name": "冥王融合",
+    "theme": "冥王",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "mo31",
+    "name": "冥府の鎖",
+    "theme": "冥王",
+    "type": "TR",
+    "rarity": "N"
+  },
+  {
+    "id": "mo32",
+    "name": "奈落の顎",
+    "theme": "冥王",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "mo33",
+    "name": "魂の盾",
+    "theme": "冥王",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "mo34",
+    "name": "冥王の怒り",
+    "theme": "冥王",
+    "type": "TR",
+    "rarity": "N"
+  },
+  {
+    "id": "sa01",
+    "name": "浪人ゴロウ",
+    "theme": "侍",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "sa02",
+    "name": "侍見習いタケル",
+    "theme": "侍",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "sa03",
+    "name": "二刀流ムサシ",
+    "theme": "侍",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "sa04",
+    "name": "居合のコジロウ",
+    "theme": "侍",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "sa05",
+    "name": "足軽兵",
+    "theme": "侍",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "sa06",
+    "name": "鎧武者",
+    "theme": "侍",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "sa07",
+    "name": "剣聖の弟子",
+    "theme": "侍",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "sa08",
+    "name": "侍の調律師",
+    "theme": "侍",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "sa09",
+    "name": "鷹匠のハヤト",
+    "theme": "侍",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "sa10",
+    "name": "剣豪ケンシン",
+    "theme": "侍",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "sa11",
+    "name": "大太刀のベンケイ",
+    "theme": "侍",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "sa12",
+    "name": "将軍ノブナガ",
+    "theme": "侍",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "sa13",
+    "name": "剣神ツカハラ",
+    "theme": "侍",
+    "type": "M",
+    "rarity": "UR"
+  },
+  {
+    "id": "sa14",
+    "name": "槍の名手",
+    "theme": "侍",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "sa15",
+    "name": "茶人リキュウ",
+    "theme": "侍",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "sa16",
+    "name": "くノ一カエデ",
+    "theme": "侍",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "sa17",
+    "name": "城壁の守り",
+    "theme": "侍",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "sa18",
+    "name": "武士道の求道者",
+    "theme": "侍",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "sa19",
+    "name": "二天一流ムサシ",
+    "theme": "侍",
+    "type": "F",
+    "rarity": "SR"
+  },
+  {
+    "id": "sa20",
+    "name": "剣聖カミイズミ",
+    "theme": "侍",
+    "type": "S",
+    "rarity": "SR"
+  },
+  {
+    "id": "sa21",
+    "name": "侍大将",
+    "theme": "侍",
+    "type": "X",
+    "rarity": "SR"
+  },
+  {
+    "id": "sa22",
+    "name": "一騎当千",
+    "theme": "侍",
+    "type": "L",
+    "rarity": "R"
+  },
+  {
+    "id": "sa23",
+    "name": "天下無双の剣鬼",
+    "theme": "侍",
+    "type": "S",
+    "rarity": "UR"
+  },
+  {
+    "id": "sa24",
+    "name": "侍の招集",
+    "theme": "侍",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "sa25",
+    "name": "名刀マサムネ",
+    "theme": "侍",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "sa26",
+    "name": "居合斬り",
+    "theme": "侍",
+    "type": "SP",
+    "rarity": "SR"
+  },
+  {
+    "id": "sa27",
+    "name": "武士の覚悟",
+    "theme": "侍",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "sa28",
+    "name": "再起の誓い",
+    "theme": "侍",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "sa29",
+    "name": "心眼",
+    "theme": "侍",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "sa30",
+    "name": "侍融合",
+    "theme": "侍",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "sa31",
+    "name": "見切り",
+    "theme": "侍",
+    "type": "TR",
+    "rarity": "N"
+  },
+  {
+    "id": "sa32",
+    "name": "返し刀",
+    "theme": "侍",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "sa33",
+    "name": "鍔迫り合い",
+    "theme": "侍",
+    "type": "TR",
+    "rarity": "N"
+  },
+  {
+    "id": "sa34",
+    "name": "果し合い",
+    "theme": "侍",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "pi01",
+    "name": "海賊の切込隊長",
+    "theme": "海賊",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "pi02",
+    "name": "見張り番のオウム",
+    "theme": "海賊",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "pi03",
+    "name": "海賊の砲手",
+    "theme": "海賊",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "pi04",
+    "name": "海賊船長キッド",
+    "theme": "海賊",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "pi05",
+    "name": "樽の中の小僧",
+    "theme": "海賊",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "pi06",
+    "name": "錨の大男",
+    "theme": "海賊",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "pi07",
+    "name": "二丁拳銃のジャック",
+    "theme": "海賊",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "pi08",
+    "name": "航海士の少女",
+    "theme": "海賊",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "pi09",
+    "name": "船乗りの猫",
+    "theme": "海賊",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "pi10",
+    "name": "海賊の副長",
+    "theme": "海賊",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "pi11",
+    "name": "大砲船の主",
+    "theme": "海賊",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "pi12",
+    "name": "海賊王ロジャース",
+    "theme": "海賊",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "pi13",
+    "name": "大海賊提督ドレイク",
+    "theme": "海賊",
+    "type": "M",
+    "rarity": "UR"
+  },
+  {
+    "id": "pi14",
+    "name": "カトラス使い",
+    "theme": "海賊",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "pi15",
+    "name": "宝の地図売り",
+    "theme": "海賊",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "pi16",
+    "name": "人魚の歌い手",
+    "theme": "海賊",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "pi17",
+    "name": "幽霊船の亡霊",
+    "theme": "海賊",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "pi18",
+    "name": "オウム使いの航海士",
+    "theme": "海賊",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "pi19",
+    "name": "海賊団旗艦ブラックパール",
+    "theme": "海賊",
+    "type": "F",
+    "rarity": "SR"
+  },
+  {
+    "id": "pi20",
+    "name": "大渦の海賊王",
+    "theme": "海賊",
+    "type": "S",
+    "rarity": "SR"
+  },
+  {
+    "id": "pi21",
+    "name": "略奪艦隊の提督",
+    "theme": "海賊",
+    "type": "X",
+    "rarity": "SR"
+  },
+  {
+    "id": "pi22",
+    "name": "宝島の地図",
+    "theme": "海賊",
+    "type": "L",
+    "rarity": "R"
+  },
+  {
+    "id": "pi23",
+    "name": "七つの海の覇者",
+    "theme": "海賊",
+    "type": "L",
+    "rarity": "UR"
+  },
+  {
+    "id": "pi24",
+    "name": "海賊の招集",
+    "theme": "海賊",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "pi25",
+    "name": "略奪",
+    "theme": "海賊",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "pi26",
+    "name": "一斉砲撃",
+    "theme": "海賊",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "pi27",
+    "name": "海賊のカトラス",
+    "theme": "海賊",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "pi28",
+    "name": "沈没船の引き揚げ",
+    "theme": "海賊",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "pi29",
+    "name": "宝の山分け",
+    "theme": "海賊",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "pi30",
+    "name": "海賊融合",
+    "theme": "海賊",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "pi31",
+    "name": "斬り込み",
+    "theme": "海賊",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "pi32",
+    "name": "煙幕",
+    "theme": "海賊",
+    "type": "TR",
+    "rarity": "N"
+  },
+  {
+    "id": "pi33",
+    "name": "罠の網",
+    "theme": "海賊",
+    "type": "TR",
+    "rarity": "N"
+  },
+  {
+    "id": "pi34",
+    "name": "待ち伏せ",
+    "theme": "海賊",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "yo01",
+    "name": "河童",
+    "theme": "妖怪",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "yo02",
+    "name": "化け狸",
+    "theme": "妖怪",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "yo03",
+    "name": "唐傘お化け",
+    "theme": "妖怪",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "yo04",
+    "name": "天狗の頭領",
+    "theme": "妖怪",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "yo05",
+    "name": "一つ目小僧",
+    "theme": "妖怪",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "yo06",
+    "name": "ぬりかべ",
+    "theme": "妖怪",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "yo07",
+    "name": "雪女",
+    "theme": "妖怪",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "yo08",
+    "name": "狐火",
+    "theme": "妖怪",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "yo09",
+    "name": "座敷わらし",
+    "theme": "妖怪",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "yo10",
+    "name": "鬼の大将",
+    "theme": "妖怪",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "yo11",
+    "name": "大天狗",
+    "theme": "妖怪",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "yo12",
+    "name": "九尾の狐",
+    "theme": "妖怪",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "yo13",
+    "name": "百鬼夜行の主ぬらりひょん",
+    "theme": "妖怪",
+    "type": "M",
+    "rarity": "UR"
+  },
+  {
+    "id": "yo14",
+    "name": "ろくろ首",
+    "theme": "妖怪",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "yo15",
+    "name": "小豆洗い",
+    "theme": "妖怪",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "yo16",
+    "name": "のっぺらぼう",
+    "theme": "妖怪",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "yo17",
+    "name": "塗り壁の子",
+    "theme": "妖怪",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "yo18",
+    "name": "火車",
+    "theme": "妖怪",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "yo19",
+    "name": "大妖怪 酒呑童子",
+    "theme": "妖怪",
+    "type": "F",
+    "rarity": "SR"
+  },
+  {
+    "id": "yo20",
+    "name": "雷獣 鵺",
+    "theme": "妖怪",
+    "type": "S",
+    "rarity": "SR"
+  },
+  {
+    "id": "yo21",
+    "name": "妖怪大将",
+    "theme": "妖怪",
+    "type": "X",
+    "rarity": "SR"
+  },
+  {
+    "id": "yo22",
+    "name": "百鬼の行列",
+    "theme": "妖怪",
+    "type": "L",
+    "rarity": "R"
+  },
+  {
+    "id": "yo23",
+    "name": "白面金毛 玉藻前",
+    "theme": "妖怪",
+    "type": "S",
+    "rarity": "UR"
+  },
+  {
+    "id": "yo24",
+    "name": "妖怪の手招き",
+    "theme": "妖怪",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "yo25",
+    "name": "化け術",
+    "theme": "妖怪",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "yo26",
+    "name": "百鬼夜行",
+    "theme": "妖怪",
+    "type": "SP",
+    "rarity": "SR"
+  },
+  {
+    "id": "yo27",
+    "name": "妖刀",
+    "theme": "妖怪",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "yo28",
+    "name": "鬼門開き",
+    "theme": "妖怪",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "yo29",
+    "name": "夜の宴",
+    "theme": "妖怪",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "yo30",
+    "name": "妖怪融合",
+    "theme": "妖怪",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "yo31",
+    "name": "神隠し",
+    "theme": "妖怪",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "yo32",
+    "name": "金縛り",
+    "theme": "妖怪",
+    "type": "TR",
+    "rarity": "N"
+  },
+  {
+    "id": "yo33",
+    "name": "狐の嫁入り",
+    "theme": "妖怪",
+    "type": "TR",
+    "rarity": "N"
+  },
+  {
+    "id": "yo34",
+    "name": "鬼火の罠",
+    "theme": "妖怪",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "el01",
+    "name": "炎の精サラ",
+    "theme": "精霊",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "el02",
+    "name": "水の精ウンディ",
+    "theme": "精霊",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "el03",
+    "name": "風の精シルフィ",
+    "theme": "精霊",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "el04",
+    "name": "地の精ノーム",
+    "theme": "精霊",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "el05",
+    "name": "精霊の卵",
+    "theme": "精霊",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "el06",
+    "name": "岩の精霊ゴーレム",
+    "theme": "精霊",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "el07",
+    "name": "雷の精霊",
+    "theme": "精霊",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "el08",
+    "name": "精霊の巫女",
+    "theme": "精霊",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "el09",
+    "name": "光の粒",
+    "theme": "精霊",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "el10",
+    "name": "炎の大精霊イフリート",
+    "theme": "精霊",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "el11",
+    "name": "水の大精霊リヴァイア",
+    "theme": "精霊",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "el12",
+    "name": "風の大精霊ジン",
+    "theme": "精霊",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "el13",
+    "name": "精霊王エレメンタリオ",
+    "theme": "精霊",
+    "type": "M",
+    "rarity": "UR"
+  },
+  {
+    "id": "el14",
+    "name": "闇の精シェイド",
+    "theme": "精霊",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "el15",
+    "name": "氷の精フロスト",
+    "theme": "精霊",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "el16",
+    "name": "森の精ドリアード",
+    "theme": "精霊",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "el17",
+    "name": "溶岩の精",
+    "theme": "精霊",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "el18",
+    "name": "虹の精霊",
+    "theme": "精霊",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "el19",
+    "name": "四大精霊の融合体",
+    "theme": "精霊",
+    "type": "F",
+    "rarity": "SR"
+  },
+  {
+    "id": "el20",
+    "name": "元素竜エレメンタル",
+    "theme": "精霊",
+    "type": "S",
+    "rarity": "SR"
+  },
+  {
+    "id": "el21",
+    "name": "精霊騎士団長",
+    "theme": "精霊",
+    "type": "X",
+    "rarity": "SR"
+  },
+  {
+    "id": "el22",
+    "name": "精霊の環",
+    "theme": "精霊",
+    "type": "L",
+    "rarity": "R"
+  },
+  {
+    "id": "el23",
+    "name": "天地創造の精霊神",
+    "theme": "精霊",
+    "type": "S",
+    "rarity": "UR"
+  },
+  {
+    "id": "el24",
+    "name": "精霊の呼び声",
+    "theme": "精霊",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "el25",
+    "name": "元素の共鳴",
+    "theme": "精霊",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "el26",
+    "name": "四元素の嵐",
+    "theme": "精霊",
+    "type": "SP",
+    "rarity": "SR"
+  },
+  {
+    "id": "el27",
+    "name": "精霊の宝珠",
+    "theme": "精霊",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "el28",
+    "name": "精霊の帰還",
+    "theme": "精霊",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "el29",
+    "name": "元素の泉",
+    "theme": "精霊",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "el30",
+    "name": "精霊融合",
+    "theme": "精霊",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "el31",
+    "name": "元素の盾",
+    "theme": "精霊",
+    "type": "TR",
+    "rarity": "N"
+  },
+  {
+    "id": "el32",
+    "name": "精霊の怒り",
+    "theme": "精霊",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "el33",
+    "name": "属性反転",
+    "theme": "精霊",
+    "type": "TR",
+    "rarity": "N"
+  },
+  {
+    "id": "el34",
+    "name": "精霊の罠",
+    "theme": "精霊",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "ck01",
+    "name": "歯車兵",
+    "theme": "時計仕掛け",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "ck02",
+    "name": "ゼンマイ斥候",
+    "theme": "時計仕掛け",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "ck03",
+    "name": "振り子の番人",
+    "theme": "時計仕掛け",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "ck04",
+    "name": "時計塔の守護者",
+    "theme": "時計仕掛け",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "ck05",
+    "name": "秒針の妖精",
+    "theme": "時計仕掛け",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "ck06",
+    "name": "鉄の門番",
+    "theme": "時計仕掛け",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "ck07",
+    "name": "鳩時計の伝令",
+    "theme": "時計仕掛け",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "ck08",
+    "name": "調速機の技師",
+    "theme": "時計仕掛け",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "ck09",
+    "name": "小さな発条",
+    "theme": "時計仕掛け",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "ck10",
+    "name": "時計仕掛けの騎士",
+    "theme": "時計仕掛け",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "ck11",
+    "name": "時計仕掛けの巨人",
+    "theme": "時計仕掛け",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "ck12",
+    "name": "時の番人クロノス",
+    "theme": "時計仕掛け",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "ck13",
+    "name": "時計仕掛けの神エオン",
+    "theme": "時計仕掛け",
+    "type": "M",
+    "rarity": "UR"
+  },
+  {
+    "id": "ck14",
+    "name": "砲台人形",
+    "theme": "時計仕掛け",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "ck15",
+    "name": "設計図の書記",
+    "theme": "時計仕掛け",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "ck16",
+    "name": "鳴き時計",
+    "theme": "時計仕掛け",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "ck17",
+    "name": "錆びた歯車",
+    "theme": "時計仕掛け",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "ck18",
+    "name": "オートマタの楽師",
+    "theme": "時計仕掛け",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "ck19",
+    "name": "大時計城ギガクロック",
+    "theme": "時計仕掛け",
+    "type": "F",
+    "rarity": "SR"
+  },
+  {
+    "id": "ck20",
+    "name": "歯車竜ギアドラゴン",
+    "theme": "時計仕掛け",
+    "type": "S",
+    "rarity": "SR"
+  },
+  {
+    "id": "ck21",
+    "name": "時計仕掛けの将軍",
+    "theme": "時計仕掛け",
+    "type": "X",
+    "rarity": "SR"
+  },
+  {
+    "id": "ck22",
+    "name": "永久機関",
+    "theme": "時計仕掛け",
+    "type": "L",
+    "rarity": "R"
+  },
+  {
+    "id": "ck23",
+    "name": "終末時計ドゥームズデイ",
+    "theme": "時計仕掛け",
+    "type": "X",
+    "rarity": "UR"
+  },
+  {
+    "id": "ck24",
+    "name": "時計仕掛けの設計図",
+    "theme": "時計仕掛け",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "ck25",
+    "name": "ゼンマイ巻き",
+    "theme": "時計仕掛け",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "ck26",
+    "name": "時間停止",
+    "theme": "時計仕掛け",
+    "type": "SP",
+    "rarity": "SR"
+  },
+  {
+    "id": "ck27",
+    "name": "歯車の剣",
+    "theme": "時計仕掛け",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "ck28",
+    "name": "再起動",
+    "theme": "時計仕掛け",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "ck29",
+    "name": "時は金なり",
+    "theme": "時計仕掛け",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "ck30",
+    "name": "時計仕掛け融合",
+    "theme": "時計仕掛け",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "ck31",
+    "name": "時の歪み",
+    "theme": "時計仕掛け",
+    "type": "TR",
+    "rarity": "N"
+  },
+  {
+    "id": "ck32",
+    "name": "歯車の罠",
+    "theme": "時計仕掛け",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "ck33",
+    "name": "時間遅延",
+    "theme": "時計仕掛け",
+    "type": "TR",
+    "rarity": "N"
+  },
+  {
+    "id": "ck34",
+    "name": "逆回転",
+    "theme": "時計仕掛け",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "ds01",
+    "name": "蒼炎竜ブルーフレア",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "ds02",
+    "name": "竜の卵守り",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "ds03",
+    "name": "竜血の戦士",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "ds04",
+    "name": "若き炎竜フレイム",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "ds05",
+    "name": "鋼鱗竜アーマード",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "ds06",
+    "name": "竜の調律者",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "ds07",
+    "name": "炎竜の雛",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "ds08",
+    "name": "双翼竜ツインウィング",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "ds09",
+    "name": "溶岩竜マグマロス",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "ds10",
+    "name": "嵐翼竜ゲイルドラゴ",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "ds11",
+    "name": "覇王竜エンペラドラゴン",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "UR"
+  },
+  {
+    "id": "ds12",
+    "name": "竜王の盟約者",
+    "theme": "汎用",
+    "type": "X",
+    "rarity": "SR"
+  },
+  {
+    "id": "ds13",
+    "name": "竜帝フレア・オーバーロード",
+    "theme": "汎用",
+    "type": "S",
+    "rarity": "UR"
+  },
+  {
+    "id": "ds14",
+    "name": "三首竜トライヘッド",
+    "theme": "汎用",
+    "type": "F",
+    "rarity": "SR"
+  },
+  {
+    "id": "ds15",
+    "name": "竜脈の回路",
+    "theme": "汎用",
+    "type": "L",
+    "rarity": "R"
+  },
+  {
+    "id": "ds16",
+    "name": "竜の咆哮",
+    "theme": "汎用",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "ds17",
+    "name": "竜の秘宝庫",
+    "theme": "汎用",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "ds18",
+    "name": "竜の息吹",
+    "theme": "汎用",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "ds19",
+    "name": "竜の転生",
+    "theme": "汎用",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "ds20",
+    "name": "竜の逆鱗",
+    "theme": "汎用",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "ds21",
+    "name": "竜の鱗の盾",
+    "theme": "汎用",
+    "type": "TR",
+    "rarity": "N"
+  },
+  {
+    "id": "ms01",
+    "name": "量産型ドリル兵",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "ms02",
+    "name": "補給ドローン",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "ms03",
+    "name": "整備士ロボ",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "ms04",
+    "name": "重装甲ロボ",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "ms05",
+    "name": "機甲の調律機",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "ms06",
+    "name": "ネジ巻き兵",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "ms07",
+    "name": "突撃メカ ラム",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "ms08",
+    "name": "爆撃機ボマー",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "ms09",
+    "name": "キャノン要塞",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "ms10",
+    "name": "電脳要塞ギガベース",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "ms11",
+    "name": "機皇神アルティメット",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "UR"
+  },
+  {
+    "id": "ms12",
+    "name": "機甲提督アドミラル",
+    "theme": "汎用",
+    "type": "X",
+    "rarity": "SR"
+  },
+  {
+    "id": "ms13",
+    "name": "超機動兵器ハイパーギア",
+    "theme": "汎用",
+    "type": "S",
+    "rarity": "UR"
+  },
+  {
+    "id": "ms14",
+    "name": "合体ロボ グレートマシン",
+    "theme": "汎用",
+    "type": "F",
+    "rarity": "SR"
+  },
+  {
+    "id": "ms15",
+    "name": "並列処理ユニット",
+    "theme": "汎用",
+    "type": "L",
+    "rarity": "R"
+  },
+  {
+    "id": "ms16",
+    "name": "緊急出撃",
+    "theme": "汎用",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "ms17",
+    "name": "オーバークロック",
+    "theme": "汎用",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "ms18",
+    "name": "修理工場",
+    "theme": "汎用",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "ms19",
+    "name": "補給物資",
+    "theme": "汎用",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "ms20",
+    "name": "迎撃システム",
+    "theme": "汎用",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "ms21",
+    "name": "電磁バリア",
+    "theme": "汎用",
+    "type": "TR",
+    "rarity": "N"
+  },
+  {
+    "id": "ws01",
+    "name": "見習い召喚士",
+    "theme": "魔導",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "ws02",
+    "name": "魔導書の番人",
+    "theme": "魔導",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "ws03",
+    "name": "炎の魔術師",
+    "theme": "魔導",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "ws04",
+    "name": "時の魔導士",
+    "theme": "魔導",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "ws05",
+    "name": "魔力の調律者",
+    "theme": "魔導",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "ws06",
+    "name": "魔法陣の精",
+    "theme": "魔導",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "ws07",
+    "name": "幻術師ミラージュ",
+    "theme": "魔導",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "ws08",
+    "name": "氷の魔導士",
+    "theme": "魔導",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "ws09",
+    "name": "大賢者メイガス",
+    "theme": "魔導",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "ws10",
+    "name": "禁術の魔女",
+    "theme": "魔導",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "ws11",
+    "name": "魔導王アルカディウス",
+    "theme": "魔導",
+    "type": "M",
+    "rarity": "UR"
+  },
+  {
+    "id": "ws12",
+    "name": "魔導書院長",
+    "theme": "魔導",
+    "type": "X",
+    "rarity": "SR"
+  },
+  {
+    "id": "ws13",
+    "name": "虹彩の大魔導師",
+    "theme": "魔導",
+    "type": "S",
+    "rarity": "UR"
+  },
+  {
+    "id": "ws14",
+    "name": "双子の魔女ジェミニ",
+    "theme": "魔導",
+    "type": "F",
+    "rarity": "SR"
+  },
+  {
+    "id": "ws15",
+    "name": "魔力回路",
+    "theme": "魔導",
+    "type": "L",
+    "rarity": "R"
+  },
+  {
+    "id": "ws16",
+    "name": "魔導書の研究",
+    "theme": "魔導",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "ws17",
+    "name": "魔力増幅",
+    "theme": "魔導",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "ws18",
+    "name": "禁断の魔導書",
+    "theme": "魔導",
+    "type": "SP",
+    "rarity": "SR"
+  },
+  {
+    "id": "ws19",
+    "name": "魔法の鏡",
+    "theme": "魔導",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "ws20",
+    "name": "時空の歪み",
+    "theme": "魔導",
+    "type": "TR",
+    "rarity": "N"
+  },
+  {
+    "id": "kk01",
+    "name": "結界師の見習い",
+    "theme": "結界",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "kk02",
+    "name": "護符の巫女",
+    "theme": "結界",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "kk03",
+    "name": "鎮めの巫女",
+    "theme": "結界",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "kk04",
+    "name": "結界師ハクレイ",
+    "theme": "結界",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "kk05",
+    "name": "封印の番人",
+    "theme": "結界",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "kk06",
+    "name": "鎖の結界師",
+    "theme": "結界",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "kk07",
+    "name": "札使いの少年",
+    "theme": "結界",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "kk08",
+    "name": "結界の狛犬",
+    "theme": "結界",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "kk09",
+    "name": "封魔の剣士",
+    "theme": "結界",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "kk10",
+    "name": "結界師の長",
+    "theme": "結界",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "kk11",
+    "name": "封印大僧正",
+    "theme": "結界",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "kk12",
+    "name": "天封の大結界師",
+    "theme": "結界",
+    "type": "M",
+    "rarity": "UR"
+  },
+  {
+    "id": "kk13",
+    "name": "結界の小鬼",
+    "theme": "結界",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "kk14",
+    "name": "守り札の式神",
+    "theme": "結界",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "kk15",
+    "name": "呪符の式神",
+    "theme": "結界",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "kk16",
+    "name": "封じの鏡",
+    "theme": "結界",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "kk17",
+    "name": "封印神ミカヅチ",
+    "theme": "結界",
+    "type": "F",
+    "rarity": "SR"
+  },
+  {
+    "id": "kk18",
+    "name": "結界竜オロチ",
+    "theme": "結界",
+    "type": "S",
+    "rarity": "SR"
+  },
+  {
+    "id": "kk19",
+    "name": "封印の大鳥居",
+    "theme": "結界",
+    "type": "X",
+    "rarity": "SR"
+  },
+  {
+    "id": "kk20",
+    "name": "結界回路",
+    "theme": "結界",
+    "type": "L",
+    "rarity": "R"
+  },
+  {
+    "id": "kk21",
+    "name": "結界師の招集",
+    "theme": "結界",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "kk22",
+    "name": "結界展開",
+    "theme": "結界",
+    "type": "SP",
+    "rarity": "SR"
+  },
+  {
+    "id": "kk23",
+    "name": "封印融合",
+    "theme": "結界",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "kk24",
+    "name": "霊符の補充",
+    "theme": "結界",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "kk25",
+    "name": "護符の加護",
+    "theme": "結界",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "kk26",
+    "name": "封魔の札",
+    "theme": "結界",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "kk27",
+    "name": "召喚封じの結界",
+    "theme": "結界",
+    "type": "TR",
+    "rarity": "SR"
+  },
+  {
+    "id": "kk28",
+    "name": "結界返し",
+    "theme": "結界",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "kk29",
+    "name": "鎮魂の鈴",
+    "theme": "結界",
+    "type": "TR",
+    "rarity": "N"
+  },
+  {
+    "id": "kk30",
+    "name": "封縛の鎖",
+    "theme": "結界",
+    "type": "TR",
+    "rarity": "N"
+  },
+  {
+    "id": "kg01",
+    "name": "魔法封じの札",
+    "theme": "汎用",
+    "type": "TR",
+    "rarity": "SR"
+  },
+  {
+    "id": "kg02",
+    "name": "召喚封じの鎖",
+    "theme": "汎用",
+    "type": "TR",
+    "rarity": "SR"
+  },
+  {
+    "id": "kg03",
+    "name": "強制送還",
+    "theme": "汎用",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "kg04",
+    "name": "威圧の結界",
+    "theme": "汎用",
+    "type": "TR",
+    "rarity": "N"
+  },
+  {
+    "id": "kg05",
+    "name": "霞の巫女",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "kg06",
+    "name": "妨げの小鬼",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "kg07",
+    "name": "沈黙の番人",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "kg08",
+    "name": "封鎖の番兵",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "kd01",
+    "name": "王国の見習い騎士",
+    "theme": "王国",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "kd02",
+    "name": "王国の伝令",
+    "theme": "王国",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "kd03",
+    "name": "城壁の守備兵",
+    "theme": "王国",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "kd04",
+    "name": "王国の大工",
+    "theme": "王国",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "kd05",
+    "name": "王国の弓兵",
+    "theme": "王国",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "kd06",
+    "name": "王国の商人",
+    "theme": "王国",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "kd07",
+    "name": "王国の聖職者",
+    "theme": "王国",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "kd08",
+    "name": "王国の騎兵隊長",
+    "theme": "王国",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "kd09",
+    "name": "近衛騎士団長",
+    "theme": "王国",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "kd10",
+    "name": "王国の守護竜",
+    "theme": "王国",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "kd11",
+    "name": "獅子王レオンハルト",
+    "theme": "王国",
+    "type": "M",
+    "rarity": "UR"
+  },
+  {
+    "id": "kd12",
+    "name": "王国の小姓",
+    "theme": "王国",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "kd13",
+    "name": "城の魔術師",
+    "theme": "王国",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "kd14",
+    "name": "王国の旗手",
+    "theme": "王国",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "kd15",
+    "name": "王国連合騎士団",
+    "theme": "王国",
+    "type": "F",
+    "rarity": "SR"
+  },
+  {
+    "id": "kd16",
+    "name": "聖王騎竜",
+    "theme": "王国",
+    "type": "S",
+    "rarity": "SR"
+  },
+  {
+    "id": "kd17",
+    "name": "王城の守護者",
+    "theme": "王国",
+    "type": "X",
+    "rarity": "SR"
+  },
+  {
+    "id": "kd18",
+    "name": "王国の大路",
+    "theme": "王国",
+    "type": "L",
+    "rarity": "R"
+  },
+  {
+    "id": "kd19",
+    "name": "王都アルカディア",
+    "theme": "王国",
+    "type": "FS",
+    "rarity": "SR"
+  },
+  {
+    "id": "kd20",
+    "name": "王国の城壁",
+    "theme": "王国",
+    "type": "CS",
+    "rarity": "R"
+  },
+  {
+    "id": "kd21",
+    "name": "王国の兵舎",
+    "theme": "王国",
+    "type": "CS",
+    "rarity": "SR"
+  },
+  {
+    "id": "kd22",
+    "name": "王国の市場",
+    "theme": "王国",
+    "type": "CS",
+    "rarity": "N"
+  },
+  {
+    "id": "kd23",
+    "name": "王国の招集",
+    "theme": "王国",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "kd24",
+    "name": "王国融合",
+    "theme": "王国",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "kd25",
+    "name": "凱旋パレード",
+    "theme": "王国",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "kd26",
+    "name": "王国の守り",
+    "theme": "王国",
+    "type": "CT",
+    "rarity": "R"
+  },
+  {
+    "id": "kd27",
+    "name": "王城の大砲",
+    "theme": "王国",
+    "type": "CT",
+    "rarity": "R"
+  },
+  {
+    "id": "kd28",
+    "name": "城門封鎖",
+    "theme": "王国",
+    "type": "TR",
+    "rarity": "N"
+  },
+  {
+    "id": "kd29",
+    "name": "王国の伏兵",
+    "theme": "王国",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "kd30",
+    "name": "反逆者の処刑",
+    "theme": "王国",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "kx01",
+    "name": "灼熱の火山",
+    "theme": "汎用",
+    "type": "FS",
+    "rarity": "R"
+  },
+  {
+    "id": "kx02",
+    "name": "深淵の海",
+    "theme": "汎用",
+    "type": "FS",
+    "rarity": "R"
+  },
+  {
+    "id": "kx03",
+    "name": "聖なる神殿",
+    "theme": "汎用",
+    "type": "FS",
+    "rarity": "R"
+  },
+  {
+    "id": "kx04",
+    "name": "闇の帳",
+    "theme": "汎用",
+    "type": "FS",
+    "rarity": "R"
+  },
+  {
+    "id": "kx05",
+    "name": "大樹海",
+    "theme": "汎用",
+    "type": "FS",
+    "rarity": "R"
+  },
+  {
+    "id": "kx06",
+    "name": "天空の城",
+    "theme": "汎用",
+    "type": "FS",
+    "rarity": "R"
+  },
+  {
+    "id": "kx07",
+    "name": "闘志の旗",
+    "theme": "汎用",
+    "type": "CS",
+    "rarity": "R"
+  },
+  {
+    "id": "kx08",
+    "name": "癒しの泉",
+    "theme": "汎用",
+    "type": "CS",
+    "rarity": "N"
+  },
+  {
+    "id": "kx09",
+    "name": "呪いの炎",
+    "theme": "汎用",
+    "type": "CS",
+    "rarity": "R"
+  },
+  {
+    "id": "kx10",
+    "name": "重力の檻",
+    "theme": "汎用",
+    "type": "CT",
+    "rarity": "SR"
+  },
+  {
+    "id": "kx11",
+    "name": "守護の陣",
+    "theme": "汎用",
+    "type": "CT",
+    "rarity": "SR"
+  },
+  {
+    "id": "kx12",
+    "name": "報復の呪い",
+    "theme": "汎用",
+    "type": "CT",
+    "rarity": "R"
+  },
+  {
+    "id": "gl01",
+    "name": "剣闘士ルーキー",
+    "theme": "剣闘士",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "gl02",
+    "name": "闘技場の呼び込み",
+    "theme": "剣闘士",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "gl03",
+    "name": "網使いの剣闘士",
+    "theme": "剣闘士",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "gl04",
+    "name": "双剣の剣闘士",
+    "theme": "剣闘士",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "gl05",
+    "name": "盾持ちの剣闘士",
+    "theme": "剣闘士",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "gl06",
+    "name": "槍の剣闘士",
+    "theme": "剣闘士",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "gl07",
+    "name": "闘技場の医師",
+    "theme": "剣闘士",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "gl08",
+    "name": "剣闘士の調教師",
+    "theme": "剣闘士",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "gl09",
+    "name": "闘技場の小僧",
+    "theme": "剣闘士",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "gl10",
+    "name": "百戦の剣闘士",
+    "theme": "剣闘士",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "gl11",
+    "name": "猛獣使いの剣闘士",
+    "theme": "剣闘士",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "gl12",
+    "name": "闘技場の覇者",
+    "theme": "剣闘士",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "gl13",
+    "name": "剣闘王マキシマス",
+    "theme": "剣闘士",
+    "type": "M",
+    "rarity": "UR"
+  },
+  {
+    "id": "gl14",
+    "name": "鎖鉄球の剣闘士",
+    "theme": "剣闘士",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "gl15",
+    "name": "戦車乗りの剣闘士",
+    "theme": "剣闘士",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "gl16",
+    "name": "剣闘士の見習い娘",
+    "theme": "剣闘士",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "gl17",
+    "name": "歓声を浴びる剣闘士",
+    "theme": "剣闘士",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "gl18",
+    "name": "敗者の亡霊",
+    "theme": "剣闘士",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "gl19",
+    "name": "闘技場の英雄ヘラクレス",
+    "theme": "剣闘士",
+    "type": "F",
+    "rarity": "SR"
+  },
+  {
+    "id": "gl20",
+    "name": "剣闘竜コロッセオ",
+    "theme": "剣闘士",
+    "type": "S",
+    "rarity": "SR"
+  },
+  {
+    "id": "gl21",
+    "name": "剣闘士団長",
+    "theme": "剣闘士",
+    "type": "X",
+    "rarity": "SR"
+  },
+  {
+    "id": "gl22",
+    "name": "闘技場の門",
+    "theme": "剣闘士",
+    "type": "L",
+    "rarity": "R"
+  },
+  {
+    "id": "gl23",
+    "name": "不敗の剣闘神",
+    "theme": "剣闘士",
+    "type": "L",
+    "rarity": "UR"
+  },
+  {
+    "id": "gl24",
+    "name": "闘技場への招待",
+    "theme": "剣闘士",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "gl25",
+    "name": "観客の歓声",
+    "theme": "剣闘士",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "gl26",
+    "name": "剣闘士の宴",
+    "theme": "剣闘士",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "gl27",
+    "name": "名誉の剣",
+    "theme": "剣闘士",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "gl28",
+    "name": "再戦の誓い",
+    "theme": "剣闘士",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "gl29",
+    "name": "決闘の宣言",
+    "theme": "剣闘士",
+    "type": "SP",
+    "rarity": "SR"
+  },
+  {
+    "id": "gl30",
+    "name": "剣闘士融合",
+    "theme": "剣闘士",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "gl31",
+    "name": "受け流し",
+    "theme": "剣闘士",
+    "type": "TR",
+    "rarity": "N"
+  },
+  {
+    "id": "gl32",
+    "name": "カウンター斬り",
+    "theme": "剣闘士",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "gl33",
+    "name": "砂かけ",
+    "theme": "剣闘士",
+    "type": "TR",
+    "rarity": "N"
+  },
+  {
+    "id": "gl34",
+    "name": "闘技場の罠",
+    "theme": "剣闘士",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "dl01",
+    "name": "からくり兵",
+    "theme": "人形",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "dl02",
+    "name": "人形師の弟子",
+    "theme": "人形",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "dl03",
+    "name": "呪いの市松人形",
+    "theme": "人形",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "dl04",
+    "name": "びっくり箱",
+    "theme": "人形",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "dl05",
+    "name": "操り糸の踊り子",
+    "theme": "人形",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "dl06",
+    "name": "ぜんまい仕掛けの兵隊",
+    "theme": "人形",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "dl07",
+    "name": "腹話術の人形",
+    "theme": "人形",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "dl08",
+    "name": "人形の小箱",
+    "theme": "人形",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "dl09",
+    "name": "糸切りの人形",
+    "theme": "人形",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "dl10",
+    "name": "からくり侍",
+    "theme": "人形",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "dl11",
+    "name": "人形劇の主役",
+    "theme": "人形",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "dl12",
+    "name": "巨大からくり武者",
+    "theme": "人形",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "dl13",
+    "name": "人形師マリオネッタ",
+    "theme": "人形",
+    "type": "M",
+    "rarity": "UR"
+  },
+  {
+    "id": "dl14",
+    "name": "笑う道化人形",
+    "theme": "人形",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "dl15",
+    "name": "人形の修理屋",
+    "theme": "人形",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "dl16",
+    "name": "影絵の人形",
+    "theme": "人形",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "dl17",
+    "name": "割れた陶器人形",
+    "theme": "人形",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "dl18",
+    "name": "人形の楽団",
+    "theme": "人形",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "dl19",
+    "name": "人形の王妃グランギニョル",
+    "theme": "人形",
+    "type": "F",
+    "rarity": "SR"
+  },
+  {
+    "id": "dl20",
+    "name": "からくり竜",
+    "theme": "人形",
+    "type": "S",
+    "rarity": "SR"
+  },
+  {
+    "id": "dl21",
+    "name": "人形劇場の支配人",
+    "theme": "人形",
+    "type": "X",
+    "rarity": "SR"
+  },
+  {
+    "id": "dl22",
+    "name": "操り糸",
+    "theme": "人形",
+    "type": "L",
+    "rarity": "R"
+  },
+  {
+    "id": "dl23",
+    "name": "機巧神デウス・エクス",
+    "theme": "人形",
+    "type": "S",
+    "rarity": "UR"
+  },
+  {
+    "id": "dl24",
+    "name": "人形師の工房",
+    "theme": "人形",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "dl25",
+    "name": "糸の操り",
+    "theme": "人形",
+    "type": "SP",
+    "rarity": "SR"
+  },
+  {
+    "id": "dl26",
+    "name": "人形の舞踏会",
+    "theme": "人形",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "dl27",
+    "name": "ねじ巻き",
+    "theme": "人形",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "dl28",
+    "name": "修理の儀",
+    "theme": "人形",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "dl29",
+    "name": "からくりの刃",
+    "theme": "人形",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "dl30",
+    "name": "人形融合",
+    "theme": "人形",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "dl31",
+    "name": "人形の身代わり",
+    "theme": "人形",
+    "type": "TR",
+    "rarity": "N"
+  },
+  {
+    "id": "dl32",
+    "name": "糸の罠",
+    "theme": "人形",
+    "type": "TR",
+    "rarity": "N"
+  },
+  {
+    "id": "dl33",
+    "name": "からくり仕掛け",
+    "theme": "人形",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "dl34",
+    "name": "びっくり人形",
+    "theme": "人形",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "ic01",
+    "name": "氷河のマンモス",
+    "theme": "氷河",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "ic02",
+    "name": "雪原の偵察兵",
+    "theme": "氷河",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "ic03",
+    "name": "氷の盾ペンギン",
+    "theme": "氷河",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "ic04",
+    "name": "凍土のヘラジカ",
+    "theme": "氷河",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "ic05",
+    "name": "ホッキョクグマ",
+    "theme": "氷河",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "ic06",
+    "name": "雪うさぎ",
+    "theme": "氷河",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "ic07",
+    "name": "氷柱のセイウチ",
+    "theme": "氷河",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "ic08",
+    "name": "吹雪のフクロウ",
+    "theme": "氷河",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "ic09",
+    "name": "氷河の小狐",
+    "theme": "氷河",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "ic10",
+    "name": "雪崩の巨獣",
+    "theme": "氷河",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "ic11",
+    "name": "氷牙のサーベルタイガー",
+    "theme": "氷河",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "ic12",
+    "name": "永久凍土の巨象",
+    "theme": "氷河",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "ic13",
+    "name": "氷河の王リヴァイアサン",
+    "theme": "氷河",
+    "type": "M",
+    "rarity": "UR"
+  },
+  {
+    "id": "ic14",
+    "name": "氷爪のクズリ",
+    "theme": "氷河",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "ic15",
+    "name": "雪原の見張り",
+    "theme": "氷河",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "ic16",
+    "name": "白銀のオオカミ",
+    "theme": "氷河",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "ic17",
+    "name": "雪解けの泉",
+    "theme": "氷河",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "ic18",
+    "name": "凍った化石",
+    "theme": "氷河",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "ic19",
+    "name": "氷河神獣フェンリル",
+    "theme": "氷河",
+    "type": "F",
+    "rarity": "SR"
+  },
+  {
+    "id": "ic20",
+    "name": "氷結竜ブリザード",
+    "theme": "氷河",
+    "type": "S",
+    "rarity": "SR"
+  },
+  {
+    "id": "ic21",
+    "name": "氷河の長老",
+    "theme": "氷河",
+    "type": "X",
+    "rarity": "SR"
+  },
+  {
+    "id": "ic22",
+    "name": "氷の回廊",
+    "theme": "氷河",
+    "type": "L",
+    "rarity": "R"
+  },
+  {
+    "id": "ic23",
+    "name": "絶対零度の覇獣",
+    "theme": "氷河",
+    "type": "F",
+    "rarity": "UR"
+  },
+  {
+    "id": "ic24",
+    "name": "雪原の呼び声",
+    "theme": "氷河",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "ic25",
+    "name": "氷河期",
+    "theme": "氷河",
+    "type": "SP",
+    "rarity": "SR"
+  },
+  {
+    "id": "ic26",
+    "name": "凍てつく牙",
+    "theme": "氷河",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "ic27",
+    "name": "雪解け",
+    "theme": "氷河",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "ic28",
+    "name": "冬ごもり",
+    "theme": "氷河",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "ic29",
+    "name": "白銀の大群",
+    "theme": "氷河",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "ic30",
+    "name": "氷河融合",
+    "theme": "氷河",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "ic31",
+    "name": "氷の壁",
+    "theme": "氷河",
+    "type": "TR",
+    "rarity": "N"
+  },
+  {
+    "id": "ic32",
+    "name": "凍結の罠",
+    "theme": "氷河",
+    "type": "TR",
+    "rarity": "N"
+  },
+  {
+    "id": "ic33",
+    "name": "氷柱落とし",
+    "theme": "氷河",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "ic34",
+    "name": "雪崩",
+    "theme": "氷河",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "al01",
+    "name": "見習い錬金術師",
+    "theme": "錬金術",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "al02",
+    "name": "素材集めの少女",
+    "theme": "錬金術",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "al03",
+    "name": "ホムンクルス",
+    "theme": "錬金術",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "al04",
+    "name": "黄金のゴーレム",
+    "theme": "錬金術",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "al05",
+    "name": "炎の精サラマンダー",
+    "theme": "錬金術",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "al06",
+    "name": "蒸留の魔術師",
+    "theme": "錬金術",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "al07",
+    "name": "錬金術師の使い魔",
+    "theme": "錬金術",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "al08",
+    "name": "賢者の石の欠片",
+    "theme": "錬金術",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "al09",
+    "name": "錬成の鍛冶師",
+    "theme": "錬金術",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "al10",
+    "name": "真理の探究者",
+    "theme": "錬金術",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "al11",
+    "name": "大錬金術師パラケルス",
+    "theme": "錬金術",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "al12",
+    "name": "錬成獣キメラ",
+    "theme": "錬金術",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "al13",
+    "name": "賢者ヘルメス",
+    "theme": "錬金術",
+    "type": "M",
+    "rarity": "UR"
+  },
+  {
+    "id": "al14",
+    "name": "火薬師",
+    "theme": "錬金術",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "al15",
+    "name": "錬金術の工房主",
+    "theme": "錬金術",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "al16",
+    "name": "水銀の精",
+    "theme": "錬金術",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "al17",
+    "name": "鉛の兵隊",
+    "theme": "錬金術",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "al18",
+    "name": "錬成の失敗作",
+    "theme": "錬金術",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "al19",
+    "name": "賢者の石の守護者",
+    "theme": "錬金術",
+    "type": "F",
+    "rarity": "SR"
+  },
+  {
+    "id": "al20",
+    "name": "錬成竜ウロボロス",
+    "theme": "錬金術",
+    "type": "S",
+    "rarity": "SR"
+  },
+  {
+    "id": "al21",
+    "name": "錬金術師ギルド長",
+    "theme": "錬金術",
+    "type": "X",
+    "rarity": "SR"
+  },
+  {
+    "id": "al22",
+    "name": "変成の円環",
+    "theme": "錬金術",
+    "type": "L",
+    "rarity": "R"
+  },
+  {
+    "id": "al23",
+    "name": "完全なる錬成体",
+    "theme": "錬金術",
+    "type": "S",
+    "rarity": "UR"
+  },
+  {
+    "id": "al24",
+    "name": "錬金術の書",
+    "theme": "錬金術",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "al25",
+    "name": "素材の分解",
+    "theme": "錬金術",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "al26",
+    "name": "等価交換",
+    "theme": "錬金術",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "al27",
+    "name": "再錬成",
+    "theme": "錬金術",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "al28",
+    "name": "爆炎の調合",
+    "theme": "錬金術",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "al29",
+    "name": "錬成の炉",
+    "theme": "錬金術",
+    "type": "SP",
+    "rarity": "SR"
+  },
+  {
+    "id": "al30",
+    "name": "錬金融合",
+    "theme": "錬金術",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "al31",
+    "name": "錬金の盾",
+    "theme": "錬金術",
+    "type": "TR",
+    "rarity": "N"
+  },
+  {
+    "id": "al32",
+    "name": "爆発ポーション",
+    "theme": "錬金術",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "al33",
+    "name": "鉛化の霧",
+    "theme": "錬金術",
+    "type": "TR",
+    "rarity": "N"
+  },
+  {
+    "id": "al34",
+    "name": "錬成反応",
+    "theme": "錬金術",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "dm01",
+    "name": "次元の斥候",
+    "theme": "次元",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "dm02",
+    "name": "次元の案内人",
+    "theme": "次元",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "dm03",
+    "name": "狭間の剣士",
+    "theme": "次元",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "dm04",
+    "name": "次元の掃除屋",
+    "theme": "次元",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "dm05",
+    "name": "帰還者",
+    "theme": "次元",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "dm06",
+    "name": "次元の門番",
+    "theme": "次元",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "dm07",
+    "name": "異次元の小悪魔",
+    "theme": "次元",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "dm08",
+    "name": "虚空の魔女",
+    "theme": "次元",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "dm09",
+    "name": "次元斬りの侍",
+    "theme": "次元",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "dm10",
+    "name": "狭間の騎士団長",
+    "theme": "次元",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "dm11",
+    "name": "次元竜ディストーション",
+    "theme": "次元",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "dm12",
+    "name": "次元神ディメンジョン",
+    "theme": "次元",
+    "type": "M",
+    "rarity": "UR"
+  },
+  {
+    "id": "dm13",
+    "name": "次元の申し子",
+    "theme": "次元",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "dm14",
+    "name": "次元の歪み",
+    "theme": "次元",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "dm15",
+    "name": "空間を裂く者",
+    "theme": "次元",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "dm16",
+    "name": "次元の研究者",
+    "theme": "次元",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "dm17",
+    "name": "虚無の番人",
+    "theme": "次元",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "dm18",
+    "name": "消えゆく影",
+    "theme": "次元",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "dm19",
+    "name": "次元融合神アストラル",
+    "theme": "次元",
+    "type": "F",
+    "rarity": "SR"
+  },
+  {
+    "id": "dm20",
+    "name": "次元竜ヴォイド",
+    "theme": "次元",
+    "type": "S",
+    "rarity": "SR"
+  },
+  {
+    "id": "dm21",
+    "name": "次元の監視者",
+    "theme": "次元",
+    "type": "X",
+    "rarity": "SR"
+  },
+  {
+    "id": "dm22",
+    "name": "次元回廊",
+    "theme": "次元",
+    "type": "L",
+    "rarity": "R"
+  },
+  {
+    "id": "dm23",
+    "name": "異次元の覇者",
+    "theme": "次元",
+    "type": "F",
+    "rarity": "UR"
+  },
+  {
+    "id": "dm24",
+    "name": "次元の扉",
+    "theme": "次元",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "dm25",
+    "name": "次元融合",
+    "theme": "次元",
+    "type": "SP",
+    "rarity": "SR"
+  },
+  {
+    "id": "dm26",
+    "name": "次元の裂け目",
+    "theme": "次元",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "dm27",
+    "name": "時空の補給",
+    "theme": "次元",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "dm28",
+    "name": "次元の帰還",
+    "theme": "次元",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "dm29",
+    "name": "次元幽閉の門",
+    "theme": "次元",
+    "type": "TR",
+    "rarity": "SR"
+  },
+  {
+    "id": "dm30",
+    "name": "次元送りの罠",
+    "theme": "次元",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "dm31",
+    "name": "狭間の牢獄",
+    "theme": "次元",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "dm32",
+    "name": "次元の盾",
+    "theme": "次元",
+    "type": "TR",
+    "rarity": "N"
+  },
+  {
+    "id": "gx01",
+    "name": "深淵融合",
+    "theme": "汎用",
+    "type": "SP",
+    "rarity": "SR"
+  },
+  {
+    "id": "gx02",
+    "name": "魂の融合",
+    "theme": "汎用",
+    "type": "SP",
+    "rarity": "SR"
+  },
+  {
+    "id": "gx03",
+    "name": "強奪融合",
+    "theme": "汎用",
+    "type": "SP",
+    "rarity": "UR"
+  },
+  {
+    "id": "gx04",
+    "name": "次元の狭間",
+    "theme": "汎用",
+    "type": "TR",
+    "rarity": "SR"
+  },
+  {
+    "id": "gx05",
+    "name": "次元送り",
+    "theme": "汎用",
+    "type": "TR",
+    "rarity": "SR"
+  },
+  {
+    "id": "gx06",
+    "name": "神封じの宣告",
+    "theme": "汎用",
+    "type": "TR",
+    "rarity": "UR"
+  },
+  {
+    "id": "gx07",
+    "name": "封印の牢獄",
+    "theme": "汎用",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "gx08",
+    "name": "身代わりの案山子",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "gx09",
+    "name": "増殖する羽虫",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "gx10",
+    "name": "召喚封じの石像",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "gx11",
+    "name": "無効の天使",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "gx12",
+    "name": "迎撃の砲台",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "gx13",
+    "name": "封殺の騎士",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "gx14",
+    "name": "墓守の番人",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "gn01",
+    "name": "鋼鉄の番兵",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "gn02",
+    "name": "疾風の剣士",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "gn03",
+    "name": "魔弾の射手",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "gn04",
+    "name": "聖なる守護者",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "gn05",
+    "name": "破壊の魔術師",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "gn06",
+    "name": "影の暗殺者",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "gn07",
+    "name": "探索の妖精",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "gn08",
+    "name": "再生の巫女",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "gn09",
+    "name": "城塞ゴーレム",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "gn10",
+    "name": "炎の魔獣",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "gn11",
+    "name": "雷鳴竜",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "gn12",
+    "name": "終焉の魔王",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "UR"
+  },
+  {
+    "id": "gn13",
+    "name": "ウィスプ",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "gn14",
+    "name": "ギアボット",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "gn15",
+    "name": "影の分身",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "gn16",
+    "name": "混沌竜カオス・ドラゴン",
+    "theme": "汎用",
+    "type": "F",
+    "rarity": "UR"
+  },
+  {
+    "id": "gn17",
+    "name": "合成獣キメラ・マキナ",
+    "theme": "汎用",
+    "type": "F",
+    "rarity": "R"
+  },
+  {
+    "id": "gn18",
+    "name": "星屑の竜",
+    "theme": "汎用",
+    "type": "S",
+    "rarity": "SR"
+  },
+  {
+    "id": "gn19",
+    "name": "疾風の剣聖",
+    "theme": "汎用",
+    "type": "S",
+    "rarity": "R"
+  },
+  {
+    "id": "gn20",
+    "name": "鋼鉄の巨兵",
+    "theme": "汎用",
+    "type": "X",
+    "rarity": "SR"
+  },
+  {
+    "id": "gn21",
+    "name": "深淵の魔導王",
+    "theme": "汎用",
+    "type": "X",
+    "rarity": "SR"
+  },
+  {
+    "id": "gn22",
+    "name": "電脳の守護者",
+    "theme": "汎用",
+    "type": "L",
+    "rarity": "R"
+  },
+  {
+    "id": "gn23",
+    "name": "電脳竜コードブレイカー",
+    "theme": "汎用",
+    "type": "L",
+    "rarity": "UR"
+  },
+  {
+    "id": "gn24",
+    "name": "一閃の雷",
+    "theme": "汎用",
+    "type": "SP",
+    "rarity": "SR"
+  },
+  {
+    "id": "gn25",
+    "name": "強欲の宝珠",
+    "theme": "汎用",
+    "type": "SP",
+    "rarity": "UR"
+  },
+  {
+    "id": "gn26",
+    "name": "英霊の呼び声",
+    "theme": "汎用",
+    "type": "SP",
+    "rarity": "SR"
+  },
+  {
+    "id": "gn27",
+    "name": "略奪の風",
+    "theme": "汎用",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "gn28",
+    "name": "闘志の剣",
+    "theme": "汎用",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "gn29",
+    "name": "騎士の遺志",
+    "theme": "汎用",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "gn30",
+    "name": "聖なる鏡",
+    "theme": "汎用",
+    "type": "TR",
+    "rarity": "UR"
+  },
+  {
+    "id": "gn31",
+    "name": "奈落の大穴",
+    "theme": "汎用",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "gn32",
+    "name": "反撃の狼煙",
+    "theme": "汎用",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "gn33",
+    "name": "天罰",
+    "theme": "汎用",
+    "type": "TR",
+    "rarity": "SR"
+  },
+  {
+    "id": "gn34",
+    "name": "激流の罠",
+    "theme": "汎用",
+    "type": "TR",
+    "rarity": "SR"
+  },
+  {
+    "id": "gn35",
+    "name": "勇気の旗印",
+    "theme": "汎用",
+    "type": "CS",
+    "rarity": "SR"
+  },
+  {
+    "id": "gn36",
+    "name": "生命の大樹",
+    "theme": "汎用",
+    "type": "CS",
+    "rarity": "R"
+  },
+  {
+    "id": "gn37",
+    "name": "知恵の泉",
+    "theme": "汎用",
+    "type": "CS",
+    "rarity": "SR"
+  },
+  {
+    "id": "gn38",
+    "name": "呪縛の鎖",
+    "theme": "汎用",
+    "type": "CT",
+    "rarity": "SR"
+  },
+  {
+    "id": "gn39",
+    "name": "業火の罠",
+    "theme": "汎用",
+    "type": "CT",
+    "rarity": "R"
+  },
+  {
+    "id": "gn40",
+    "name": "戦いの痛み",
+    "theme": "汎用",
+    "type": "CT",
+    "rarity": "R"
+  },
+  {
+    "id": "gn41",
+    "name": "竜の谷",
+    "theme": "汎用",
+    "type": "FS",
+    "rarity": "R"
+  },
+  {
+    "id": "gn42",
+    "name": "機械都市",
+    "theme": "汎用",
+    "type": "FS",
+    "rarity": "R"
+  },
+  {
+    "id": "gn43",
+    "name": "戦士の闘技場",
+    "theme": "汎用",
+    "type": "FS",
+    "rarity": "R"
+  },
+  {
+    "id": "gn44",
+    "name": "魔法学院",
+    "theme": "汎用",
+    "type": "FS",
+    "rarity": "R"
+  },
+  {
+    "id": "skr1",
+    "name": "星騎士アークトゥルス",
+    "theme": "星騎士",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "skr2",
+    "name": "星騎士団長ポラリス",
+    "theme": "星騎士",
+    "type": "S",
+    "rarity": "SR"
+  },
+  {
+    "id": "skr3",
+    "name": "星騎士の誓約",
+    "theme": "星騎士",
+    "type": "CS",
+    "rarity": "SR"
+  },
+  {
+    "id": "skr4",
+    "name": "星騎士の盾陣",
+    "theme": "星騎士",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "abr1",
+    "name": "深海の守り手",
+    "theme": "深海",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "abr2",
+    "name": "深海回廊リヴァイア",
+    "theme": "深海",
+    "type": "L",
+    "rarity": "SR"
+  },
+  {
+    "id": "abr3",
+    "name": "深海神殿",
+    "theme": "深海",
+    "type": "CS",
+    "rarity": "R"
+  },
+  {
+    "id": "abr4",
+    "name": "深海の恵み",
+    "theme": "深海",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "njr1",
+    "name": "忍・夜叉丸",
+    "theme": "忍",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "njr2",
+    "name": "忍頭・朧",
+    "theme": "忍",
+    "type": "X",
+    "rarity": "SR"
+  },
+  {
+    "id": "njr3",
+    "name": "隠れ里",
+    "theme": "忍",
+    "type": "CS",
+    "rarity": "R"
+  },
+  {
+    "id": "njr4",
+    "name": "忍法・影縫い",
+    "theme": "忍",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "thr1",
+    "name": "雷獣ライジュウ",
+    "theme": "雷神",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "thr2",
+    "name": "雷帝トール",
+    "theme": "雷神",
+    "type": "S",
+    "rarity": "UR"
+  },
+  {
+    "id": "thr3",
+    "name": "雷鳴の祭壇",
+    "theme": "雷神",
+    "type": "CS",
+    "rarity": "R"
+  },
+  {
+    "id": "thr4",
+    "name": "雷神の裁き",
+    "theme": "雷神",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "bsr1",
+    "name": "獣王の若獅子",
+    "theme": "獣王",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "bsr2",
+    "name": "百獣王ベヒモス",
+    "theme": "獣王",
+    "type": "F",
+    "rarity": "UR"
+  },
+  {
+    "id": "bsr3",
+    "name": "獣王の縄張り",
+    "theme": "獣王",
+    "type": "CS",
+    "rarity": "SR"
+  },
+  {
+    "id": "bsr4",
+    "name": "野生の咆哮",
+    "theme": "獣王",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "mgr1",
+    "name": "魔導の書記",
+    "theme": "魔導",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "mgr2",
+    "name": "魔導書庫の番人",
+    "theme": "魔導",
+    "type": "L",
+    "rarity": "SR"
+  },
+  {
+    "id": "mgr3",
+    "name": "魔導の図書館",
+    "theme": "魔導",
+    "type": "CS",
+    "rarity": "SR"
+  },
+  {
+    "id": "mgr4",
+    "name": "魔導の秘儀",
+    "theme": "魔導",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "udr1",
+    "name": "死霊の墓掘り",
+    "theme": "死霊",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "udr2",
+    "name": "死霊騎士デュラハン",
+    "theme": "死霊",
+    "type": "X",
+    "rarity": "SR"
+  },
+  {
+    "id": "udr3",
+    "name": "死者の墓地",
+    "theme": "死霊",
+    "type": "CS",
+    "rarity": "R"
+  },
+  {
+    "id": "udr4",
+    "name": "死者の行進",
+    "theme": "死霊",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "flr1",
+    "name": "花妖精ローズ",
+    "theme": "花妖精",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "flr2",
+    "name": "花の女王ティターニア",
+    "theme": "花妖精",
+    "type": "S",
+    "rarity": "SR"
+  },
+  {
+    "id": "flr3",
+    "name": "花妖精の楽園",
+    "theme": "花妖精",
+    "type": "FS",
+    "rarity": "SR"
+  },
+  {
+    "id": "flr4",
+    "name": "花吹雪",
+    "theme": "花妖精",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "anr1",
+    "name": "天使ミカエラ",
+    "theme": "天使",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "anr2",
+    "name": "熾天使セラフィム",
+    "theme": "天使",
+    "type": "F",
+    "rarity": "UR"
+  },
+  {
+    "id": "anr3",
+    "name": "天界の門",
+    "theme": "天使",
+    "type": "CS",
+    "rarity": "R"
+  },
+  {
+    "id": "anr4",
+    "name": "天使の加護",
+    "theme": "天使",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "dnr1",
+    "name": "ラプトルの卵",
+    "theme": "恐竜",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "dnr2",
+    "name": "暴君竜ティラノ・レックス",
+    "theme": "恐竜",
+    "type": "S",
+    "rarity": "UR"
+  },
+  {
+    "id": "dnr3",
+    "name": "太古の火山",
+    "theme": "恐竜",
+    "type": "CS",
+    "rarity": "SR"
+  },
+  {
+    "id": "dnr4",
+    "name": "化石の力",
+    "theme": "恐竜",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "inr1",
+    "name": "軍隊アリ",
+    "theme": "昆虫",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "inr2",
+    "name": "軍隊蜂ジェネラル・ホーネット",
+    "theme": "昆虫",
+    "type": "X",
+    "rarity": "SR"
+  },
+  {
+    "id": "inr3",
+    "name": "巨大な巣",
+    "theme": "昆虫",
+    "type": "CS",
+    "rarity": "SR"
+  },
+  {
+    "id": "inr4",
+    "name": "蟲の大群",
+    "theme": "昆虫",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "mor1",
+    "name": "冥府の使者",
+    "theme": "冥王",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "mor2",
+    "name": "冥王の玉座",
+    "theme": "冥王",
+    "type": "L",
+    "rarity": "UR"
+  },
+  {
+    "id": "mor3",
+    "name": "冥府の城",
+    "theme": "冥王",
+    "type": "FS",
+    "rarity": "SR"
+  },
+  {
+    "id": "mor4",
+    "name": "冥王の呪縛",
+    "theme": "冥王",
+    "type": "TR",
+    "rarity": "SR"
+  },
+  {
+    "id": "sar1",
+    "name": "浪人 一閃",
+    "theme": "侍",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "sar2",
+    "name": "剣聖 武蔵",
+    "theme": "侍",
+    "type": "S",
+    "rarity": "UR"
+  },
+  {
+    "id": "sar3",
+    "name": "武家屋敷",
+    "theme": "侍",
+    "type": "CS",
+    "rarity": "R"
+  },
+  {
+    "id": "sar4",
+    "name": "刀狩り",
+    "theme": "侍",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "pir1",
+    "name": "海賊の航海士",
+    "theme": "海賊",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "pir2",
+    "name": "大海賊船長バルバロッサ",
+    "theme": "海賊",
+    "type": "X",
+    "rarity": "SR"
+  },
+  {
+    "id": "pir3",
+    "name": "海賊旗",
+    "theme": "海賊",
+    "type": "CS",
+    "rarity": "SR"
+  },
+  {
+    "id": "pir4",
+    "name": "海賊の罠",
+    "theme": "海賊",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "yor1",
+    "name": "妖怪 天狗",
+    "theme": "妖怪",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "yor2",
+    "name": "大妖怪 九尾",
+    "theme": "妖怪",
+    "type": "F",
+    "rarity": "UR"
+  },
+  {
+    "id": "yor3",
+    "name": "百鬼夜行",
+    "theme": "妖怪",
+    "type": "CS",
+    "rarity": "R"
+  },
+  {
+    "id": "yor4",
+    "name": "妖術・金縛り",
+    "theme": "妖怪",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "elr1",
+    "name": "風の精霊シルフィ",
+    "theme": "精霊",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "elr2",
+    "name": "精霊王オベロン",
+    "theme": "精霊",
+    "type": "S",
+    "rarity": "UR"
+  },
+  {
+    "id": "elr3",
+    "name": "精霊の泉",
+    "theme": "精霊",
+    "type": "CS",
+    "rarity": "R"
+  },
+  {
+    "id": "elr4",
+    "name": "四大精霊の祈り",
+    "theme": "精霊",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "ckr1",
+    "name": "歯車兵士",
+    "theme": "時計仕掛け",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "ckr2",
+    "name": "時計塔の守護者",
+    "theme": "時計仕掛け",
+    "type": "L",
+    "rarity": "SR"
+  },
+  {
+    "id": "ckr3",
+    "name": "時計塔の街",
+    "theme": "時計仕掛け",
+    "type": "FS",
+    "rarity": "SR"
+  },
+  {
+    "id": "ckr4",
+    "name": "時間停止",
+    "theme": "時計仕掛け",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "kkr1",
+    "name": "結界の守り人",
+    "theme": "結界",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "kkr2",
+    "name": "封印の大巫女",
+    "theme": "結界",
+    "type": "X",
+    "rarity": "SR"
+  },
+  {
+    "id": "kkr3",
+    "name": "封印の注連縄",
+    "theme": "結界",
+    "type": "CT",
+    "rarity": "SR"
+  },
+  {
+    "id": "kkr4",
+    "name": "結界反転",
+    "theme": "結界",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "kdr1",
+    "name": "王国の宮廷魔導師",
+    "theme": "王国",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "kdr2",
+    "name": "王国の騎士団本部",
+    "theme": "王国",
+    "type": "L",
+    "rarity": "SR"
+  },
+  {
+    "id": "kdr3",
+    "name": "王国の宝物庫",
+    "theme": "王国",
+    "type": "CS",
+    "rarity": "SR"
+  },
+  {
+    "id": "kdr4",
+    "name": "王国の衛兵隊",
+    "theme": "王国",
+    "type": "CT",
+    "rarity": "R"
+  },
+  {
+    "id": "glr1",
+    "name": "剣闘士の新人",
+    "theme": "剣闘士",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "glr2",
+    "name": "闘技王スパルタクス",
+    "theme": "剣闘士",
+    "type": "S",
+    "rarity": "UR"
+  },
+  {
+    "id": "glr3",
+    "name": "大闘技場コロッセオ",
+    "theme": "剣闘士",
+    "type": "FS",
+    "rarity": "SR"
+  },
+  {
+    "id": "glr4",
+    "name": "闘技場の熱狂",
+    "theme": "剣闘士",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "dlr1",
+    "name": "操り人形ピエロ",
+    "theme": "人形",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "dlr2",
+    "name": "人形師の傑作アリス",
+    "theme": "人形",
+    "type": "X",
+    "rarity": "SR"
+  },
+  {
+    "id": "dlr3",
+    "name": "人形の館",
+    "theme": "人形",
+    "type": "CS",
+    "rarity": "R"
+  },
+  {
+    "id": "dlr4",
+    "name": "人形の呪い",
+    "theme": "人形",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "icr1",
+    "name": "氷河の白狼",
+    "theme": "氷河",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "icr2",
+    "name": "氷結の回廊",
+    "theme": "氷河",
+    "type": "L",
+    "rarity": "SR"
+  },
+  {
+    "id": "icr3",
+    "name": "永久凍土",
+    "theme": "氷河",
+    "type": "FS",
+    "rarity": "SR"
+  },
+  {
+    "id": "icr4",
+    "name": "氷の刃",
+    "theme": "氷河",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "alr1",
+    "name": "錬金術の見習い",
+    "theme": "錬金術",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "alr2",
+    "name": "賢者の石ホムンクルス",
+    "theme": "錬金術",
+    "type": "F",
+    "rarity": "UR"
+  },
+  {
+    "id": "alr3",
+    "name": "錬金工房",
+    "theme": "錬金術",
+    "type": "CS",
+    "rarity": "SR"
+  },
+  {
+    "id": "alr4",
+    "name": "錬成失敗",
+    "theme": "錬金術",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "dmr1",
+    "name": "次元の旅人",
+    "theme": "次元",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "dmr2",
+    "name": "次元断層の竜",
+    "theme": "次元",
+    "type": "S",
+    "rarity": "SR"
+  },
+  {
+    "id": "dmr3",
+    "name": "異次元空間",
+    "theme": "次元",
+    "type": "FS",
+    "rarity": "SR"
+  },
+  {
+    "id": "dmr4",
+    "name": "次元の牢獄",
+    "theme": "次元",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "gd01",
+    "name": "天空神ウラノス",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "UR"
+  },
+  {
+    "id": "gd02",
+    "name": "巨神兵タイタン",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "UR"
+  },
+  {
+    "id": "gd03",
+    "name": "太陽神ヘリオス",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "UR"
+  },
+  {
+    "id": "gd04",
+    "name": "三位一体の機兵トリニティ",
+    "theme": "汎用",
+    "type": "X",
+    "rarity": "SR"
+  },
+  {
+    "id": "gd05",
+    "name": "トライアングル・ナイト",
+    "theme": "汎用",
+    "type": "X",
+    "rarity": "UR"
+  },
+  {
+    "id": "gd06",
+    "name": "三連星の巨神",
+    "theme": "汎用",
+    "type": "X",
+    "rarity": "UR"
+  },
+  {
+    "id": "gd07",
+    "name": "銀河騎士ギャラクシオン",
+    "theme": "汎用",
+    "type": "X",
+    "rarity": "SR"
+  },
+  {
+    "id": "gd08",
+    "name": "超銀河竜ネオ・ギャラクシー",
+    "theme": "汎用",
+    "type": "X",
+    "rarity": "UR"
+  },
+  {
+    "id": "gd09",
+    "name": "ランクアップ・マジック",
+    "theme": "汎用",
+    "type": "SP",
+    "rarity": "SR"
+  },
+  {
+    "id": "gd10",
+    "name": "ランクアップ・フォース",
+    "theme": "汎用",
+    "type": "SP",
+    "rarity": "UR"
+  },
+  {
+    "id": "gd11",
+    "name": "疾風のシンクロ剣士",
+    "theme": "汎用",
+    "type": "S",
+    "rarity": "R"
+  },
+  {
+    "id": "gd12",
+    "name": "機鋼シンクロン・ガード",
+    "theme": "汎用",
+    "type": "S",
+    "rarity": "SR"
+  },
+  {
+    "id": "gd13",
+    "name": "閃光のシンクロ騎士",
+    "theme": "汎用",
+    "type": "S",
+    "rarity": "SR"
+  },
+  {
+    "id": "gd14",
+    "name": "氷華のシンクロ魔女",
+    "theme": "汎用",
+    "type": "S",
+    "rarity": "R"
+  },
+  {
+    "id": "gd15",
+    "name": "シンクロ・スパーク",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "gd16",
+    "name": "魔導の究極体アルカナ",
+    "theme": "汎用",
+    "type": "F",
+    "rarity": "UR"
+  },
+  {
+    "id": "gd17",
+    "name": "呪符の巨人グリモア",
+    "theme": "汎用",
+    "type": "F",
+    "rarity": "SR"
+  },
+  {
+    "id": "gd18",
+    "name": "冥界の亡者",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "gd19",
+    "name": "墓場の賢者",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "gd20",
+    "name": "怨念の騎士",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "gd21",
+    "name": "冥府への誘い",
+    "theme": "汎用",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "gd22",
+    "name": "魂の癒し",
+    "theme": "汎用",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "gd23",
+    "name": "墓地からの逆襲",
+    "theme": "汎用",
+    "type": "TR",
+    "rarity": "SR"
+  },
+  {
+    "id": "un01",
+    "name": "ユナイト・ヘッド",
+    "theme": "ユナイト",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "un02",
+    "name": "ユナイト・アーム",
+    "theme": "ユナイト",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "un03",
+    "name": "ユナイト・レッグ",
+    "theme": "ユナイト",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "un04",
+    "name": "ユナイト・コア",
+    "theme": "ユナイト",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "un05",
+    "name": "ユナイト・ウイング",
+    "theme": "ユナイト",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "un06",
+    "name": "ユナイト・ドリル",
+    "theme": "ユナイト",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "un07",
+    "name": "ユナイト・シールド",
+    "theme": "ユナイト",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "un08",
+    "name": "ユナイト・キャノン",
+    "theme": "ユナイト",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "un09",
+    "name": "ユナイト・パイロット",
+    "theme": "ユナイト",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "un10",
+    "name": "ユナイト・ジェネレーター",
+    "theme": "ユナイト",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "un11",
+    "name": "ユナイト・コマンダー",
+    "theme": "ユナイト",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "un12",
+    "name": "ユナイト・ドラゴン",
+    "theme": "ユナイト",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "un13",
+    "name": "ユナイトロボ・ガイア",
+    "theme": "ユナイト",
+    "type": "F",
+    "rarity": "SR"
+  },
+  {
+    "id": "un14",
+    "name": "ユナイトロボ・ジェット",
+    "theme": "ユナイト",
+    "type": "F",
+    "rarity": "SR"
+  },
+  {
+    "id": "un15",
+    "name": "ユナイトロボ・タンク",
+    "theme": "ユナイト",
+    "type": "F",
+    "rarity": "SR"
+  },
+  {
+    "id": "un16",
+    "name": "ユナイトロボ・ドリラー",
+    "theme": "ユナイト",
+    "type": "F",
+    "rarity": "R"
+  },
+  {
+    "id": "un17",
+    "name": "超合体ユナイト・カイザー",
+    "theme": "ユナイト",
+    "type": "F",
+    "rarity": "UR"
+  },
+  {
+    "id": "un18",
+    "name": "究極合体ユナイト・オメガ",
+    "theme": "ユナイト",
+    "type": "F",
+    "rarity": "UR"
+  },
+  {
+    "id": "un19",
+    "name": "ユナイト・ベース",
+    "theme": "ユナイト",
+    "type": "L",
+    "rarity": "R"
+  },
+  {
+    "id": "un20",
+    "name": "ユナイト・コール",
+    "theme": "ユナイト",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "un21",
+    "name": "緊急合体",
+    "theme": "ユナイト",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "un22",
+    "name": "合体解除",
+    "theme": "ユナイト",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "un23",
+    "name": "ユナイト工場",
+    "theme": "ユナイト",
+    "type": "CS",
+    "rarity": "SR"
+  },
+  {
+    "id": "un24",
+    "name": "合体バリア",
+    "theme": "ユナイト",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "un25",
+    "name": "ユナイト・カウンター",
+    "theme": "ユナイト",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "as01",
+    "name": "アセンド・スカウト",
+    "theme": "アセンド",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "as02",
+    "name": "アセンド・ランサー",
+    "theme": "アセンド",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "as03",
+    "name": "アセンド・シールダー",
+    "theme": "アセンド",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "as04",
+    "name": "アセンド・ウィザード",
+    "theme": "アセンド",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "as05",
+    "name": "アセンド・アーチャー",
+    "theme": "アセンド",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "as06",
+    "name": "アセンド・コマンダー",
+    "theme": "アセンド",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "as07",
+    "name": "アセンド・ガーディアン",
+    "theme": "アセンド",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "as08",
+    "name": "アセンド・ブレイバー",
+    "theme": "アセンド",
+    "type": "X",
+    "rarity": "SR"
+  },
+  {
+    "id": "as09",
+    "name": "アセンド・パラディン",
+    "theme": "アセンド",
+    "type": "X",
+    "rarity": "SR"
+  },
+  {
+    "id": "as10",
+    "name": "アセンド・クルセイダー",
+    "theme": "アセンド",
+    "type": "X",
+    "rarity": "SR"
+  },
+  {
+    "id": "as11",
+    "name": "アセンド・セイント",
+    "theme": "アセンド",
+    "type": "X",
+    "rarity": "UR"
+  },
+  {
+    "id": "as12",
+    "name": "アセンド・アークエンジェル",
+    "theme": "アセンド",
+    "type": "X",
+    "rarity": "UR"
+  },
+  {
+    "id": "as13",
+    "name": "アセンド・ヘブンズロード",
+    "theme": "アセンド",
+    "type": "X",
+    "rarity": "UR"
+  },
+  {
+    "id": "as14",
+    "name": "アセンド・オメガ",
+    "theme": "アセンド",
+    "type": "X",
+    "rarity": "UR"
+  },
+  {
+    "id": "as15",
+    "name": "アセンド・コール",
+    "theme": "アセンド",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "as16",
+    "name": "アセンド・ランクアップ",
+    "theme": "アセンド",
+    "type": "SP",
+    "rarity": "SR"
+  },
+  {
+    "id": "as17",
+    "name": "アセンド・オーバーリミット",
+    "theme": "アセンド",
+    "type": "SP",
+    "rarity": "UR"
+  },
+  {
+    "id": "as18",
+    "name": "集結の号令",
+    "theme": "アセンド",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "as19",
+    "name": "アセンドの聖塔",
+    "theme": "アセンド",
+    "type": "CS",
+    "rarity": "R"
+  },
+  {
+    "id": "as20",
+    "name": "昇階の盾",
+    "theme": "アセンド",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "xr01",
+    "name": "銀河の騎士ギャラクシー・セブン",
+    "theme": "汎用",
+    "type": "X",
+    "rarity": "SR"
+  },
+  {
+    "id": "xr02",
+    "name": "冥府の巨人タルタロス",
+    "theme": "汎用",
+    "type": "X",
+    "rarity": "SR"
+  },
+  {
+    "id": "xr03",
+    "name": "超時空竜クロノス",
+    "theme": "汎用",
+    "type": "X",
+    "rarity": "UR"
+  },
+  {
+    "id": "xr04",
+    "name": "天穹の覇者セラフィム",
+    "theme": "汎用",
+    "type": "X",
+    "rarity": "UR"
+  },
+  {
+    "id": "xr05",
+    "name": "終焉の神竜エンド",
+    "theme": "汎用",
+    "type": "X",
+    "rarity": "UR"
+  },
+  {
+    "id": "xr06",
+    "name": "創星神機ジェネシス",
+    "theme": "汎用",
+    "type": "X",
+    "rarity": "UR"
+  },
+  {
+    "id": "xr07",
+    "name": "ランクアップ・エクシード",
+    "theme": "汎用",
+    "type": "SP",
+    "rarity": "UR"
+  },
+  {
+    "id": "mn01",
+    "name": "マナの導き",
+    "theme": "マナ",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "mn02",
+    "name": "マナ・ライブラリー",
+    "theme": "マナ",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "mn03",
+    "name": "マナ・ボルト",
+    "theme": "マナ",
+    "type": "SP",
+    "rarity": "SR"
+  },
+  {
+    "id": "mn04",
+    "name": "マナ・ノヴァ",
+    "theme": "マナ",
+    "type": "SP",
+    "rarity": "UR"
+  },
+  {
+    "id": "mn05",
+    "name": "マナ・テンペスト",
+    "theme": "マナ",
+    "type": "SP",
+    "rarity": "SR"
+  },
+  {
+    "id": "mn06",
+    "name": "マナ・ヒール",
+    "theme": "マナ",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "mn07",
+    "name": "マナ・リターン",
+    "theme": "マナ",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "mn08",
+    "name": "マナの防壁",
+    "theme": "マナ",
+    "type": "CS",
+    "rarity": "SR"
+  },
+  {
+    "id": "mn09",
+    "name": "マナの泉",
+    "theme": "マナ",
+    "type": "CS",
+    "rarity": "R"
+  },
+  {
+    "id": "mn10",
+    "name": "マナ・スパーク",
+    "theme": "マナ",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "mn11",
+    "name": "マナ・レイ",
+    "theme": "マナ",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "mn12",
+    "name": "マナ・リコール",
+    "theme": "マナ",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "mn13",
+    "name": "マナの癒し手",
+    "theme": "マナ",
+    "type": "CS",
+    "rarity": "R"
+  },
+  {
+    "id": "mn14",
+    "name": "マナの大聖堂",
+    "theme": "マナ",
+    "type": "FS",
+    "rarity": "UR"
+  },
+  {
+    "id": "mn15",
+    "name": "魔力炉の塔",
+    "theme": "マナ",
+    "type": "FS",
+    "rarity": "SR"
+  },
+  {
+    "id": "mn16",
+    "name": "マナ・ドロー",
+    "theme": "マナ",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "mn17",
+    "name": "マナ・バースト",
+    "theme": "マナ",
+    "type": "SP",
+    "rarity": "SR"
+  },
+  {
+    "id": "mn18",
+    "name": "マナ・チャージ",
+    "theme": "マナ",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "mn19",
+    "name": "マナ・ダブル",
+    "theme": "マナ",
+    "type": "SP",
+    "rarity": "SR"
+  },
+  {
+    "id": "mn20",
+    "name": "マナの貯蔵庫",
+    "theme": "マナ",
+    "type": "CS",
+    "rarity": "SR"
+  },
+  {
+    "id": "pr01",
+    "name": "神託の神官ミトラ",
+    "theme": "神官",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "pr02",
+    "name": "神殿の神官",
+    "theme": "神官",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "pr03",
+    "name": "祈りの巫女",
+    "theme": "神官",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "pr04",
+    "name": "神殿の守り手",
+    "theme": "神官",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "pr05",
+    "name": "神官見習い",
+    "theme": "神官",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "pr06",
+    "name": "神殿の預言者",
+    "theme": "神官",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "pr07",
+    "name": "大神官ラー・ネフェル",
+    "theme": "神官",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "pr08",
+    "name": "創世神アトゥム",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "UR"
+  },
+  {
+    "id": "pr09",
+    "name": "神の代行者",
+    "theme": "神官",
+    "type": "S",
+    "rarity": "SR"
+  },
+  {
+    "id": "pr10",
+    "name": "神殿の番人",
+    "theme": "神官",
+    "type": "X",
+    "rarity": "SR"
+  },
+  {
+    "id": "pr11",
+    "name": "聖域の導き手",
+    "theme": "神官",
+    "type": "L",
+    "rarity": "R"
+  },
+  {
+    "id": "pr12",
+    "name": "神々への祈り",
+    "theme": "神官",
+    "type": "SP",
+    "rarity": "SR"
+  },
+  {
+    "id": "pr13",
+    "name": "降臨の儀式",
+    "theme": "神官",
+    "type": "SP",
+    "rarity": "UR"
+  },
+  {
+    "id": "pr14",
+    "name": "神殿への招集",
+    "theme": "神官",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "pr15",
+    "name": "天空の大神殿",
+    "theme": "神官",
+    "type": "CS",
+    "rarity": "R"
+  },
+  {
+    "id": "pr16",
+    "name": "神罰",
+    "theme": "神官",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "gw01",
+    "name": "冥府の番犬",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "gw02",
+    "name": "墓守の書記",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "gw03",
+    "name": "冥界の伝令",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "gw04",
+    "name": "捨て身の戦士",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "gw05",
+    "name": "魂の転生者",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "gw06",
+    "name": "影の囁き",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "gw07",
+    "name": "亡霊騎士",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "gw08",
+    "name": "眠れる竜",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "gw09",
+    "name": "大地の巫女",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "gw10",
+    "name": "世界樹の守人",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "gw11",
+    "name": "冥府の王ハデス",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "UR"
+  },
+  {
+    "id": "gw12",
+    "name": "天地開闢",
+    "theme": "汎用",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "gw13",
+    "name": "冥府への供物",
+    "theme": "汎用",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "gw14",
+    "name": "冥界の契約",
+    "theme": "汎用",
+    "type": "SP",
+    "rarity": "SR"
+  },
+  {
+    "id": "gw15",
+    "name": "魂の残り火",
+    "theme": "汎用",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "gw16",
+    "name": "墓地からの呪い",
+    "theme": "汎用",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "gw17",
+    "name": "冥府の大地",
+    "theme": "汎用",
+    "type": "FS",
+    "rarity": "SR"
+  },
+  {
+    "id": "hm01",
+    "name": "ハーモニア・トライアングル",
+    "theme": "ハーモニア",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "hm02",
+    "name": "ハーモニア・フルート",
+    "theme": "ハーモニア",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "hm03",
+    "name": "ハーモニア・ハープ",
+    "theme": "ハーモニア",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "hm04",
+    "name": "ハーモニア・ヴァイオリン",
+    "theme": "ハーモニア",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "hm05",
+    "name": "ハーモニア・ホルン",
+    "theme": "ハーモニア",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "hm06",
+    "name": "ハーモニア・ピアノ",
+    "theme": "ハーモニア",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "hm07",
+    "name": "ハーモニア・ベル",
+    "theme": "ハーモニア",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "hm08",
+    "name": "ハーモニア・ドラム",
+    "theme": "ハーモニア",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "hm09",
+    "name": "ハーモニア・ソナタ",
+    "theme": "ハーモニア",
+    "type": "S",
+    "rarity": "SR"
+  },
+  {
+    "id": "hm10",
+    "name": "ハーモニア・ワルツ",
+    "theme": "ハーモニア",
+    "type": "S",
+    "rarity": "SR"
+  },
+  {
+    "id": "hm11",
+    "name": "ハーモニア・ラプソディ",
+    "theme": "ハーモニア",
+    "type": "S",
+    "rarity": "SR"
+  },
+  {
+    "id": "hm12",
+    "name": "ハーモニア・コンチェルト",
+    "theme": "ハーモニア",
+    "type": "S",
+    "rarity": "UR"
+  },
+  {
+    "id": "hm13",
+    "name": "ハーモニア・シンフォニー",
+    "theme": "ハーモニア",
+    "type": "S",
+    "rarity": "UR"
+  },
+  {
+    "id": "hm14",
+    "name": "ハーモニア・レクイエム",
+    "theme": "ハーモニア",
+    "type": "S",
+    "rarity": "UR"
+  },
+  {
+    "id": "hm15",
+    "name": "ハーモニア・グランドオペラ",
+    "theme": "ハーモニア",
+    "type": "S",
+    "rarity": "UR"
+  },
+  {
+    "id": "hm16",
+    "name": "ハーモニアの調べ",
+    "theme": "ハーモニア",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "hm17",
+    "name": "チューニング",
+    "theme": "ハーモニア",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "hm18",
+    "name": "アンコール",
+    "theme": "ハーモニア",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "hm19",
+    "name": "ハーモニア・ホール",
+    "theme": "ハーモニア",
+    "type": "CS",
+    "rarity": "SR"
+  },
+  {
+    "id": "hm20",
+    "name": "星の音楽堂",
+    "theme": "ハーモニア",
+    "type": "FS",
+    "rarity": "SR"
+  },
+  {
+    "id": "hm21",
+    "name": "不協和音",
+    "theme": "ハーモニア",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "gz01",
+    "name": "ブレイクダウン・チェーン",
+    "theme": "汎用",
+    "type": "TR",
+    "rarity": "SR"
+  },
+  {
+    "id": "gz02",
+    "name": "封印の巫女",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "gz03",
+    "name": "沈黙の番人",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "UR"
+  },
+  {
+    "id": "gz04",
+    "name": "魔封じの鎖",
+    "theme": "汎用",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "gz05",
+    "name": "魔術喰らいの影",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "gz06",
+    "name": "トラップ・ジャマー",
+    "theme": "汎用",
+    "type": "TR",
+    "rarity": "SR"
+  },
+  {
+    "id": "gz07",
+    "name": "罠封じの小鬼",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "gz08",
+    "name": "罠喰らいの魔獣",
+    "theme": "汎用",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "vk01",
+    "name": "ヴァルキリー・ブリュンヒルデ",
+    "theme": "ヴァルキリー",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "vk02",
+    "name": "ヴァルキリー・スクルド",
+    "theme": "ヴァルキリー",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "vk03",
+    "name": "ヴァルキリー・ヒルド",
+    "theme": "ヴァルキリー",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "vk04",
+    "name": "ヴァルキリー・ゲンドゥル",
+    "theme": "ヴァルキリー",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "vk05",
+    "name": "ヴァルキリー・ミスト",
+    "theme": "ヴァルキリー",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "vk06",
+    "name": "ヴァルキリー・ロタ",
+    "theme": "ヴァルキリー",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "vk07",
+    "name": "ヴァルキリー・エイル",
+    "theme": "ヴァルキリー",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "vk08",
+    "name": "ヴァルキリー・スヴァーヴァ",
+    "theme": "ヴァルキリー",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "vk09",
+    "name": "戦乙女の天馬",
+    "theme": "ヴァルキリー",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "vk10",
+    "name": "ヴァルキリー・ランドグリーズ",
+    "theme": "ヴァルキリー",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "vk11",
+    "name": "戦乙女長ゲイルスケグル",
+    "theme": "ヴァルキリー",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "vk12",
+    "name": "主神の戦乙女フレイヤ",
+    "theme": "ヴァルキリー",
+    "type": "M",
+    "rarity": "UR"
+  },
+  {
+    "id": "vk13",
+    "name": "天翔ける戦乙女ワルキューレ",
+    "theme": "ヴァルキリー",
+    "type": "F",
+    "rarity": "SR"
+  },
+  {
+    "id": "vk14",
+    "name": "戦乙女の守護竜",
+    "theme": "ヴァルキリー",
+    "type": "S",
+    "rarity": "SR"
+  },
+  {
+    "id": "vk15",
+    "name": "ヴァルキリー・ヴァルハラ",
+    "theme": "ヴァルキリー",
+    "type": "X",
+    "rarity": "SR"
+  },
+  {
+    "id": "vk16",
+    "name": "神槍グングニル",
+    "theme": "ヴァルキリー",
+    "type": "L",
+    "rarity": "R"
+  },
+  {
+    "id": "vk17",
+    "name": "ヴァルハラへの招集",
+    "theme": "ヴァルキリー",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "vk18",
+    "name": "戦乙女の祝福",
+    "theme": "ヴァルキリー",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "vk19",
+    "name": "天馬の翼",
+    "theme": "ヴァルキリー",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "vk20",
+    "name": "戦乙女の槍",
+    "theme": "ヴァルキリー",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "vk21",
+    "name": "英霊の帰還",
+    "theme": "ヴァルキリー",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "vk22",
+    "name": "戦乙女融合",
+    "theme": "ヴァルキリー",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "vk23",
+    "name": "戦乙女の盾",
+    "theme": "ヴァルキリー",
+    "type": "TR",
+    "rarity": "N"
+  },
+  {
+    "id": "vk24",
+    "name": "天罰の槍",
+    "theme": "ヴァルキリー",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "vk25",
+    "name": "ヴァルハラ神殿",
+    "theme": "ヴァルキリー",
+    "type": "FS",
+    "rarity": "SR"
+  },
+  {
+    "id": "dr01",
+    "name": "ドラグーン・ランサー",
+    "theme": "ドラグーン",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "dr02",
+    "name": "ドラグーン・スカウト",
+    "theme": "ドラグーン",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "dr03",
+    "name": "ドラグーン・ワイバーン",
+    "theme": "ドラグーン",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "dr04",
+    "name": "ドラグーン・ベビー",
+    "theme": "ドラグーン",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "dr05",
+    "name": "ドラグーン・ナイト",
+    "theme": "ドラグーン",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "dr06",
+    "name": "ドラグーン・テイマー",
+    "theme": "ドラグーン",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "dr07",
+    "name": "火竜の鍛冶師",
+    "theme": "ドラグーン",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "dr08",
+    "name": "ドラグーン・ブレス",
+    "theme": "ドラグーン",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "dr09",
+    "name": "ドラグーン・ジェネラル",
+    "theme": "ドラグーン",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "dr10",
+    "name": "紅蓮竜ヴォルカニカ",
+    "theme": "ドラグーン",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "dr11",
+    "name": "ドラグーン・ロード",
+    "theme": "ドラグーン",
+    "type": "M",
+    "rarity": "UR"
+  },
+  {
+    "id": "dr12",
+    "name": "ドラグーン・インフェルノ",
+    "theme": "ドラグーン",
+    "type": "S",
+    "rarity": "SR"
+  },
+  {
+    "id": "dr13",
+    "name": "煉獄竜帝ヴァーミリオン",
+    "theme": "ドラグーン",
+    "type": "S",
+    "rarity": "UR"
+  },
+  {
+    "id": "dr14",
+    "name": "ドラグーン飛行隊",
+    "theme": "ドラグーン",
+    "type": "X",
+    "rarity": "SR"
+  },
+  {
+    "id": "dr15",
+    "name": "火竜の巣",
+    "theme": "ドラグーン",
+    "type": "L",
+    "rarity": "R"
+  },
+  {
+    "id": "dr16",
+    "name": "竜騎兵の招集",
+    "theme": "ドラグーン",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "dr17",
+    "name": "ドラゴン・ブレス",
+    "theme": "ドラグーン",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "dr18",
+    "name": "竜の卵",
+    "theme": "ドラグーン",
+    "type": "SP",
+    "rarity": "SR"
+  },
+  {
+    "id": "dr19",
+    "name": "竜鱗の鎧",
+    "theme": "ドラグーン",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "dr20",
+    "name": "竜の目覚め",
+    "theme": "ドラグーン",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "dr21",
+    "name": "火炎の罠",
+    "theme": "ドラグーン",
+    "type": "TR",
+    "rarity": "N"
+  },
+  {
+    "id": "dr22",
+    "name": "竜の咆哮",
+    "theme": "ドラグーン",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "dr23",
+    "name": "竜騎兵の砦",
+    "theme": "ドラグーン",
+    "type": "CS",
+    "rarity": "SR"
+  },
+  {
+    "id": "mi01",
+    "name": "ミラージュ・ダンサー",
+    "theme": "ミラージュ",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "mi02",
+    "name": "ミラージュ・シーカー",
+    "theme": "ミラージュ",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "mi03",
+    "name": "ミラージュ・ミラー",
+    "theme": "ミラージュ",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "mi04",
+    "name": "ミラージュ・オアシス",
+    "theme": "ミラージュ",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "mi05",
+    "name": "ミラージュ・ナーガ",
+    "theme": "ミラージュ",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "mi06",
+    "name": "ミラージュ・ジン",
+    "theme": "ミラージュ",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "mi07",
+    "name": "ミラージュ・キャラバン",
+    "theme": "ミラージュ",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "mi08",
+    "name": "幻影の語り部",
+    "theme": "ミラージュ",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "mi09",
+    "name": "ミラージュ・スフィンクス",
+    "theme": "ミラージュ",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "mi10",
+    "name": "ミラージュ・ファラオ",
+    "theme": "ミラージュ",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "mi11",
+    "name": "幻術王ミラージュ・カリフ",
+    "theme": "ミラージュ",
+    "type": "M",
+    "rarity": "UR"
+  },
+  {
+    "id": "mi12",
+    "name": "ミラージュ・パレス",
+    "theme": "ミラージュ",
+    "type": "X",
+    "rarity": "SR"
+  },
+  {
+    "id": "mi13",
+    "name": "蜃気楼の大幻術師",
+    "theme": "ミラージュ",
+    "type": "X",
+    "rarity": "UR"
+  },
+  {
+    "id": "mi14",
+    "name": "ミラージュ・リヴァイアサン",
+    "theme": "ミラージュ",
+    "type": "S",
+    "rarity": "SR"
+  },
+  {
+    "id": "mi15",
+    "name": "幻の回廊",
+    "theme": "ミラージュ",
+    "type": "L",
+    "rarity": "R"
+  },
+  {
+    "id": "mi16",
+    "name": "蜃気楼の招き",
+    "theme": "ミラージュ",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "mi17",
+    "name": "幻影分身",
+    "theme": "ミラージュ",
+    "type": "SP",
+    "rarity": "SR"
+  },
+  {
+    "id": "mi18",
+    "name": "砂漠の夜",
+    "theme": "ミラージュ",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "mi19",
+    "name": "幻の宝石",
+    "theme": "ミラージュ",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "mi20",
+    "name": "幻影の帰還",
+    "theme": "ミラージュ",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "mi21",
+    "name": "幻の身代わり",
+    "theme": "ミラージュ",
+    "type": "TR",
+    "rarity": "N"
+  },
+  {
+    "id": "mi22",
+    "name": "蜃気楼の罠",
+    "theme": "ミラージュ",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "mi23",
+    "name": "砂嵐",
+    "theme": "ミラージュ",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "mi24",
+    "name": "幻影の砂漠",
+    "theme": "ミラージュ",
+    "type": "CS",
+    "rarity": "R"
+  },
+  {
+    "id": "ne01",
+    "name": "ネメシス・ソルジャー",
+    "theme": "ネメシス",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "ne02",
+    "name": "ネメシス・プリースト",
+    "theme": "ネメシス",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "ne03",
+    "name": "ネメシス・ウォッチャー",
+    "theme": "ネメシス",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "ne04",
+    "name": "ネメシス・ハウンド",
+    "theme": "ネメシス",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "ne05",
+    "name": "ネメシス・シャドウ",
+    "theme": "ネメシス",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "ne06",
+    "name": "ネメシス・サイレンサー",
+    "theme": "ネメシス",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "ne07",
+    "name": "ネメシス・リーパー",
+    "theme": "ネメシス",
+    "type": "M",
+    "rarity": "N"
+  },
+  {
+    "id": "ne08",
+    "name": "ネメシス・ジェイラー",
+    "theme": "ネメシス",
+    "type": "M",
+    "rarity": "R"
+  },
+  {
+    "id": "ne09",
+    "name": "ネメシス・ナイトメア",
+    "theme": "ネメシス",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "ne10",
+    "name": "ネメシス・デスペラード",
+    "theme": "ネメシス",
+    "type": "M",
+    "rarity": "SR"
+  },
+  {
+    "id": "ne11",
+    "name": "冥罰の女神ネメシス",
+    "theme": "ネメシス",
+    "type": "M",
+    "rarity": "UR"
+  },
+  {
+    "id": "ne12",
+    "name": "ネメシス・アポカリプス",
+    "theme": "ネメシス",
+    "type": "S",
+    "rarity": "UR"
+  },
+  {
+    "id": "ne13",
+    "name": "ネメシス・ジャッジメント",
+    "theme": "ネメシス",
+    "type": "X",
+    "rarity": "SR"
+  },
+  {
+    "id": "ne14",
+    "name": "ネメシス・ゲート",
+    "theme": "ネメシス",
+    "type": "L",
+    "rarity": "R"
+  },
+  {
+    "id": "ne15",
+    "name": "ネメシス・ヴォイド",
+    "theme": "ネメシス",
+    "type": "S",
+    "rarity": "SR"
+  },
+  {
+    "id": "ne16",
+    "name": "ネメシスの呼び声",
+    "theme": "ネメシス",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "ne17",
+    "name": "闇の制裁",
+    "theme": "ネメシス",
+    "type": "SP",
+    "rarity": "N"
+  },
+  {
+    "id": "ne18",
+    "name": "冥府の門",
+    "theme": "ネメシス",
+    "type": "SP",
+    "rarity": "SR"
+  },
+  {
+    "id": "ne19",
+    "name": "宿命の再来",
+    "theme": "ネメシス",
+    "type": "SP",
+    "rarity": "R"
+  },
+  {
+    "id": "ne20",
+    "name": "封殺の宣告",
+    "theme": "ネメシス",
+    "type": "TR",
+    "rarity": "SR"
+  },
+  {
+    "id": "ne21",
+    "name": "ネメシスの鎖",
+    "theme": "ネメシス",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "ne22",
+    "name": "冥罰の落とし穴",
+    "theme": "ネメシス",
+    "type": "TR",
+    "rarity": "R"
+  },
+  {
+    "id": "ne23",
+    "name": "ネメシスの祭壇",
+    "theme": "ネメシス",
+    "type": "CS",
+    "rarity": "R"
+  }
+]

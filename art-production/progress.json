@@ -1,0 +1,22 @@
+{
+  "total": 1331,
+  "completed": [
+    "d1",
+    "d2",
+    "d5",
+    "d6"
+  ],
+  "next": [
+    "d0",
+    "d3",
+    "d4",
+    "d7",
+    "d8",
+    "d9",
+    "da",
+    "db",
+    "dc"
+  ],
+  "policy": "All cards get individual illustrations, in batches. Match names, attributes, race, role and flavor; never claim theme sheets are unique artwork.",
+  "batch": 1
+}
