@@ -1,0 +1,688 @@
+{
+  "label": "barrier-dimension-001",
+  "generator": "built-in image_gen",
+  "assets": [
+    {
+      "id": "kk01",
+      "name": "結界師の見習い",
+      "theme": "結界",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: Japanese spiritual barriers and shrine ritual, ivory, restrained vermilion, warm gold luminous wards against deep navy shadows. An apprentice barrier mage, a youthful robed student carefully painting a circular protective ward with a luminous brush at a shrine courtyard.",
+      "path": "assets/cards/individual/kk01.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "kk02",
+      "name": "護符の巫女",
+      "theme": "結界",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: Japanese spiritual barriers and shrine ritual, ivory, restrained vermilion, warm gold luminous wards against deep navy shadows. A shrine maiden holding a radiant prayer-bead necklace, deflecting a hostile spell with floating white ofuda talismans. Calm expression, red and white robes.",
+      "path": "assets/cards/individual/kk02.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "kk03",
+      "name": "鎮めの巫女",
+      "theme": "結界",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: Japanese spiritual barriers and shrine ritual, ivory, restrained vermilion, warm gold luminous wards against deep navy shadows. A different shrine maiden in pale blue ritual robes ringing a small bronze bell, its concentric light waves sealing an emerging summoning portal.",
+      "path": "assets/cards/individual/kk03.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "kk04",
+      "name": "結界師ハクレイ",
+      "theme": "結界",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: Japanese spiritual barriers and shrine ritual, ivory, restrained vermilion, warm gold luminous wards against deep navy shadows. Hakurei, an experienced male barrier sorcerer in white layered onmyoji robes and a black ritual hat, raising a rectangular grid of golden protective seals.",
+      "path": "assets/cards/individual/kk04.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "kk05",
+      "name": "封印の番人",
+      "theme": "結界",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: Japanese spiritual barriers and shrine ritual, ivory, restrained vermilion, warm gold luminous wards against deep navy shadows. An immovable masked guardian mage in heavy ceremonial stone-like armor, standing before a sealed shrine door and repelling magic with a geometric shield.",
+      "path": "assets/cards/individual/kk05.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "kk06",
+      "name": "鎖の結界師",
+      "theme": "結界",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: Japanese spiritual barriers and shrine ritual, ivory, restrained vermilion, warm gold luminous wards against deep navy shadows. A lean barrier mage swinging chains of golden magical light, binding a summoning circle in the air. Dark ceremonial robes, dynamic diagonal pose.",
+      "path": "assets/cards/individual/kk06.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "kk07",
+      "name": "札使いの少年",
+      "theme": "結界",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: Japanese spiritual barriers and shrine ritual, ivory, restrained vermilion, warm gold luminous wards against deep navy shadows. A boy talisman caster in indigo festival robes, fanning illustrated blank magic slips while retrieving a spent glowing trap talisman from the ground.",
+      "path": "assets/cards/individual/kk07.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "kk08",
+      "name": "結界の狛犬",
+      "theme": "結界",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: Japanese spiritual barriers and shrine ritual, ivory, restrained vermilion, warm gold luminous wards against deep navy shadows. A magical komainu lion-dog statue awakened as a living white stone familiar, guarding a torii gate inside a luminous defensive barrier. Clearly a quadruped guardian beast.",
+      "path": "assets/cards/individual/kk08.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "kk09",
+      "name": "封魔の剣士",
+      "theme": "結界",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: Japanese spiritual barriers and shrine ritual, ivory, restrained vermilion, warm gold luminous wards against deep navy shadows. An adult exorcist swordsman with a radiant straight sword wrapped in paper talismans, cleaving a dark spell with a precise martial stance.",
+      "path": "assets/cards/individual/kk09.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "kk10",
+      "name": "結界師の長",
+      "theme": "結界",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: Japanese spiritual barriers and shrine ritual, ivory, restrained vermilion, warm gold luminous wards against deep navy shadows. An elderly grandmaster of barrier magic with long silver hair, staff and layered ivory robes, commanding several interlocking golden protective walls.",
+      "path": "assets/cards/individual/kk10.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "kk11",
+      "name": "封印大僧正",
+      "theme": "結界",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: Japanese spiritual barriers and shrine ritual, ivory, restrained vermilion, warm gold luminous wards against deep navy shadows. A venerable high Buddhist priest in elaborate golden ceremonial robes, holding an unfurled luminous scroll as gigantic sacred seals close behind him.",
+      "path": "assets/cards/individual/kk11.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "kk12",
+      "name": "天封の大結界師",
+      "theme": "結界",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: Japanese spiritual barriers and shrine ritual, ivory, restrained vermilion, warm gold luminous wards against deep navy shadows. The supreme celestial barrier master, majestic adult sorcerer floating above an enormous luminous hexagonal ward, white-gold robes and a halo of talismans, epic summit shrine.",
+      "path": "assets/cards/individual/kk12.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "kk13",
+      "name": "結界の小鬼",
+      "theme": "結界",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: Japanese spiritual barriers and shrine ritual, ivory, restrained vermilion, warm gold luminous wards against deep navy shadows. A tiny friendly one-horned oni familiar, round proportions and ritual sash, carrying an oversized folded paper charm. A small guiding light amid shrine stones.",
+      "path": "assets/cards/individual/kk13.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "kk14",
+      "name": "守り札の式神",
+      "theme": "結界",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: Japanese spiritual barriers and shrine ritual, ivory, restrained vermilion, warm gold luminous wards against deep navy shadows. A protective shikigami shaped like an elegant white paper dove with layered folded talisman wings, spreading a translucent dome over small shrine lanterns.",
+      "path": "assets/cards/individual/kk14.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "kk15",
+      "name": "呪符の式神",
+      "theme": "結界",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: Japanese spiritual barriers and shrine ritual, ivory, restrained vermilion, warm gold luminous wards against deep navy shadows. An orange fox shikigami made of folded cream ritual papers and ribbons, leaping between floating glowing talismans, lively and cunning.",
+      "path": "assets/cards/individual/kk15.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "kk16",
+      "name": "封じの鏡",
+      "theme": "結界",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: Japanese spiritual barriers and shrine ritual, ivory, restrained vermilion, warm gold luminous wards against deep navy shadows. An ancient freestanding ornate bronze ritual mirror, floating upright; a shadowy attacker reflected and frozen inside its glass, luminous seal border.",
+      "path": "assets/cards/individual/kk16.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "kk17",
+      "name": "封印神ミカヅチ",
+      "theme": "結界",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: Japanese spiritual barriers and shrine ritual, ivory, restrained vermilion, warm gold luminous wards against deep navy shadows. Mikazuchi, a majestic humanoid lightning seal deity in sacred armor, two intersecting golden rings binding purple lightning, commanding power above a stormy shrine. Not an ordinary knight.",
+      "path": "assets/cards/individual/kk17.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "kk18",
+      "name": "結界竜オロチ",
+      "theme": "結界",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: Japanese spiritual barriers and shrine ritual, ivory, restrained vermilion, warm gold luminous wards against deep navy shadows. Orochi, a mystical multi-headed serpentine barrier dragon made of white-gold spiritual energy, coiling around a shrine and breaking dark floating seals. Several clearly separate heads, elegant flow.",
+      "path": "assets/cards/individual/kk18.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "kk19",
+      "name": "封印の大鳥居",
+      "theme": "結界",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: Japanese spiritual barriers and shrine ritual, ivory, restrained vermilion, warm gold luminous wards against deep navy shadows. An enormous vermilion torii gate floating in the sky, its pillars covered in blank talisman strips, a golden seal disc suspending a dark threat between them.",
+      "path": "assets/cards/individual/kk19.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "kk20",
+      "name": "結界回路",
+      "theme": "結界",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: Japanese spiritual barriers and shrine ritual, ivory, restrained vermilion, warm gold luminous wards against deep navy shadows. An intricate sacred circuit diagram made of blue-white glowing angular lines connecting miniature torii gates and talisman nodes, a magical structure without characters.",
+      "path": "assets/cards/individual/kk20.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "kk21",
+      "name": "結界師の招集",
+      "theme": "結界",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: Japanese spiritual barriers and shrine ritual, ivory, restrained vermilion, warm gold luminous wards against deep navy shadows. A broad distant shot of several barrier mages gathering at a shrine beacon, a golden signal horn of light above them. Focus on the gathering ritual rather than any one portrait.",
+      "path": "assets/cards/individual/kk21.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "kk22",
+      "name": "結界展開",
+      "theme": "結界",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: Japanese spiritual barriers and shrine ritual, ivory, restrained vermilion, warm gold luminous wards against deep navy shadows. A vast golden protective dome rapidly unfurling from a central shrine seal, layered luminous panels across a moonlit courtyard. Spell illustration, no main creature.",
+      "path": "assets/cards/individual/kk22.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "kk23",
+      "name": "封印融合",
+      "theme": "結界",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: Japanese spiritual barriers and shrine ritual, ivory, restrained vermilion, warm gold luminous wards against deep navy shadows. Two streams of white-gold talisman magic spiraling into one brilliant sacred fusion seal above a ritual altar, symmetrical supernatural composition.",
+      "path": "assets/cards/individual/kk23.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "kk24",
+      "name": "霊符の補充",
+      "theme": "結界",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: Japanese spiritual barriers and shrine ritual, ivory, restrained vermilion, warm gold luminous wards against deep navy shadows. Stacks of fresh blank paper ofuda talismans being replenished on a wooden altar, a brush, inkstone and soft golden spiritual motes. Quiet ritual still life.",
+      "path": "assets/cards/individual/kk24.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "kk25",
+      "name": "護符の加護",
+      "theme": "結界",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: Japanese spiritual barriers and shrine ritual, ivory, restrained vermilion, warm gold luminous wards against deep navy shadows. A single luminous paper charm radiating a warm protective blessing around a warrior's outstretched hands, close focus on the golden ward rather than a portrait.",
+      "path": "assets/cards/individual/kk25.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "kk26",
+      "name": "封魔の札",
+      "theme": "結界",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: Japanese spiritual barriers and shrine ritual, ivory, restrained vermilion, warm gold luminous wards against deep navy shadows. A white paper talisman with abstract nonlinguistic glowing marks snapping onto a dark magical orb and dispersing its energy. Dramatic trap illustration, no readable writing.",
+      "path": "assets/cards/individual/kk26.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "kk27",
+      "name": "召喚封じの結界",
+      "theme": "結界",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: Japanese spiritual barriers and shrine ritual, ivory, restrained vermilion, warm gold luminous wards against deep navy shadows. A gigantic stone ring and translucent golden barrier clamping shut around an emerging shadow silhouette in a summoning portal.",
+      "path": "assets/cards/individual/kk27.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "kk28",
+      "name": "結界返し",
+      "theme": "結界",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: Japanese spiritual barriers and shrine ritual, ivory, restrained vermilion, warm gold luminous wards against deep navy shadows. An incoming violet spell reflected by a sharply angled golden barrier back along its path, energetic curved trajectory through a shrine corridor.",
+      "path": "assets/cards/individual/kk28.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "kk29",
+      "name": "鎮魂の鈴",
+      "theme": "結界",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: Japanese spiritual barriers and shrine ritual, ivory, restrained vermilion, warm gold luminous wards against deep navy shadows. A close view of a beautiful hanging bronze shrine bell vibrating with silver-gold protective sound waves, dark incoming arrows dissolving into light around it.",
+      "path": "assets/cards/individual/kk29.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "kk30",
+      "name": "封縛の鎖",
+      "theme": "結界",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: Japanese spiritual barriers and shrine ritual, ivory, restrained vermilion, warm gold luminous wards against deep navy shadows. Heavy spectral chains entwining an anonymous armored shadow's silhouette inside a glowing sacred binding circle, focus on the chains and seal. Non-graphic.",
+      "path": "assets/cards/individual/kk30.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "dm01",
+      "name": "次元の斥候",
+      "theme": "次元",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: dark cosmic dimension fantasy, obsidian and dark silver, violet and indigo spatial rifts, dramatic cool rim lighting and shattered reality. A dark-armored dimensional scout with a short curved blade and hood, stepping through a thin violet rift onto a fragmented floating stone ledge.",
+      "path": "assets/cards/individual/dm01.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "dm02",
+      "name": "次元の案内人",
+      "theme": "次元",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: dark cosmic dimension fantasy, obsidian and dark silver, violet and indigo spatial rifts, dramatic cool rim lighting and shattered reality. A mysterious dimension guide in a long dark cloak, holding a luminous astrolabe compass and indicating one of several portals in an impossible corridor.",
+      "path": "assets/cards/individual/dm02.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "dm03",
+      "name": "狭間の剣士",
+      "theme": "次元",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: dark cosmic dimension fantasy, obsidian and dark silver, violet and indigo spatial rifts, dramatic cool rim lighting and shattered reality. A warrior swordsman balancing between two fractured planes of reality, sword raised, half his trailing cloak dissolving into violet particles.",
+      "path": "assets/cards/individual/dm03.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "dm04",
+      "name": "次元の掃除屋",
+      "theme": "次元",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: dark cosmic dimension fantasy, obsidian and dark silver, violet and indigo spatial rifts, dramatic cool rim lighting and shattered reality. A dimensional cleaner, a masked salvage warrior with a long hooked polearm sweeping spectral relics into a miniature black portal; practical dark leather armor.",
+      "path": "assets/cards/individual/dm04.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "dm05",
+      "name": "帰還者",
+      "theme": "次元",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: dark cosmic dimension fantasy, obsidian and dark silver, violet and indigo spatial rifts, dramatic cool rim lighting and shattered reality. A battle-worn returning warrior stepping outward from a bright violet doorway, reaching toward the foreground, fragments of vanished armor reforming around him.",
+      "path": "assets/cards/individual/dm05.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "dm06",
+      "name": "次元の門番",
+      "theme": "次元",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: dark cosmic dimension fantasy, obsidian and dark silver, violet and indigo spatial rifts, dramatic cool rim lighting and shattered reality. A massive armored dimensional gatekeeper wielding an angular tower shield, stationed before a towering black-violet portal, broad defensive stance.",
+      "path": "assets/cards/individual/dm06.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "dm07",
+      "name": "異次元の小悪魔",
+      "theme": "次元",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: dark cosmic dimension fantasy, obsidian and dark silver, violet and indigo spatial rifts, dramatic cool rim lighting and shattered reality. A tiny mischievous void imp with small horns and batlike wings, juggling shards of broken reality above a dark cosmic chasm. Clearly small demonic creature.",
+      "path": "assets/cards/individual/dm07.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "dm08",
+      "name": "虚空の魔女",
+      "theme": "次元",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: dark cosmic dimension fantasy, obsidian and dark silver, violet and indigo spatial rifts, dramatic cool rim lighting and shattered reality. A dark-robed adult void witch with flowing silver hair, reading a floating obsidian grimoire while holding a miniature violet singularity above her palm.",
+      "path": "assets/cards/individual/dm08.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "dm09",
+      "name": "次元斬りの侍",
+      "theme": "次元",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: dark cosmic dimension fantasy, obsidian and dark silver, violet and indigo spatial rifts, dramatic cool rim lighting and shattered reality. A dimensional samurai with dark lamellar armor and a long katana, cutting a perfectly clean luminous slit through space, frozen at the end of an iaijutsu slash.",
+      "path": "assets/cards/individual/dm09.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "dm10",
+      "name": "狭間の騎士団長",
+      "theme": "次元",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: dark cosmic dimension fantasy, obsidian and dark silver, violet and indigo spatial rifts, dramatic cool rim lighting and shattered reality. The captain of the interstitial knights, commanding adult warrior in imposing dark silver armor, violet cape and a large ceremonial sword, overlooking fragmented floating battlements.",
+      "path": "assets/cards/individual/dm10.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "dm11",
+      "name": "次元竜ディストーション",
+      "theme": "次元",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: dark cosmic dimension fantasy, obsidian and dark silver, violet and indigo spatial rifts, dramatic cool rim lighting and shattered reality. Distortion, a mighty dark dragon with angular warped wings and refracted violet scales, its body bending space around itself; a fractured moon and floating ruins behind it.",
+      "path": "assets/cards/individual/dm11.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "dm12",
+      "name": "次元神ディメンジョン",
+      "theme": "次元",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: dark cosmic dimension fantasy, obsidian and dark silver, violet and indigo spatial rifts, dramatic cool rim lighting and shattered reality. Dimension, an imposing humanoid dimensional war god in angular obsidian armor, a luminous eye-shaped cosmic aperture behind its head and a star-filled rift opening in its palm.",
+      "path": "assets/cards/individual/dm12.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "dm13",
+      "name": "次元の申し子",
+      "theme": "次元",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: dark cosmic dimension fantasy, obsidian and dark silver, violet and indigo spatial rifts, dramatic cool rim lighting and shattered reality. A young child of the dimensions in a simple hooded cloak, sitting on a floating stone and playing with orbiting violet spatial rings, gentle otherworldly wonder.",
+      "path": "assets/cards/individual/dm13.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "dm14",
+      "name": "次元の歪み",
+      "theme": "次元",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: dark cosmic dimension fantasy, obsidian and dark silver, violet and indigo spatial rifts, dramatic cool rim lighting and shattered reality. A humanoid warrior silhouette distorted into layered transparent spatial echoes, a compact vortex twisting his armor and weapon, readable center silhouette against dark space.",
+      "path": "assets/cards/individual/dm14.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "dm15",
+      "name": "空間を裂く者",
+      "theme": "次元",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: dark cosmic dimension fantasy, obsidian and dark silver, violet and indigo spatial rifts, dramatic cool rim lighting and shattered reality. A fast armored warrior ripping open space with a jagged luminous gauntlet blade, bursting toward the viewer through a diagonal violet tear.",
+      "path": "assets/cards/individual/dm15.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "dm16",
+      "name": "次元の研究者",
+      "theme": "次元",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: dark cosmic dimension fantasy, obsidian and dark silver, violet and indigo spatial rifts, dramatic cool rim lighting and shattered reality. An adult dimensional researcher mage in dark scholar robes with copper fittings, studying a suspended model of intersecting realities through a small telescope-like instrument.",
+      "path": "assets/cards/individual/dm16.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "dm17",
+      "name": "虚無の番人",
+      "theme": "次元",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: dark cosmic dimension fantasy, obsidian and dark silver, violet and indigo spatial rifts, dramatic cool rim lighting and shattered reality. A faceless guardian of nothingness, a tall dark-armored warrior with a hollow glowing violet chest aperture, standing motionless before a perfectly black circular void.",
+      "path": "assets/cards/individual/dm17.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "dm18",
+      "name": "消えゆく影",
+      "theme": "次元",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: dark cosmic dimension fantasy, obsidian and dark silver, violet and indigo spatial rifts, dramatic cool rim lighting and shattered reality. A fading shadow warrior, translucent armor and a trailing silhouette dissolving into hundreds of black-violet fragments above a cracked stone path.",
+      "path": "assets/cards/individual/dm18.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "dm19",
+      "name": "次元融合神アストラル",
+      "theme": "次元",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: dark cosmic dimension fantasy, obsidian and dark silver, violet and indigo spatial rifts, dramatic cool rim lighting and shattered reality. Astral, a majestic fused humanoid cosmic warrior with deep navy astral armor, multiple translucent overlapping energy silhouettes converging into a single body, galaxies within its cape.",
+      "path": "assets/cards/individual/dm19.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "dm20",
+      "name": "次元竜ヴォイド",
+      "theme": "次元",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: dark cosmic dimension fantasy, obsidian and dark silver, violet and indigo spatial rifts, dramatic cool rim lighting and shattered reality. Void, a long-bodied abyssal dragon with black crystalline scales and luminous amethyst seams, curling around a gigantic empty ring suspended over a cosmic abyss.",
+      "path": "assets/cards/individual/dm20.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "dm21",
+      "name": "次元の監視者",
+      "theme": "次元",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: dark cosmic dimension fantasy, obsidian and dark silver, violet and indigo spatial rifts, dramatic cool rim lighting and shattered reality. A dimensional watcher warrior, masked and armored, with one luminous violet lens in its helmet, standing within concentric observation rings overlooking many fractured portals.",
+      "path": "assets/cards/individual/dm21.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "dm22",
+      "name": "次元回廊",
+      "theme": "次元",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: dark cosmic dimension fantasy, obsidian and dark silver, violet and indigo spatial rifts, dramatic cool rim lighting and shattered reality. An endless dimensional corridor of floating black stone arches and violet doorways, one luminous path reconnecting separated platforms. Environment as the subject.",
+      "path": "assets/cards/individual/dm22.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "dm23",
+      "name": "異次元の覇者",
+      "theme": "次元",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: dark cosmic dimension fantasy, obsidian and dark silver, violet and indigo spatial rifts, dramatic cool rim lighting and shattered reality. The conqueror of other dimensions, a regal humanoid warrior king in towering black-gold armor, crowned helm, imposing blade, commanding three enormous intersecting portals from a floating throne dais.",
+      "path": "assets/cards/individual/dm23.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "dm24",
+      "name": "次元の扉",
+      "theme": "次元",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: dark cosmic dimension fantasy, obsidian and dark silver, violet and indigo spatial rifts, dramatic cool rim lighting and shattered reality. An ancient freestanding door opening from a ruined stone wall directly into a spectacular violet starfield, a glowing handle and drifting fragments, mysterious invitation.",
+      "path": "assets/cards/individual/dm24.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "dm25",
+      "name": "次元融合",
+      "theme": "次元",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: dark cosmic dimension fantasy, obsidian and dark silver, violet and indigo spatial rifts, dramatic cool rim lighting and shattered reality. Two dark armored spectral silhouettes merging inside an immense violet spatial vortex, concentric rings binding the energy into one bright core. Fusion spell scene.",
+      "path": "assets/cards/individual/dm25.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "dm26",
+      "name": "次元の裂け目",
+      "theme": "次元",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: dark cosmic dimension fantasy, obsidian and dark silver, violet and indigo spatial rifts, dramatic cool rim lighting and shattered reality. A jagged tear through the fabric of reality, dark landscape on one side and luminous violet stars on the other, chunks of stone vanishing through the rift.",
+      "path": "assets/cards/individual/dm26.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "dm27",
+      "name": "時空の補給",
+      "theme": "次元",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: dark cosmic dimension fantasy, obsidian and dark silver, violet and indigo spatial rifts, dramatic cool rim lighting and shattered reality. A supply cache of dark metal crates, potions and a rolled cloak materializing through a small blue-violet portal on a floating waystation ledge.",
+      "path": "assets/cards/individual/dm27.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "dm28",
+      "name": "次元の帰還",
+      "theme": "次元",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: dark cosmic dimension fantasy, obsidian and dark silver, violet and indigo spatial rifts, dramatic cool rim lighting and shattered reality. Several lost warrior silhouettes emerging from a brilliant violet gate onto a shattered bridge as fragments of their bodies reform, hopeful cosmic return spell.",
+      "path": "assets/cards/individual/dm28.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "dm29",
+      "name": "次元幽閉の門",
+      "theme": "次元",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: dark cosmic dimension fantasy, obsidian and dark silver, violet and indigo spatial rifts, dramatic cool rim lighting and shattered reality. An enormous ominous dimensional prison gate swallowing an incoming attacking warrior silhouette, black stone pillars, bright violet threshold snapping shut.",
+      "path": "assets/cards/individual/dm29.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "dm30",
+      "name": "次元送りの罠",
+      "theme": "次元",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: dark cosmic dimension fantasy, obsidian and dark silver, violet and indigo spatial rifts, dramatic cool rim lighting and shattered reality. A trap vortex suddenly opening beneath an anonymous summoned shadow warrior, geometric purple rings pulling the silhouette out of reality. Non-graphic.",
+      "path": "assets/cards/individual/dm30.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "dm31",
+      "name": "狭間の牢獄",
+      "theme": "次元",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: dark cosmic dimension fantasy, obsidian and dark silver, violet and indigo spatial rifts, dramatic cool rim lighting and shattered reality. A suspended cage made of intersecting violet spatial planes, imprisoning a dark warrior silhouette in a starless void, sharp geometric perspective.",
+      "path": "assets/cards/individual/dm31.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "dm32",
+      "name": "次元の盾",
+      "theme": "次元",
+      "prompt": "Use case: stylized-concept. Asset type: unique square full-bleed illustration for PHANTOM DECK collectible fantasy card game. Premium painted fantasy art with rich material detail and clear thumbnail silhouette. One coherent scene, no text, no lettering, no logo, no watermark, no card border, no panels. Keep the main face or focal object within the central 65% for safe cropping. Theme art direction: dark cosmic dimension fantasy, obsidian and dark silver, violet and indigo spatial rifts, dramatic cool rim lighting and shattered reality. A large translucent indigo shield shaped like overlapping spatial rings, protecting a small distant warrior from a shower of cosmic shards. Shield is the main subject.",
+      "path": "assets/cards/individual/dm32.webp",
+      "size": [
+        768,
+        768
+      ]
+    }
+  ]
+}
