@@ -428,8 +428,8 @@ h1,h2,h3{font-style:italic}
 .lgrid div{border-radius:0;clip-path:var(--cuts);background:linear-gradient(180deg,#1c3a7a,#0c1d48);box-shadow:inset 0 0 0 1px rgba(90,200,255,.3)}
 .lgrid div.got{background:linear-gradient(180deg,#ffe28a,#f0a000)}
 .mis .bar i,.pack .bar i{background:linear-gradient(90deg,#38d6ff,#9df0ff);box-shadow:0 0 6px #38d6ff}
-</style><link rel="stylesheet" href="card-design.css?v=20261031-1">
-<script src="card-design.js?v=20261031-individual-1"></script>
+</style><link rel="stylesheet" href="card-design.css?v=20261101-1">
+<script src="card-design.js?v=20261101-1"></script>
 </head><body>
 <div id="app">
   <section id="title" class="screen">
@@ -2210,7 +2210,8 @@ function render(){
 }
 function fit(){
   const H=window.innerHeight,W=Math.min(window.innerWidth,520);
-  const byW=(W-16-4*6)/5,byH=(H-38*2-24-58-8*4-16-10-(window.CSS&&CSS.supports('padding:env(safe-area-inset-bottom)')?16:0))/(4*1.42+1.18*1.42);
+  const ratio=parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--card-ratio'))||1.49;
+  const byW=(W-16-4*6)/5,byH=(H-38*2-24-58-8*4-16-12-(window.CSS&&CSS.supports('padding:env(safe-area-inset-bottom)')?16:0))/(4*ratio+1.18*ratio);
   const cw=Math.max(40,Math.min(byW,byH,96));
   document.documentElement.style.setProperty('--cw',cw+'px');
   document.documentElement.style.setProperty('--hw',Math.min(cw*1.18,W/4.6)+'px');

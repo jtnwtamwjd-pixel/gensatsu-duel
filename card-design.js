@@ -71,10 +71,17 @@
     return ['monsters',5];
   }
   window.phantomCardArt = function(d) {
-    if (individual.has(d.id)) {
-      return {cls:'ill painted',sty:'',html:`<img class="individual-card-art" src="assets/cards/individual/${d.id}.png" alt="" decoding="async" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;pointer-events:none">`};
-    }
     const [sheet,tile]=pick(d);
-    return {cls:'ill painted',sty:'',html:`<i class="paint sheet-${sheet} tile-${tile}" aria-hidden="true"></i>`};
+    const fallback=`<i class="paint sheet-${sheet} tile-${tile}" aria-hidden="true"></i>`;
+    if (individual.has(d.id)) {
+      return {cls:'ill painted',sty:'',html:`${fallback}<img class="individual-card-art" src="assets/cards/individual/${d.id}.png" alt="" decoding="async">`};
+    }
+    return {cls:'ill painted',sty:'',html:fallback};
   };
+  // Keep the shared artwork visible if a dedicated image cannot be loaded.
+  document.addEventListener('error', event => {
+    if (event.target instanceof HTMLImageElement && event.target.classList.contains('individual-card-art')) {
+      event.target.remove();
+    }
+  }, true);
 })();
