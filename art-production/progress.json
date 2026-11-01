@@ -1,5 +1,5 @@
 {
-  "total": 1331,
+  "total": 1531,
   "completed": [
     "d1",
     "d2",
@@ -85,7 +85,8 @@
   "authorizedPacks": {
     "from": 1,
     "through": 16,
-    "count": 868
+    "count": 868,
+    "completed": 34
   },
   "lastBatch": {
     "ids": [
