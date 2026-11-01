@@ -4,6 +4,7 @@
   // Dedicated illustrations take precedence over shared theme sheets.
   // Add an ID here only after its image has been generated and checked.
   const individual = {d0:'webp', d1:'png', d2:'png', d3:'webp', d4:'webp', d5:'png', d6:'png', d7:'webp'};
+  Object.assign(individual, {"sk01":"jpg","sk02":"jpg","sk03":"jpg","sk04":"jpg","sk05":"jpg","sk06":"jpg","sk07":"jpg","sk08":"jpg","sk09":"jpg","sk10":"jpg","sk11":"jpg","sk12":"jpg","sk13":"jpg","sk14":"jpg","sk15":"jpg","sk16":"jpg","sk17":"jpg","sk18":"jpg","sk19":"jpg","sk20":"jpg","sk21":"jpg","sk22":"jpg","sk23":"jpg","sk24":"jpg","sk25":"jpg","sk26":"jpg","sk27":"jpg","sk28":"jpg","sk29":"jpg","sk30":"jpg","sk31":"jpg","sk32":"jpg","sk33":"jpg","sk34":"jpg"});
   const themes = {
     '星騎士': ['monsters',4], '深海':['monsters',11], '忍':['themes',8],
     '雷神':['themes',9], '獣王':['monsters',8], '魔導':['monsters',5],
