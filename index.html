@@ -223,7 +223,7 @@ h1,h2,h3{font-family:var(--display);font-weight:400;margin:0}
 .colgrid .eitem .q{position:absolute;inset:0;display:grid;place-items:center;font-family:var(--display);font-size:22px;color:#fff;pointer-events:none}
 .opening{position:fixed;inset:0;z-index:55;background:radial-gradient(ellipse at 50% 40%,#2b2560,#07080f 75%);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;padding:20px;animation:fadein .3s}
 .opening h3{font-size:20px}
-.opening .row5{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;max-width:440px}
+.opening .row5{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;max-width:440px}.opening{overflow-y:auto;justify-content:safe center}.opening .row5.ten{gap:12px 6px;max-width:470px}.opening .row5.ten .slot{--cw:min(17.5vw,80px)}
 .opening .slot{--cw:min(26vw,104px);position:relative;perspective:600px}
 .opening .slot .card{transition:transform .35s}
 .opening .slot.fresh .card{animation:dealin .4s ease-out backwards}
@@ -2625,7 +2625,7 @@ function showOpening(pk,res,next){
   const pack=PACKS[pk-1],ov=document.createElement('div');ov.className='opening';
   const flipped=new Set();
   const draw=()=>{
-    ov.innerHTML=`<h3>${pack.icon} ${pack.name}</h3><div class="row5">${res.map((r,i)=>{const d=DB[r.id];if(!flipped.has(i))return`<div class="slot fresh" data-fl="${i}" style="animation-delay:${i*.08}s"><div class="card back" style="animation-delay:${i*.08}s"></div></div>`;
+    ov.innerHTML=`<h3>${pack.icon} ${pack.name}</h3><div class="row5${res.length>5?' ten':''}">${res.map((r,i)=>{const d=DB[r.id];if(!flipped.has(i))return`<div class="slot fresh" data-fl="${i}" style="animation-delay:${i*.08}s"><div class="card back" style="animation-delay:${i*.08}s"></div></div>`;
       return`<div class="slot" data-dt="${i}">${r.isNew?'<span class="newb">NEW</span>':''}<span class="rlab"><span class="rar ${d.rar}">${d.rar}</span></span>${cardHTML(fakeCard(r.id),{plain:true,extraCls:'flip'})}${r.conv?`<span class="cv">+${r.conv}Pに変換</span>`:''}</div>`}).join('')}</div>
      <div class="desc" style="color:var(--muted);font-size:12px">${flipped.size<res.length?'カードをタップしてめくろう':'タップでカードの詳細'}　🪙 ${SV.points}P</div>
      <div class="btns">${flipped.size<res.length?'<button data-all="1">全部めくる</button>':(next?`<button class="pri" data-close="1">${next.label}</button>`:`<button class="pri" data-again="1" ${SV.points<packCost(pk)?'disabled':''}>もう1パック（${packCost(pk)}P）</button><button data-close="1">閉じる</button>`)}</div>`;
