@@ -1,0 +1,42 @@
+{
+  "batch": 2,
+  "generator": "built-in image_gen",
+  "assets": [
+    {
+      "id": "d0",
+      "prompt": "Use case: stylized-concept. Asset type: standalone square illustration for PHANTOM DECK dark fantasy collectible card game. Painterly highly detailed premium fantasy card art, readable bold silhouette at tiny thumbnail size, cinematic rich lighting, no text, no lettering, no frame, no UI, no watermark. Main subject centered with head and essential body inside central 70 percent so landscape cropping is safe. Full bleed square composition. Subject: a very young tiny fire dragon hatchling playing with glowing embers inside a dragon nest of black volcanic stone. It is a different creature from the mature red dragon: rounded youthful proportions, small budding horns, small translucent wings, warm gold and coral scales, curious playful expression. Embers trace subtle harmonious rings suggesting a tuner that awakens other dragons. Dark nest background, amber sparks, tender but adventurous mood. One hatchling only.",
+      "path": "assets/cards/individual/d0.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "d3",
+      "prompt": "Use case: stylized-concept. Asset type: standalone square illustration for PHANTOM DECK dark fantasy collectible card game. Painterly highly detailed premium fantasy card art, readable bold silhouette at tiny thumbnail size, cinematic rich lighting, no text, no lettering, no frame, no UI, no watermark. Main subject centered with head and essential body inside central 70 percent so landscape cropping is safe. Full bleed square composition. Subject: Gares, a human wind-element dragon knight, a WARRIOR rather than a dragon creature. A single adult armored knight with dragon-shaped dark steel shoulder armor, emerald cloth and a long sword, lunging forward across a windswept ruined cliff. Spiraling pale jade wind enhances his sword and cape, silhouette powerful and unmistakably human, dynamic three-quarter pose. Storm clouds and distant jagged peaks, silver rim light, desaturated steel and deep green palette. No mounted dragon, no additional characters.",
+      "path": "assets/cards/individual/d3.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "d4",
+      "prompt": "Use case: stylized-concept. Asset type: standalone square illustration for PHANTOM DECK dark fantasy collectible card game. Painterly highly detailed premium fantasy card art, readable bold silhouette at tiny thumbnail size, cinematic rich lighting, no text, no lettering, no frame, no UI, no watermark. Main subject centered with head and essential body inside central 70 percent so landscape cropping is safe. Full bleed square composition. Subject: a blazing salamander, clearly a reptile with four short powerful legs, elongated low lizard body, a long curled tail and rough obsidian scales split by orange molten fissures. Not a winged dragon. It crawls toward the viewer over scorched rocks, jaws exhaling a short burst of searing sparks, flame crest rising from its spine. Black volcanic cavern, intensely glowing orange fire against deep charcoal shadows, predatory fierce expression. Whole recognizable lizard silhouette, one creature.",
+      "path": "assets/cards/individual/d4.webp",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "d7",
+      "prompt": "Use case: stylized-concept. Asset type: standalone square illustration for PHANTOM DECK dark fantasy collectible card game. Painterly highly detailed premium fantasy card art, readable bold silhouette at tiny thumbnail size, cinematic rich lighting, no text, no lettering, no frame, no UI, no watermark. Main subject centered with head and essential body inside central 70 percent so landscape cropping is safe. Full bleed square composition. Subject: Volcanos, a mighty adult volcanic fire dragon, enormous heavy quadruped body with basalt armor scales, broad ragged wings, thick crowned horns and magma glowing through cracks in its chest and neck. It rises above the rim of an erupting volcano, its claws gripping the crater rim, a sustained furnace glow and ash storm surrounding it. Monumental low-angle three-quarter composition, head and chest clear within central area, one dragon. Crimson lava, black basalt, smoky golden backlight. Clearly much older and more massive than a hatchling.",
+      "path": "assets/cards/individual/d7.webp",
+      "size": [
+        768,
+        768
+      ]
+    }
+  ]
+}

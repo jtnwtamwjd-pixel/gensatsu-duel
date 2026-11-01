@@ -3,7 +3,7 @@
   'use strict';
   // Dedicated illustrations take precedence over shared theme sheets.
   // Add an ID here only after its image has been generated and checked.
-  const individual = new Set(['d1', 'd2', 'd5', 'd6']);
+  const individual = {d0:'webp', d1:'png', d2:'png', d3:'webp', d4:'webp', d5:'png', d6:'png', d7:'webp'};
   const themes = {
     '星騎士': ['monsters',4], '深海':['monsters',11], '忍':['themes',8],
     '雷神':['themes',9], '獣王':['monsters',8], '魔導':['monsters',5],
@@ -73,8 +73,8 @@
   window.phantomCardArt = function(d) {
     const [sheet,tile]=pick(d);
     const fallback=`<i class="paint sheet-${sheet} tile-${tile}" aria-hidden="true"></i>`;
-    if (individual.has(d.id)) {
-      return {cls:'ill painted',sty:'',html:`${fallback}<img class="individual-card-art" src="assets/cards/individual/${d.id}.png" alt="" decoding="async">`};
+    if (individual[d.id]) {
+      return {cls:'ill painted',sty:'',html:`${fallback}<img class="individual-card-art" src="assets/cards/individual/${d.id}.${individual[d.id]}" alt="" decoding="async">`};
     }
     return {cls:'ill painted',sty:'',html:fallback};
   };
