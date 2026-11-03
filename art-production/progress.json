@@ -138,7 +138,22 @@
     "ab31",
     "ab32",
     "ab33",
-    "ab34"
+    "ab34",
+    "gd01",
+    "gd02",
+    "gd03",
+    "pr01",
+    "pr02",
+    "pr03",
+    "pr04",
+    "pr05",
+    "pr06",
+    "pr07",
+    "pr08",
+    "pr09",
+    "pr10",
+    "pr11",
+    "pr12"
   ],
   "next": [
     "ds01",
@@ -164,7 +179,7 @@
     "ds21"
   ],
   "policy": "All cards get individual illustrations, in batches. Match names, attributes, race, role and flavor; never claim theme sheets are unique artwork.",
-  "batch": 5,
+  "batch": 6,
   "authorizedPacks": {
     "from": 1,
     "through": 16,
@@ -173,43 +188,33 @@
   },
   "lastBatch": {
     "ids": [
-      "ab01",
-      "ab02",
-      "ab03",
-      "ab04",
-      "ab05",
-      "ab06",
-      "ab07",
-      "ab08",
-      "ab09",
-      "ab10",
-      "ab11",
-      "ab12",
-      "ab13",
-      "ab14",
-      "ab15",
-      "ab16",
-      "ab17",
-      "ab18",
-      "ab19",
-      "ab20",
-      "ab21",
-      "ab22",
-      "ab23",
-      "ab24",
-      "ab25",
-      "ab26",
-      "ab27",
-      "ab28",
-      "ab29",
-      "ab30",
-      "ab31",
-      "ab32",
-      "ab33",
-      "ab34"
+      "gd01",
+      "gd02",
+      "gd03",
+      "pr01",
+      "pr02",
+      "pr03",
+      "pr04",
+      "pr05",
+      "pr06",
+      "pr07",
+      "pr08",
+      "pr09",
+      "pr10",
+      "pr11",
+      "pr12"
     ],
-    "theme": "深海",
-    "count": 34,
-    "label": "abyss-001"
+    "themes": [
+      "神",
+      "神官"
+    ],
+    "count": 15,
+    "pending": [
+      "pr13",
+      "pr14",
+      "pr15",
+      "pr16"
+    ],
+    "label": "gods-priests-20261103"
   }
 }
